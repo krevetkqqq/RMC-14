@@ -1,13 +1,13 @@
-﻿cm-access-colony-public = Colony Public
+﻿cm-access-colony-public = Общественная зона колонии
 
-cm-access-colony-logistics = Colony Logistics
+cm-access-colony-logistics = Логистика колонии
 
-cm-access-colony-engineering = Colony Engineering
+cm-access-colony-engineering = Инженерная служба колонии
 
-cm-access-colony-research = Colony Research
+cm-access-colony-research = Научный отдел колонии
 
-cm-access-colony-brig = Colony Brig
+cm-access-colony-brig = Карцер колонии
 
-cm-access-colony-medbay = Colony Medbay
+cm-access-colony-medbay = Медицинский отсек колонии
 
-cm-access-colony-command = Colony Command
+cm-access-colony-command = Командный пункт колонии

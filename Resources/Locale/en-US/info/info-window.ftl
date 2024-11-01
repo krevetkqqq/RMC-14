@@ -1,9 +1,9 @@
 ### Info Window
 
 ## General stuff
-ui-info-title = Information
-ui-info-tab-rules = Server Rules
-ui-info-tab-tutorial = Tutorial
+ui-info-title = Информация
+ui-info-tab-rules = Правила сервера
+ui-info-tab-tutorial = Туториал
 
 ## Tutorial tab
 ui-info-text-controls = You can review and rebind SS14s controls in the
@@ -16,4 +16,4 @@ ui-info-subheader-entityoptions = Entity spawn panel options:
 ui-info-subheader-gridoptions = Grid aligned options:
 ui-info-header-feedback = Feedback
 
-ui-info-button-controls = Options Menu
+ui-info-button-controls = Меню настроек

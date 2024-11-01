@@ -1,5 +1,5 @@
-﻿cm-chatsan-word-deltard = deltard
-cm-chatsan-replacement-deltard = delta
+﻿cm-chatsan-word-deltard = дельта
+cm-chatsan-replacement-deltard = дельта
 
 cm-chatsan-word-deltards = deltards
 cm-chatsan-replacement-deltards = deltas

@@ -1,10 +1,10 @@
 rmc-announcement-author = Command
-rmc-announcement-author-highcommand = UNMC High Command
-rmc-announcement-message = [font size=14][bold][color=white]{$author} Announcement[/color][/bold][/font][font size=12][color=red]
+rmc-announcement-author-highcommand = UNMC Верховное командование
+rmc-announcement-message = [font size=14][bold][color=white]{$author} Оповещение[/color][/bold][/font][font size=12][color=red]
 
     {$message}
 
-rmc-announcement-message-signed = [font size=14][bold][color=white]{$author} Announcement[/color][/bold][/font][font size=12][color=red]
+rmc-announcement-message-signed = [font size=14][bold][color=white]{$author} Оповещение[/color][/bold][/font][font size=12][color=red]
 
     {$message}
 

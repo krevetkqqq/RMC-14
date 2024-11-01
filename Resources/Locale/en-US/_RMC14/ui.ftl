@@ -1,4 +1,4 @@
-﻿cm-ui-rmc14 = RMC14
+﻿cm-ui-rmc14 = МК Марины
 cm-ui-audio-voicelines-arachnid = Play voicelines for arachnids
 cm-ui-audio-voicelines-diona = Play voicelines for dionae
 cm-ui-audio-voicelines-dwarf = Play voicelines for dwarves
@@ -7,9 +7,9 @@ cm-ui-audio-voicelines-human = Play voicelines for humans
 cm-ui-audio-voicelines-moth = Play voicelines for moths
 cm-ui-audio-voicelines-reptilian = Play voicelines for reptilians
 cm-ui-audio-voicelines-slime = Play voicelines for slimes
-cm-ui-roadmap = Roadmap
+cm-ui-roadmap = Дорожная карта
 
-rmc-ui-link-discord-account = Link Discord Account
+rmc-ui-link-discord-account = Дискорд аккаунт
 rmc-ui-link-discord-account-text = Click the button below to copy your code.
   Then go to the #account-linking channel to link your accounts.
 rmc-ui-link-discord-account-copy = Copy code
@@ -47,9 +47,9 @@ rmc-ui-figurine = Character Figurine
 rmc-ui-figurine-in-preferences = You can export your character to be made into a figurine in Character Setup.
   Limited to one active figurine per person!
   If you want to change yours, tell us on Discord.
-rmc-ui-ghost-color = Ghost Color
-rmc-ui-ghost-color-clear = Clear
-rmc-ui-ghost-color-save = Save
+rmc-ui-ghost-color = Цвет призрака
+rmc-ui-ghost-color-clear = Очистить
+rmc-ui-ghost-color-save = Сохранить
 
 rmc-ui-shoutout-marine = [bold]Operation funded by [color=green]{$name}[/color]![/bold]
 rmc-ui-shoutout-xeno = [bold]Hive established by [color=purple]{$name}[/color]![/bold]

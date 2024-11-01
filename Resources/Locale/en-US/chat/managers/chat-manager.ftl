@@ -1,16 +1,16 @@
 ### UI
 
 chat-manager-max-message-length = Your message exceeds {$maxMessageLength} character limit
-chat-manager-ooc-chat-enabled-message = OOC chat has been enabled.
-chat-manager-ooc-chat-disabled-message = OOC chat has been disabled.
-chat-manager-looc-chat-enabled-message = LOOC chat has been enabled.
-chat-manager-looc-chat-disabled-message = LOOC chat has been disabled.
-chat-manager-dead-looc-chat-enabled-message = Dead players can now use LOOC.
-chat-manager-dead-looc-chat-disabled-message = Dead players can no longer use LOOC.
-chat-manager-crit-looc-chat-enabled-message = Crit players can now use LOOC.
-chat-manager-crit-looc-chat-disabled-message = Crit players can no longer use LOOC.
-chat-manager-admin-ooc-chat-enabled-message = Admin OOC chat has been enabled.
-chat-manager-admin-ooc-chat-disabled-message = Admin OOC chat has been disabled.
+chat-manager-ooc-chat-enabled-message = LOOC-чат был включен.
+chat-manager-ooc-chat-disabled-message = OOC-чат был отключен.
+chat-manager-looc-chat-enabled-message = LOOC-чат был включен.
+chat-manager-looc-chat-disabled-message = LOOC-чат был отключен.
+chat-manager-dead-looc-chat-enabled-message = Мертвые игроки теперь могут использовать LOOC.
+chat-manager-dead-looc-chat-disabled-message = Мертвые игроки больше не могут использовать LOOC.
+chat-manager-crit-looc-chat-enabled-message = Игроки, получающие критические удары, теперь могут использовать LOOC.
+chat-manager-crit-looc-chat-disabled-message = Игроки, получающие критические удары, больше не могут использовать LOOC.
+chat-manager-admin-ooc-chat-enabled-message = Чат OOC администратора был включен.
+chat-manager-admin-ooc-chat-disabled-message = Чат OOC администратора был отключен.
 
 chat-manager-max-message-length-exceeded-message = Your message exceeded {$limit} character limit
 chat-manager-no-headset-on-message = You don't have a headset on!
@@ -19,8 +19,8 @@ chat-manager-no-such-channel = There is no channel with key '{$key}'!
 chat-manager-whisper-headset-on-message = You can't whisper on the radio!
 
 chat-manager-server-wrap-message = [bold]{$message}[/bold]
-chat-manager-sender-announcement = Central Command
-chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} Announcement:[/font][font size=12]
+chat-manager-sender-announcement = Центральное командование
+chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} Оповещение:[/font][font size=12]
                                                 {$message}[/bold][/font]
 chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
 chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][bold]{$message}[/bold][/BubbleContent]"[/font]

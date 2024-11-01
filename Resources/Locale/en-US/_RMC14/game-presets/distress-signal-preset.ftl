@@ -10,6 +10,6 @@ cm-distress-signal-none = [color=yellow]No outcome![/color]
 
 cm-distress-signal-marine = {$player}
 
-rmc-distress-signal-next-map-title = Next Planet Map
-rmc-distress-signal-next-map-tie = Tie for map vote! Picking... {$picked}
-rmc-distress-signal-next-map-win = {$winner} won the map vote!
+rmc-distress-signal-next-map-title = Следующая карта
+rmc-distress-signal-next-map-tie = Ничья в голосовании за карту! Выбрано {$picked}
+rmc-distress-signal-next-map-win = {$winner} победила голосование по карту!

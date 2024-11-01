@@ -1,19 +1,18 @@
-﻿# command
-cm-job-name-senior-enlisted-advisor = Senior Enlisted Advisor
-cm-job-description-senior-enlisted-advisor = Advise and train inexperienced crew members and marines alike. Bark out orders to new privates to get geared.
-CMJobSeniorEnlistedAdvisor = Senior Enlisted Advisor
+﻿cm-job-name-senior-enlisted-advisor = Старший советник младшего командного состава
+cm-job-description-senior-enlisted-advisor = Консультируйте и обучайте неподготовленных членов экипажа и морских пехотинцев. Отдавайте приказы новым рядовым, чтобы они были экипированы.
+CMJobSeniorEnlistedAdvisor = Старший советникомладший командный состав
 
-cm-job-name-staff-officer = Staff Officer
-cm-job-description-staff-officer = Monitor the marines, man the CIC. In charge of logistics and the overwatch system.
-CMJobStaffOfficer = Staff Officer
+cm-job-name-staff-officer = Офицер штаба
+cm-job-description-staff-officer = Контролируйте морских пехотинцов, управляйте центром боевого управления. Ответственный за логистику и систему наблюдения.
+CMJobStaffOfficer = Офицер штаба
 
-cm-job-name-commanding-officer = Commanding Officer
-cm-job-description-commanding-officer = Lead your company and complete the mission.
-CMJobCommandingOfficer = Commanding Officer
+cm-job-name-commanding-officer = Командующий офицер
+cm-job-description-commanding-officer = Возглавьте свою компанию и выполните миссию.
+CMJobCommandingOfficer = Командующий офицер
 
-cm-job-name-executive-officer = Executive Officer
-cm-job-description-executive-officer = You are second in command aboard the ship, and are the next in the chain of command after the Commanding Officer.
-CMJobExecutiveOfficer = Executive Officer
+cm-job-name-executive-officer = Исполнительный офицер
+cm-job-description-executive-officer = Вы являетесь вторым человеком в команде на борту корабля и находитесь следующим в цепи командования после командующего офицера.
+CMJobExecutiveOfficer = Исполнительный офицер
 
-# Admin only right now.
-cm-job-name-high-command = High Command
+# Только администратор прямо сейчас.
+cm-job-name-high-command = Верховное командование

@@ -1,19 +1,19 @@
-rmc-emote-name-hiss = Hiss
-rmc-emote-name-meow = Meow
-rmc-emote-name-mew = Mew
-rmc-emote-name-growl = Growl
-rmc-emote-name-purr = Purr
+rmc-emote-name-hiss = Шипение
+rmc-emote-name-meow = Мяукание
+rmc-emote-name-mew = Мурлыканье
+rmc-emote-name-growl = Рычание
+rmc-emote-name-purr = Урчание
 
-rmc-emote-hiss = hisses.
-rmc-emote-meow = meows.
-rmc-emote-mew = mews.
-rmc-emote-growl = growls.
-rmc-emote-purr = purrs.
+rmc-emote-hiss = шипит.
+rmc-emote-meow = мяукает.
+rmc-emote-mew = мурлычет.
+rmc-emote-growl = рычит.
+rmc-emote-purr = урчит.
 
-rmc-emote-name-xeno-roar = Roar
-rmc-emote-name-xeno-tail-swipe = Tail Swipe
-rmc-emote-name-xeno-help = Call for Help
+rmc-emote-name-xeno-roar = Рев
+rmc-emote-name-xeno-tail-swipe = Хвостовой взмах
+rmc-emote-name-xeno-help = Призыв о помощи
 
-rmc-emote-xeno-roar = roars!
-rmc-emote-xeno-tail-swipe = swipes {POSS-ADJ($entity)} tail.
-rmc-emote-xeno-help = needs help!
+rmc-emote-xeno-roar = ревет!
+rmc-emote-xeno-tail-swipe = бьёт {POSS-ADJ($entity)} хвостом.
+rmc-emote-xeno-help = нужна помощь!

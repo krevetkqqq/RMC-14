@@ -9,7 +9,7 @@ ui-vote-votekick-type-cheating = Cheating
 ui-vote-votekick-type-spamming = Spamming
 
 # Window title of the vote create menu
-ui-vote-create-title = Call Vote
+ui-vote-create-title = Голосовать
 
 # Submit button in the vote create button
 ui-vote-create-button = Call Vote
