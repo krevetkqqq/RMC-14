@@ -1,16 +1,16 @@
 ## General stuff
 
-ui-options-title = Game Options
-ui-options-tab-accessibility = Accessibility
-ui-options-tab-graphics = Graphics
-ui-options-tab-controls = Controls
-ui-options-tab-audio = Audio
-ui-options-tab-network = Network
-ui-options-tab-misc = General
+ui-options-title = Игровые настройки
+ui-options-tab-accessibility = Доступность
+ui-options-tab-graphics = Графика
+ui-options-tab-controls = Управление
+ui-options-tab-audio = Аудио
+ui-options-tab-network = Соединение
+ui-options-tab-misc = Основные
 
-ui-options-apply = Save & apply
-ui-options-reset-all = Reset changed
-ui-options-default = Reset to defaults
+ui-options-apply = Сохранить И Применить
+ui-options-reset-all = Сбросить изменения
+ui-options-default = Сброс до заводских настроек
 
 ui-options-value-percent = { TOSTRING($value, "P0") }
 
@@ -26,15 +26,15 @@ ui-options-general-accessibility = Accessibility
 
 ## Audio menu
 
-ui-options-master-volume = Master Volume:
-ui-options-midi-volume = MIDI (Instrument) Volume:
+ui-options-master-volume = Основная Громкость:
+ui-options-midi-volume = MIDI (Инструменты) Громкость:
 ui-options-ambient-music-volume = Ambient music volume:
 ui-options-ambience-volume = Ambience volume:
-ui-options-lobby-volume = Lobby & Round-end volume:
-ui-options-interface-volume = Interface volume:
-ui-options-ambience-max-sounds = Ambience simultaneous sounds:
-ui-options-lobby-music = Lobby & Round-end Music
-ui-options-restart-sounds = Round Restart Sounds
+ui-options-lobby-volume = Лобби и Окончание раунда:
+ui-options-interface-volume = Громкость интерфейса:
+ui-options-ambience-max-sounds = Одновременные звуки окружающей среды:
+ui-options-lobby-music = Лобби и музыка окончания раунда
+ui-options-restart-sounds = Музыка рестарта раунда
 ui-options-event-music = Event Music
 ui-options-admin-sounds = Play Admin Sounds
 ui-options-volume-label = Volume

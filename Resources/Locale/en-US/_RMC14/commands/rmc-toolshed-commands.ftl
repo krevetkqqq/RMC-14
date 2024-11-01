@@ -46,6 +46,6 @@ command-description-squad-set = Sets the squad of a marine or group of marines.
 command-description-squad-with = Filters a group of marines by their squad.
 command-description-squad-refresh = Manually refreshes the members of a squad.
 
-command-description-xenomature = Instantly matures a xeno. Applicable to the Queen, at which point she gets more health and abilities.
+command-description-xenomature = Мгновенно взращивает ксено. Применимо к Королеве, после чего она получает больше здоровья и способностей.
 
-command-description-withxenotier = Filters entities or entity prototypes to those of a specific xenonid tier.
+command-description-withxenotier = Фильтрует сущности или прототипы сущностей по категориям, относящимся к определенному уровню xenonid.

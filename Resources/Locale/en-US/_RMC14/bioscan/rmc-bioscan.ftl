@@ -25,10 +25,10 @@ rmc-bioscan-ares = Bioscan complete.
     *[other], including one in {$planetLocation}
   }
 
-rmc-bioscan-xeno-announcement = [color=#318850][font size=14][bold]The Queen Mother reaches into your mind from worlds away.
+rmc-bioscan-xeno-announcement = [color=#318850][font size=14][bold]Королева проникает в ваш разум с расстояния в несколько миров.
   {$message}[/bold][/font][/color]
 
-rmc-bioscan-xeno = To my children and their Queen: I sense { $onShip ->
+rmc-bioscan-xeno = Моим детям и их королеве: я чувствую{ $onShip ->
   [0] no hosts
   [1] approximately 1 host
   *[other] approximately {$onShip} hosts
