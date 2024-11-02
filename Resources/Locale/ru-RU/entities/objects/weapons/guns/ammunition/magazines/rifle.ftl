@@ -1,0 +1,12 @@
+ent-BaseMagazineRifleM41A = магазин M41A (10x24mm)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineRifleM41A = магазин M41A (10x24mm)
+    .desc = { ent-BaseMagazineRifleM41A.desc }
+ent-MagazineRifleM41AAP = бронебойный магазин M41A (10x24mm)
+    .desc = { ent-BaseMagazineRifleM41A.desc }
+ent-BaseMagazineRifleM41AEx = расширенный магазин M41A (10x24mm)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineRifleM41AEx = расширенный магазин M41A (10x24mm)
+    .desc = { ent-BaseMagazineRifleM41AEx.desc }
+ent-MagazineRifleM41AExAP = расширенный бронебойный магазин M41A (10x24mm)
+    .desc = { ent-BaseMagazineRifleM41AEx.desc }

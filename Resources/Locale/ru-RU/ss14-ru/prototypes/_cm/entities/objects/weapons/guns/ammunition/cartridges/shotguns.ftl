@@ -1,0 +1,12 @@
+ent-BaseCartridgeShotGun24Gauge = патрон (24 Gauge)22
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeShotGun24Gauge = патрон (24 Gauge)
+    .desc = { ent-BaseCartridgeShotGun24Gauge.desc }
+ent-BaseCartridgeShotGun8Gauge = патрон (8 Gauge)22
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeShotGun8Gauge = патрон (8 Gauge)
+    .desc = { ent-BaseCartridgeShotGun8Gauge.desc }
+ent-ShellPunisher = дробь 10Gauge
+    .desc = { ent-BaseCartridgeShotGun8Gauge.desc }
+ent-ShellLiberator = дробь .410
+    .desc = { ent-BaseCartridgeShotGun8Gauge.desc }
