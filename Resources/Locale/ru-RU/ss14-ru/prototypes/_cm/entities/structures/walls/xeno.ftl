@@ -1,9 +1,0 @@
-ent-BaseWallXeno = { ent-BaseWall }
-    .suffix = CM
-    .desc = { ent-BaseWall.desc }
-ent-XenoWallFragile = резиновая стена ксеноморфа
-    .desc = Резиновая стена. На взгляд не прочна.
-ent-XenoWall = стена ксеноморфа
-    .desc = Стена, состоящая из неизвестного черного материала.
-ent-XenoWallFortified = укреплённая стена ксеноморфа
-    .desc = Прочная стена, состоящая из неизвестного черного материала.

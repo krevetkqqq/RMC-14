@@ -1,9 +1,0 @@
-ent-CMWallHull = стена корпуса
-    .suffix = CM
-    .desc = { ent-BaseWall.desc }
-ent-CMWallHullEvac = стена корпуса
-    .suffix = CM
-    .desc = { ent-BaseWall.desc }
-ent-CMWallHullLab = стена корпуса
-    .suffix = CM
-    .desc = { ent-BaseWall.desc }
