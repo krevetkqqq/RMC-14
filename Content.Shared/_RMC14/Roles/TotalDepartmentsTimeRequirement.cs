@@ -64,7 +64,7 @@ public sealed partial class TotalDepartmentsTimeRequirement : JobRequirement
 
             reason = FormattedMessage.FromMarkupOrThrow(Loc.GetString(
                 "role-timer-total-department-insufficient",
-                ("time", Math.Ceiling(deptDiff)),
+                ("time", Math.Ceiling(deptDiff).ToString()),
                 ("roles", Loc.GetString(comp.Name)),
                 ("rolesColor", comp.Color.ToHex())));
             return false;
@@ -75,7 +75,7 @@ public sealed partial class TotalDepartmentsTimeRequirement : JobRequirement
             {
                 reason = FormattedMessage.FromMarkupOrThrow(Loc.GetString(
                     "role-timer-total-department-too-high",
-                    ("time", -deptDiff),
+                    ("time", (-deptDiff).ToString()),
                     ("roles", Loc.GetString(comp.Name)),
                     ("rolesColor", comp.Color.ToHex())));
                 return false;
