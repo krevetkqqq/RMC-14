@@ -4,10 +4,10 @@
   name: cm-job-name-dropship-pilot
   description: cm-job-description-dropship-pilot
   playTimeTracker: CMJobPilotDropship
-  requirements:
-  - !type:TotalJobsTimeRequirement
-    group: CMJobsDropship
-    time: 7200 # 2 hours
+  # requirements:
+  # - !type:TotalJobsTimeRequirement
+  #   group: CMJobsDropship
+  #   time: 7200 # 2 hours
   startingGear: CMGearPilotDropship
   icon: "CMJobIconPilotDropship"
   joinNotifyCrew: false

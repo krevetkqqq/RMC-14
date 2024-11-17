@@ -4,10 +4,10 @@
   name: cm-job-name-combat-tech
   description: cm-job-description-combat-tech
   playTimeTracker: CMJobCombatTech
-  requirements:
-  - !type:DepartmentTimeRequirement
-    department: CMSquad
-    time: 3600 # 1 hour
+  # requirements:
+  # - !type:DepartmentTimeRequirement
+  #   department: CMSquad
+  #   time: 3600 # 1 hour
   startingGear: CMGearCombatTech
   icon: "CMJobIconCombatTech"
   joinNotifyCrew: false

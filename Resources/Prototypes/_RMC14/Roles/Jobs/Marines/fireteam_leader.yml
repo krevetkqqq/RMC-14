@@ -4,10 +4,10 @@
   name: cm-job-name-fireteam-leader
   description: cm-job-description-fireteam-leader
   playTimeTracker: CMJobFireteamLeader
-  requirements:
-  - !type:DepartmentTimeRequirement
-    department: CMSquad
-    time: 28800 # 8 hours
+  # requirements:
+  # - !type:DepartmentTimeRequirement
+  #   department: CMSquad
+  #   time: 28800 # 8 hours
   startingGear: CMGearFireteamLeader
   icon: "CMJobIconFireteamLeader"
   joinNotifyCrew: false

@@ -4,13 +4,13 @@
   name: cm-job-name-hospital-corpsman
   description: cm-job-description-hospital-corpsman
   playTimeTracker: CMJobHospitalCorpsman
-  requirements:
-  - !type:TotalJobsTimeRequirement
-    group: CMJobsMedical
-    time: 3600 # 1 hours
-  - !type:DepartmentTimeRequirement
-    department: CMSquad
-    time: 3600 # 1 hour
+  # requirements:
+  # - !type:TotalJobsTimeRequirement
+  #   group: CMJobsMedical
+  #   time: 3600 # 1 hours
+  # - !type:DepartmentTimeRequirement
+  #   department: CMSquad
+  #   time: 3600 # 1 hour
   startingGear: CMGearHospitalCorpsman
   icon: "CMJobIconHospitalCorpsman"
   joinNotifyCrew: false

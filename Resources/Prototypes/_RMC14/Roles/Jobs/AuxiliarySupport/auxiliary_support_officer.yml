@@ -4,19 +4,19 @@
   name: cm-job-name-aso
   description: cm-job-description-aso
   playTimeTracker: CMJobAuxiliarySupportOfficer
-  requirements:
-  - !type:DepartmentTimeRequirement
-    department: CMSquad
-    time: 18000 # 5 hours
-  - !type:DepartmentTimeRequirement
-    department: CMRequisitions
-    time: 18000 # 5 hours
-  - !type:TotalJobsTimeRequirement
-    group: CMJobsEngineering
-    time: 18000 # 5 hours
-  - !type:DepartmentTimeRequirement
-    department: CMAuxiliarySupport
-    time: 18000 # 5 hours
+  # requirements:
+  # - !type:DepartmentTimeRequirement
+  #   department: CMSquad
+  #   time: 18000 # 5 hours
+  # - !type:DepartmentTimeRequirement
+  #   department: CMRequisitions
+  #   time: 18000 # 5 hours
+  # - !type:TotalJobsTimeRequirement
+  #   group: CMJobsEngineering
+  #   time: 18000 # 5 hours
+  # - !type:DepartmentTimeRequirement
+  #   department: CMAuxiliarySupport
+  #   time: 18000 # 5 hours
   weight: 5
   startingGear: CMGearASO
   icon: "CMJobIconASO"

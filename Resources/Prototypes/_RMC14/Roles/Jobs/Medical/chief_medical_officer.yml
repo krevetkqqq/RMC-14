@@ -4,10 +4,10 @@
   name: cm-job-name-cmo
   description: cm-job-description-cmo
   playTimeTracker: CMJobCMO
-  requirements:
-  - !type:TotalJobsTimeRequirement
-    group: CMJobsMedical
-    time: 36000 # 10 hours
+  # requirements:
+  # - !type:TotalJobsTimeRequirement
+  #   group: CMJobsMedical
+  #   time: 36000 # 10 hours
   weight: 5
   startingGear: CMGearCMO
   icon: "CMJobIconCMO"

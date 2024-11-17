@@ -4,10 +4,10 @@
   name: cm-job-name-researcher
   description: cm-job-description-researcher
   playTimeTracker: CMJobResearcher
-  requirements:
-  - !type:TotalJobsTimeRequirement
-    group: CMJobsMedical
-    time: 18000 # 5 hours
+  # requirements:
+  # - !type:TotalJobsTimeRequirement
+  #   group: CMJobsMedical
+  #   time: 18000 # 5 hours
   startingGear: CMGearResearcher
   icon: "CMJobIconResearcher"
   joinNotifyCrew: false

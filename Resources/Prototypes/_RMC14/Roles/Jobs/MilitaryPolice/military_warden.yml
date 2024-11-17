@@ -4,10 +4,10 @@
   name: cm-job-name-militarywarden
   description: cm-job-description-militarywarden
   playTimeTracker: CMJobMilitaryWarden
-  requirements:
-  - !type:DepartmentTimeRequirement
-    department: CMMilitaryPolice
-    time: 36000 # 10 hours
+  # requirements:
+  # - !type:DepartmentTimeRequirement
+  #   department: CMMilitaryPolice
+  #   time: 36000 # 10 hours
   weight: 5
   startingGear: CMGearMilitaryWarden
   icon: "CMJobIconMilitaryWarden"

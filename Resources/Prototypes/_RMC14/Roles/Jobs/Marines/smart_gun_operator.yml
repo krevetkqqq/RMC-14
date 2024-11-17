@@ -4,10 +4,10 @@
   name: cm-job-name-smart-gun-operator
   description: cm-job-description-smart-gun-operator
   playTimeTracker: CMJobSmartGunOperator
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: CMSquad
-      time: 18000 # 5 hours
+  # requirements:
+  #   - !type:DepartmentTimeRequirement
+  #     department: CMSquad
+  #     time: 18000 # 5 hours
   startingGear: CMGearSmartGunOperator
   icon: "CMJobIconSmartGunOperator"
   joinNotifyCrew: false
