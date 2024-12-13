@@ -46,6 +46,9 @@
         useBurstScatterMult: true
         unwieldedScatterMultiplier: 2
         shotsToMaxScatter: 30
+  - type: RMCWeaponAccuracy
+    accuracyMultiplier: 1
+    accuracyMultiplierUnwielded: 0.5
   - type: WieldableSpeedModifiers
     baseWalk: 0.696
     baseSprint: 0.559
@@ -53,6 +56,7 @@
     slots:
       gun_magazine:
         name: Magazine
+        startingItem: CMMagazineRifleM54CE2
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/hpr_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/hpr_unload.ogg
         priority: 2
