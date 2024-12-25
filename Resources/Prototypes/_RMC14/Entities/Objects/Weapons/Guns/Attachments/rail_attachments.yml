@@ -12,8 +12,8 @@
 - type: entity
   parent: [ RMCRailAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentRailFlashlight
-  name: rail flashlight
-  description: A flashlight, for rails, on guns. Can be toggled on and off. A better light source than standard M3 pattern armor lights.
+  name: тактический фонарь
+  description: Таткический оружейный фонарик на крепление пикатини.
   components:
   - type: ToggleableLightVisuals
     spriteLayer: light
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentMagneticHarness
-  name: magnetic harness
-  description: A magnetically attached harness kit that attaches to the rail mount of a weapon. When dropped, the weapon will sling to any set of Marine armor.
+  name: магнитный оружейный ремень
+  description: Набор магнитного оружейного ремня, притягивающего оружие в случае, если оно выскользнуло из рук.
   components:
   - type: Sprite
     state: magnetic
@@ -108,8 +108,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentS5RedDotSight
-  name: S5 red-dot sight
-  description: An all-weather collimator sight, designated as the AN/PVQ-64 Dot Sight. Equipped with a sunshade to increase clarity in bright conditions and resist weathering. Compact and efficient, a marvel of military design, until you realize that this is actually just an off-the-shelf design that got a military designation slapped on.
+  name: колиматорный прицел S5
+  description: Универсальный колиматорный прицел, индекс AN/PVQ-64 "красная точка". Имеет антиблик покрытие и крепкий корпус, способный выдержать даже самые тяжелые условия.
   components:
   - type: Sprite
     state: reddot
@@ -126,12 +126,13 @@
     - conditions:
         unwieldedOnly: true
       accuracyAddMult: 0.05
+      accuracyMovementPenaltyAddMult: 1
 
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentS6ReflexSight
-  name: S6 reflex sight
-  description: An AEGIS S6 reflex sight. A zero-magnification alternative to iron sights with a more open optic window when compared to the S5 red-dot. Helps to reduce scatter during automated fire.
+  name: рефлекторный прицел S6
+  description: Рефлекторный прицел AEGIS S6. Альтернатива штатных механических прицельных приспособлений, имеющая больший обзор чем S5 "красная точка".
   components:
   - type: Sprite
     state: reflex
@@ -150,6 +151,7 @@
     - conditions:
         unwieldedOnly: true
       accuracyAddMult: 0.05
+      accuracyMovementPenaltyAddMult: 1
 
 - type: entity
   abstract: true
@@ -186,8 +188,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentS84xTelescopicScope
-  name: S8 4x telescopic scope
-  description: An AEGIS S8 telescopic eye piece. Fixed at 4x zoom.
+  name: телескопический прицел S8 4x
+  description: Телескопический прицел AEGIS S8 фиксированной 4x кратности.
   components:
   - type: Sprite
     state: sniperscope
@@ -227,17 +229,20 @@
         wieldedOnly: true
         inactiveOnly: true
       accuracyAddMult: -0.05
+    - conditions:
+        unwieldedOnly: true
+      accuracyMovementPenaltyAddMult: 2
 
 - type: entity
   parent: RMCAttachmentS84xTelescopicScope
   id: RMCAttachmentSlavicScope
-  name: 4x telescopic scope
-  description: Oppa! How did you get this off glorious Stalin weapon? Blyat, put back on and do job tovarish. Yankee is not shoot self no?
+  name: телескопический прицел 4x
+  description: Опачки! А где это ты такую ништяковую волыну надыбал? Короче, блять, давай уже, налепи меня на мосинку и погнали за работу, заебал. Янки сами себя не перестреляют, верно же?
   components:
   - type: Sprite
     state: slavicscope
   - type: AttachableVisuals
-    suffix: ""
+    suffix: "ЩЕМИ БЕРЦОВ"
   - type: Tag
     tags:
     - RMCAttachmentRail
@@ -252,8 +257,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentS42xTelescopicMiniscope
-  name: S4 2x telescopic mini-scope
-  description: An AEGIS S4 telescoping eye piece. Fixed at a modest 2x zoom.
+  name: телескопический мини-прицел S4 2x
+  description: Телескопический мини-прицел AEGIS S4 фиксированной 2x кратности.
   components:
   - type: Sprite
     state: miniscope
@@ -295,13 +300,16 @@
     - conditions:
         wieldedOnly: true
         inactiveOnly: true
-      accuracyAddMult: -0.05 #TODO: Add flare gun modifiers when it's implemented.
+      accuracyAddMult: -0.05
+    - conditions:
+        unwieldedOnly: true
+      accuracyMovementPenaltyAddMult: 2 #TODO: Add flare gun modifiers when it's implemented.
 
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentS42xAdvancedTelescopicMiniscope
-  name: WeYa S4 2x advanced telescopic mini-scope
-  description: An AEGIS S4 telescoping eye piece, custom-tuned by WeYa scientists to be as ergonomic as possible.
+  name: продвинутый телескопический мини-прицел WeYa S4 2x
+  description: Продвинутый телескопический мини-прицел AEGIS S4, модифицированный учёными WeYa для повышения эргономики.
   components:
   - type: Sprite
     state: miniscope-nsg23
@@ -327,8 +335,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentMiniscopeHunting
-  name: 2x hunting mini-scope
-  description: This civilian-grade scope is a common sight on hunting rifles due to its cheap price and great optics. Fixed at a modest 2x zoom.
+  name: охотничий мини-прицел 2x
+  description: Гражданский мини-прицел фиксированной 2x кратности.
   components:
   - type: Sprite
     state: huntingscope
@@ -348,8 +356,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentB8SmartScope
-  name: B8 smart-scope
-  description: An experimental B8 Smart-Scope. Based on the technologies used in the Smart Gun by AEGIS, this sight has integrated IFF systems. It can only attach to the M4SPR Battle Rifle and the M44 Combat Revolver.
+  name: смарт-прицел B8
+  description: Экспериментальный смарт-прицел B8. Основанная на технологиях системы СМАРТ AEGIS, данный прицел имеет встроенную систему предотвращения дружественного огня. Его можно установить ТОЛЬКО на M4SPR и M44.
   components:
   - type: Sprite
     state: iffbarrel
@@ -376,8 +384,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCM96SIntegratedScope
-  name: M96S integrated scope
-  description: This isn't supposed to come off the gun. How did you get it?
+  name: встроенный прицел M96S
+  description: Это встроенный прицел. Как ты его достал? Ты демонтировал его? ЗАЧЕМ!?
   components:
   - type: Sprite
     state: m96s-scope
@@ -413,6 +421,9 @@
         wieldedOnly: true
         inactiveOnly: true
       accuracyAddMult: -0.05
+    - conditions:
+        unwieldedOnly: true
+      accuracyMovementPenaltyAddMult: 2
   - type: Scope
     zoomLevels:
     - name: 4x
@@ -429,8 +440,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentXS-9
-  name: XS-9 targeting relay
-  description: While still in development, the XS-9 Targeting Relay has many features -- most of them disabled for the field testing -- functions slightly better than a standard scope.
+  name: прицельное приспособление XS-9
+  description: Это всё ещё прототип, но у него много функционала -- которые не работают, так как требует доработок -- превосходящего обычные прицельные приспособления.
   components:
   - type: Sprite
     state: miniscope
@@ -473,6 +484,9 @@
         wieldedOnly: true
         inactiveOnly: true
       accuracyAddMult: -0.05
+    - conditions:
+        unwieldedOnly: true
+      accuracyMovementPenaltyAddMult: 2 #TODO: Add flare gun modifiers when it's implemented.
 
 - type: Tag
   id: RMCAttachmentRail

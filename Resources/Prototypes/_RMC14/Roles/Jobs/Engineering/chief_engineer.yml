@@ -4,10 +4,10 @@
   name: cm-job-name-chief-engineer
   description: cm-job-description-chief-engineer
   playTimeTracker: CMJobChiefEngineer
-  # requirements:
-  # - !type:TotalJobsTimeRequirement
-  #   group: CMJobsEngineering
-  #   time: 36000 # 10 hours
+  requirements:
+  - !type:TotalJobsTimeRequirement
+    group: CMJobsEngineering
+    time: 36000 # 10 hours
   weight: 5
   startingGear: CMGearChiefEngineer
   icon: "CMJobIconChiefEngineer"

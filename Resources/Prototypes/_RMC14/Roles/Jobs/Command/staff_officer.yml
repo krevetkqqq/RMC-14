@@ -4,13 +4,13 @@
   name: cm-job-name-staff-officer
   description: cm-job-description-staff-officer
   playTimeTracker: CMJobStaffOfficer
-  # requirements:
-  # - !type:RoleTimeRequirement
-  #   role: CMJobSquadLeader
-  #   time: 3600 # 1 hours
-  # - !type:TotalDepartmentsTimeRequirement
-  #   group: CMDepartmentsHuman
-  #   time: 54000 # 15 hours
+  requirements:
+  - !type:RoleTimeRequirement
+    role: CMJobSquadLeader
+    time: 3600 # 1 hours
+  - !type:TotalDepartmentsTimeRequirement
+    group: CMDepartmentsHuman
+    time: 54000 # 15 hours
   weight: 5
   startingGear: CMGearStaffOfficer
   icon: "CMJobIconStaffOfficer"

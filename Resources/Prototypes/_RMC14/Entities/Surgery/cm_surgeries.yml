@@ -6,7 +6,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryOpenIncision
-  name: Open Incision
+  name: Сделать надрез
   components:
   - type: CMSurgery
     steps:
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryCloseIncision
-  name: Close Incision
+  name: Закрыть надрез
   components:
   - type: CMSurgery
     priority: 1
@@ -29,7 +29,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryOpenRibcage
-  name: Open Ribcage
+  name: Провести вскрытие грудной клетки
   components:
   - type: CMSurgery
     requirement: CMSurgeryOpenIncision
@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryAlienEmbryoRemoval
-  name: Alien Embryo Removal
+  name: Извлечь эмбрион ксеноида
   description: Removal of an alien embryo from the body.
   components:
   - type: CMSurgery

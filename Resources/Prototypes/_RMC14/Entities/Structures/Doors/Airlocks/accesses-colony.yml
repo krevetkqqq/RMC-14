@@ -2,7 +2,7 @@
 - type: entity
   parent: CMAirlockSecure
   id: CMAirlockSecureLockedColony
-  suffix: Colony, Locked
+  suffix: Колония, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyPublic"]]
@@ -11,7 +11,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockCommandLockedColony
-  suffix: Command, Colony, Locked
+  suffix: Командный, Колония, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Colonial access
@@ -20,7 +20,7 @@
 - type: entity
   parent: CMAirlockSecurity
   id: CMAirlockSecurityLockedColony
-  suffix: Security, Colony, Locked
+  suffix: Охрана, Колония, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Security access
@@ -29,7 +29,7 @@
 - type: entity
   parent: CMAirlockEngineer
   id: CMAirlockEngineerLockedColony
-  suffix: Engineering, Colony, Locked
+  suffix: Инженерный, Колония, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"], ["CMAccessColonyEngineering"], ["CMAccessColonyLogistics"]] # TODO RMC14 WeYa Colonial
@@ -38,7 +38,7 @@
 - type: entity
   parent: CMAirlockRequisitionsLocked
   id: CMAirlockRequisitionsLockedColony
-  suffix: Colony, Requisitions, Locked
+  suffix: Колония, Логистика, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"], ["CMAccessColonyLogistics"]]
@@ -47,7 +47,7 @@
 - type: entity
   parent: CMAirlockMedical
   id: CMAirlockMedicalLockedColony
-  suffix: Medical, Colony, Locked
+  suffix: Медицинский, Колония, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyMedbay"], ["CMAccessColonyCommand"]] # TODO RMC14 Research and WeYa Colonial
@@ -56,7 +56,7 @@
 - type: entity
   parent: CMAirlockResearchLocked
   id: CMAirlockResearchLockedColony
-  suffix: Colony, Research, Locked
+  suffix: Колония, Исследовательский, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"]] # TODO RMC14 Research and WeYa Research
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintLockedColony
-  suffix: Maintenance, Colony, Locked
+  suffix: Технический, Колония, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyPublic"], ["CMAccessColonyEngineering"]] # TODO RMC14 WeYa Colonial
@@ -74,7 +74,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockGlassLockedColony
-  suffix: Colony, Glass, Locked
+  suffix: Колония, Стеклянный, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyPublic"]]
@@ -83,7 +83,7 @@
 - type: entity
   parent: CMAirlockGlassEngineer
   id: CMAirlockGlassEngineerLockedColony
-  suffix: Engineering, Colony, Glass, Locked
+  suffix: Инженерный, Колония, Стеклянный, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"], ["CMAccessColonyEngineering"], ["CMAccessColonyLogistics"]] # TODO RMC14 WeYa Colonial
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMAirlockGlassSecurity
   id: CMAirlockGlassSecurityLockedColony
-  suffix: Security, Colony, Glass, Locked
+  suffix: Охрана, Колония, Стеклянный, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Security access
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMAirlockGlassMedical
   id: CMAirlockGlassMedicalLockedColony
-  suffix: Medical, Colony, Glass, Locked
+  suffix: Медицинский, Колония, Стеклянный, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyMedbay"], ["CMAccessColonyCommand"]] # TODO RMC14 Research and WeYa Colonial
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMAirlockGlassMedical
   id: CMAirlockGlassResearchLockedColony
-  suffix: Research, Colony, Glass, Locked
+  suffix: Исследовательский, Колония, Стеклянный, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"]] # TODO RMC14 Research and WeYa Research

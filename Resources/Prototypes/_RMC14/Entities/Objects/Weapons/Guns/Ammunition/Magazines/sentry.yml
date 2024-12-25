@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSentry
-  name: "M30 ammo drum (10x28mm Caseless)"
-  description: "An ammo drum of 500 10x28mm caseless rounds for the UN 571-C Sentry Gun. Just feed it into the sentry gun's ammo port when its ammo is depleted."
+  name: "барабанный магазин M30 (10x28мм безгильз.)"
+  description: "Барабанный магазин на 500 безгильзовых патронов калибра 10x28мм для турели 571-C. Засыпайте в отсек для БК чтобы произвести перезарядку."
   components:
   - type: Item
     size: Normal
@@ -34,8 +34,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSentryShotgun
-  name: "12g buckshot drum"
-  description: "An ammo drum of 50 12g buckshot shells for the UN 12-G Shotgun Sentry. Just feed it into the sentry gun's ammo port when its ammo is depleted."
+  name: "барабанный магазин картечи 12g"
+  description: "Барабанный магазин на 50 ружейных патронов картечи 12g для турели 12-G. Засыпайте в отсек для БК чтобы произвести перезарядку."
   components:
   - type: Tag
     tags:

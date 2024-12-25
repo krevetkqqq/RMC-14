@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: ActionMarineFocus
-  name: Issue Order - Focus
-  description: Increases gun accuracy for nearby marines
+  name: Приказ - Сфокусироваться на цели
+  description: Повышает точность ближайших пехотинцев
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -14,8 +14,8 @@
 - type: entity
   parent: ActionMarineBase
   id: ActionMarineHold
-  name: Issue Order - Hold
-  description: Increases damage resistance for nearby marines
+  name: Приказ - Удерживать позицию
+  description: Повышает устойчивость к урону у ближайших пехотинцев
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -27,8 +27,8 @@
 - type: entity
   id: ActionMarineMove
   parent: ActionMarineBase
-  name: Issue Order - Move
-  description: Increases speed for nearby marines
+  name: Приказ - Выдвигаемся
+  description: Повышает скорость ближайших пехотинцев
   components:
   - type: InstantAction
     itemIconStyle: NoItem

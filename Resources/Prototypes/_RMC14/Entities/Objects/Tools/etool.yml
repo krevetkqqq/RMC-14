@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMEntrenchingTool
-  name: entrenching tool
-  description: Used to dig holes and bash heads in. Folds in to fit in small spaces.
+  name: сапёрная лопата
+  description: Используется для рытья окопов и раскалывания черепов. Имеет механизм, позволяющий сложить её вдвое для экономии места.
   components:
   - type: Tag
     tags:
@@ -28,4 +28,3 @@
     delay: 0.25
   - type: Appearance
   - type: EntrenchingTool
-  - type: XenoTunnelFiller

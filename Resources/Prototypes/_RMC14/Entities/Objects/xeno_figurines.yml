@@ -12,7 +12,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerFigurineXeno
-  name: xeno figurine spawner
+  name: спавнер фигурок ксеносов
   components:
   - type: Sprite
     layers:
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCBaseFigurineXeno
   id: RMCFigurineXenoXippy
-  name: Xippy figurine
-  description: Always has a helpful xip for sisters in need.
+  name: фигурка Xippy
+  description: Всегда придёт на помощь сёстрам.
   components:
   - type: Sprite
     state: drone
@@ -36,8 +36,8 @@
 - type: entity
   parent: RMCBaseFigurineXeno
   id: RMCFigurineXenoWarrior616
-  name: Warrior (XX-616) figurine
-  description: The hive's greatest fighter, she slew over 30 hosts with her might alone.
+  name: фигурка воина (XX-616)
+  description: Лучший воин улья, унесший жизни тридцати носителей.
   components:
   - type: Sprite
     state: warrior

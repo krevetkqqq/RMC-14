@@ -1,8 +1,8 @@
 - type: entity
   parent: Handcuffs
   id: RMCHandcuffs
-  name: handcuffs
-  description: Use this to keep prisoners in line.
+  name: наручники
+  description: Используются для сковывания рук подозреваемых.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/handcuffs.rsi

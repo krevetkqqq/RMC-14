@@ -3,8 +3,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetMARSOC
-  name: SOF operator helmet
-  description: A special variant of the M10 Pattern Helmet worn by UNMC SOF.
+  name: шлем спецназа
+  description: Особый вариант шлема M10, разработанный для нужд спецназа КМП.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/marsoc.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetDutch
-  name: dutch's dozen helmet
-  description: A protective helmet worn by some seriously experienced mercs.
+  name: шлем голландской дюжины
+  description: Защитный шлем, используемый серьёзно подготовленными наёмниками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Dutch/helmet.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: RMCArmorHelmetDutch
   id: RMCArmorHelmetDutchCap
-  name: dutch's dozen cap
-  description: A protective cap worn by some seriously experienced mercs.
+  name: кепка голландской дюжины
+  description: Защитная кепка, используемая серьёзно подготовленными наёмниками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Dutch/cap.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCArmorHelmetDutch
   id: RMCArmorHelmetDutchBand
-  name: dutch's dozen band
-  description: A protective band worn by some seriously experienced mercs.
+  name: повязка голландской дюжины
+  description: Защитная повязка, используемая серьёзно подготовленными наёмниками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Dutch/band.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetBear
-  name: iron bear helmet
-  description: Is good for winter, because it has hole to put vodka through.
+  name: шлем железного медведя
+  description: Он хорошо подойдёт для зимы, ведь в нём есть дырка, в которую можно заливать водку. На этом шутки про дырки окончены, спасибо.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Dutch/helmet.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetSkullcap
-  name: skullcap
-  description: Good for keeping sweat out of your eyes.
+  name: тюбетейка
+  description: Помогает защитить глаза от излишнего попадания в них пота.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/skullcap.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: RMCArmorHelmetSkullcap
   id: RMCArmorHelmetSkullcapCowl
-  name: M8 marksman cowl
-  description: A cowl worn to conceal the face of a marksman in the jungle.
+  name: барф M8
+  description: Барф, используемый снайперами для сокрытия лица в джунглях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/skullcapm.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetMercenary
-  name: mercenary K12 ceramic helmet
-  description: A sturdy helmet worn by an unknown mercenary group.
+  name: керамический шлем K12 ЧВК
+  description: Крепкий шлем, используемый неизвестной ЧВК.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/heavy.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: RMCArmorHelmetMercenary
   id: RMCArmorHelmetMercenaryReinforced
-  name: mercenary modified K12 ceramic helmet
-  description: A sturdy helmet worn by an unknown mercenary group. Reinforced with extra plating.
+  name: керамический шлем K12 в модификации ЧВК
+  description: Крепкий шлем, используемый неизвестной ЧВК. Укреплён дополнительными пластинами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/heavy.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCArmorHelmetMercenary
   id: RMCArmorHelmetMercenaryMiner
-  name: mercenary Y8 miner helmet
-  description: A sturdy helmet, specialised for mining, worn by an unknown mercenary group.
+  name: шлем нахтёра Y8 ЧВК
+  description: Крепкий шлем, используемый шахтёрами неизвестной ЧВК.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/miner.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: RMCArmorHelmetMercenary
   id: RMCArmorHelmetMercenarySupport
-  name: mercenary Z7 support helmet
-  description: A sturdy helmet worn by an unknown mercenary group.
+  name: шлем поддержки Z7 ЧВК
+  description: Крепкий шлем, используемый неизвестной ЧВК.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/engi.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCArmorHelmetMercenarySupport
   id: RMCArmorHelmetMercenaryEngineer
-  name: mercenary Z7 engineer helmet
-  description: A sturdy helmet worn by an unknown mercenary group. This one includes a protective welding visor.
+  name: шлем инженера Z7 ЧВК
+  description: Крепкий шлем, используемый неизвестной ЧВК. Этот шлем имеет визор сварочной маски.
   components:
   - type: EyeProtection
 
@@ -138,8 +138,8 @@
 - type: entity
   parent: RMCArmorHelmetM3G4
   id: RMCArmorHelmetHEFA
-  name: HEFA helmet
-  description: For some reason, seeing this helmet causes you to feel extremely distressed.
+  name: шлем братства ОФППГ
+  description: Почему то, глядя на этот шлем вам становится тревожно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Mercenary/hefa.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetCBRN
-  name: CBRN M3 MOPP mask
-  description: The M3 MOPP mask includes a full covering cowl that securely attaches to the MOPP suit. The mask filters out harmful particles in the air to allow the wearer to breathe safely in the field. Depending on the hostility of the contaminated area the mask’s filter will last an average of 12 hours or less.
+  name: шлем M3 для комплекта СИБЗ
+  description: Включает в себя барф, коротый плотно крепится к комплекту СИБЗ. Маска фильтрует вредные частицы, позволяя пользователю спокойно дышать. Фильтры следует менять не реже, чем каждые 12 часов активного использования.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/cbrn.rsi

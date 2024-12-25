@@ -2,8 +2,8 @@
 - type: entity
   parent: [ Clothing, ClothingSlotBase ]
   id: RMCScabbardBase
-  name: base scabbard
-  description: -- insert description here --
+  name: простые ножны
+  description: Самые обыкновенные ножны из кожи и заклёпок. Эти, правда, выглядят больше обычного.
   abstract: true
   components:
   - type: Sprite
@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMachete
-  name: H5 pattern M2132 machete scabbard
-  description: A large leather scabbard used to carry a M2132 machete. It can be strapped to the back or the waist.
+  name: ножны для мачете M2132
+  description: Большие кожаные ножны, используемые для ношения мачете M2132. Их можно закрепить на спине или поясе.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_h5.rsi
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCScabbardMachete
   id: RMCScabbardMacheteFilled
-  suffix: Filled
+  suffix: Заполнен
   components:
   - type: ContainerFill
     containers:
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMacheteSG
-  name: ML66A harness machete scabbard
-  description: A scabbard that connects to the ML66A combat harness for carrying a M2132 machete.
+  name: ножны ML66A для мачете
+  description: Ножны, которые крепятся к боевому снаряжению ML66A для ношения мачете M2132.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_sg.rsi
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCScabbardMacheteSG
   id: RMCScabbardMacheteSGFilled
-  suffix: Filled
+  suffix: Заполнен
   components:
   - type: ContainerFill
     containers:
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardShotgun
-  name: L44 M42A2 shotgun scabbard
-  description: A large leather holster fitted for UNMC-issue shotguns. It has harnesses that allow it to be secured to the back for easy storage.
+  name: чехол для дробовика M42A2
+  description: Большой кожаный чехол, разработанный под стандартные дробовики пехотинцев. Он снабжен ремнями, которые позволяют закрепить его на спине для удобства.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/shotgun.rsi

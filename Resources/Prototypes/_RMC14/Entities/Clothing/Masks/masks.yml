@@ -11,8 +11,8 @@
 - type: entity
   parent: CMBaseMask
   id: CMMaskGas
-  name: gas mask
-  description: A face-covering mask that can be connected to an air supply. Filters harmful gases from the air.
+  name: противогаз
+  description: Маска, закрывающая лицо, которая может быть подключена к источнику воздуха. Фильтрует вредные газы из воздуха.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/gas.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: CMBaseMask
   id: CMMaskSterile
-  name: sterile mask
-  description: A sterile mask designed to help prevent the spread of diseases.
+  name: стерильная маска
+  description: Стерильная маска, предназначенная для предотвращения распространения болезней.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/sterile.rsi
@@ -46,8 +46,8 @@
 - type: entity # TODO RMC14 this needs a lizard sprite
   parent: ClothingMaskGas
   id: CMMaskGasMedical
-  name: medical gas mask
-  description: A close-fitting sterile mask that can be connected to an air supply.
+  name: медицинский противогаз
+  description: Плотно прилегающая стерильная маска, которая может быть подключена к источнику воздуха.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/medical.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMBaseMask
   id: CMMaskCoif
-  name: heat absorbent coif
-  description: A close-fitting cap that covers the top, back, and sides of the head. Can also be adjusted to cover the lower part of the face so it keeps the user warm in harsh conditions.
+  name: теплоизоляционный барф
+  description: Плотно прилегающий барф, который закрывает верхнюю, заднюю и боковые части головы. Может быть отрегулирован для закрытия нижней части лица, чтобы согревать пользователя в суровых условиях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/coif.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMBaseMask
   id: RMCMaskRebreather
-  name: rebreather
-  description: A close-fitting device that instantly heats or cools down air when you inhale so it doesn't damage your lungs.
+  name: респиратор
+  description: Плотно прилегающее устройство, которое мгновенно нагревает или охлаждает воздух при вдохе, чтобы он не повредил лёгкие.  
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/rebreather.rsi

@@ -2,8 +2,8 @@
   parent: RMCBaseGunCase
   id: RMCKitBase
   abstract: true
-  name: kit
-  description: It's just an ordinary box.
+  name: кейс
+  description: Это самая обычная коробка.
   components:
   - type: Sprite
     noRot: true

@@ -2,7 +2,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyBureau
-  name: bureau encryption Key
+  name: ключ шифрования бюро
   components:
   - type: EncryptionKey
     channels:

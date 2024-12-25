@@ -12,8 +12,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleAmmo
-  name: Toggle Ammo Type
-  description: Switch the ammo type fired by this gun.
+  name: Сменить тип боеприпаса
+  description: Переключает тип боеприпаса для данного оружия.
   components:
   - type: InstantAction
     icon:
@@ -26,8 +26,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleRecoil
-  name: Toggle Recoil Compensation
-  description: Removes all recoil when firing this gun.
+  name: Компенсировать отдачу
+  description: Компенсирует отдачу при стрельбе из этого оружия.
   components:
   - type: InstantAction
     icon:
@@ -40,8 +40,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleAutoFire
-  name: Toggle Auto Fire
-  description: Makes the gun automatically shoot a single shot towards a target every couple seconds.
+  name: Переключить режим стрельбы на автоматический
+  description: Орудие производит один выстрел по цели каждые несколько секунд.
   components:
   - type: InstantAction
     icon:
@@ -54,8 +54,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleFarSight
-  name: Toggle Far Sight
-  description: Lets you see slightly farther away.
+  name: Увеличить кратность
+  description: Позволяет видеть дальше.
   components:
   - type: InstantAction
     icon:
@@ -68,8 +68,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleMotionDetector
-  name: Toggle Motion Detector
-  description: Periodically pings any unknown movement near you.
+  name: Включить детектор движения
+  description: Периодически посылает сигнал для обнаружения неизвестных сигнатур рядом.
   components:
   - type: InstantAction
     icon:

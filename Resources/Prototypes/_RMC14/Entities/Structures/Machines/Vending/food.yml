@@ -59,36 +59,36 @@
     sections:
     - name: Alcohol
       entries:
-#      - id: DrinkAleBottleFull
-#        amount: 6
-#      - id: DrinkBeerBottleFull
-#        amount: 6
-#      - id: DrinkGrenadineBottleFull
-#        amount: 5
-#      - id: DrinkTequilaBottleFull
-#        amount: 5
-      - id: RMCDrinkAlcoholRum
+      - id: DrinkAleBottleFull
+        amount: 6
+      - id: DrinkBeerBottleFull
+        amount: 6
+      - id: DrinkGrenadineBottleFull
         amount: 5
-      - id: RMCDrinkAlcoholCognac
+      - id: DrinkTequilaBottleFull
         amount: 5
-      - id: RMCDrinkAlcoholWhiskey
+      - id: DrinkRumBottleFull
         amount: 5
-      - id: RMCDrinkAlcoholPurpleWine
+      - id: DrinkCognacBottleFull
         amount: 5
-      - id: RMCDrinkAlcoholMelonLiquor
+      - id: DrinkWhiskeyBottleFull
+        amount: 5
+      - id: DrinkWineBottleFull
+        amount: 5
+      - id: DrinkMelonLiquorBottleFull
         amount: 2
-#      - id: DrinkVermouthBottleFull
-#        amount: 5
-      - id: RMCDrinkAlcoholGin
+      - id: DrinkVermouthBottleFull
         amount: 5
-      - id: RMCDrinkAlcoholAbsinthe
+      - id: DrinkGinBottleFull
+        amount: 5
+      - id: DrinkAbsintheBottleFull
         amount: 2
-#      - id: DrinkBlueCuracaoBottleFull
-#        amount: 2
-      - id: RMCDrinkAlcoholVodka
+      - id: DrinkBlueCuracaoBottleFull
+        amount: 2
+      - id: DrinkVodkaBottleFull
         amount: 5
-#      - id: DrinkCoffeeLiqueurBottleFull
-#        amount: 5
+      - id: DrinkCoffeeLiqueurBottleFull
+        amount: 5
     - name: Craft Beers
       entries: []
     - name: Non-Alcohol

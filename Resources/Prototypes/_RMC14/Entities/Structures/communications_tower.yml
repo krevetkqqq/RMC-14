@@ -27,7 +27,7 @@
       map: [ "base" ]
   - type: Damageable
     damageContainer: Inorganic
-    damageModifierSet: null
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger:
@@ -68,15 +68,11 @@
       state: supply
   - type: ApcPowerReceiver
   - type: RMCPowerReceiver
-    idleLoad: 0
-    activeLoad: 10000
+    idleLoad: 10000
+    activeLoad: 1
     channel: Equipment
   - type: Corrodible
     isCorrodible: false
-  - type: InteractedBlacklist
-    blacklist:
-      components:
-      - Xeno
 
 - type: entity
   abstract: true

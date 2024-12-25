@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCShutterBase
   id: RMCPodDoor
-  name: podlock
-  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
+  name: ставни
+  description: Вряд-ли выйдет их так просто открыть. Может, стоит поискать кнопку? Или старый добрый тротил решит эту проблему?
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/poddoor.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCPodDoorAlmayer
   id: RMCPodDoorAlmayerLocked
-  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
-  suffix: Locked
+  description: Вряд-ли выйдет их так просто открыть. Может, стоит поискать кнопку? Или старый добрый тротил решит эту проблему?
+  suffix: Закрыто
   components:
   - type: Door
     canPry: false
@@ -65,7 +65,7 @@
 - type: entity
   parent: RMCPodDoorAlmayer
   id: RMCPodDoorAlmayerOpen
-  suffix: Open
+  suffix: Открыто
   components:
   - type: Door
     state: Open

@@ -2,8 +2,8 @@
   parent: BoxBase
   id: CMFolderBase
   abstract: true
-  name: folder
-  description: A folder.
+  name: папка
+  description: Обычная папка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMFolderBase
   id: CMFolderBlue
-  description: A blue folder.
+  description: Синяя папка.
   components:
   - type: Sprite
     state: folder_blue
@@ -52,7 +52,7 @@
 - type: entity
   parent: CMFolderBase
   id: CMFolderRed
-  description: A red folder.
+  description: Красная папка.
   components:
   - type: Sprite
     state: folder_red
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMFolderBase
   id: CMFolderYellow
-  description: A yellow folder.
+  description: Жёлтая папка.
   components:
   - type: Sprite
     state: folder_yellow
@@ -68,7 +68,7 @@
 - type: entity
   parent: CMFolderBase
   id: CMFolderWhite
-  description: A white folder.
+  description: Белая папка.
   components:
   - type: Sprite
     state: folder_white
@@ -76,7 +76,7 @@
 - type: entity
   parent: CMFolderBase
   id: CMFolderBlack
-  description:
+  description: Чёрная папка?
   components:
   - type: Sprite
     state: folder_black

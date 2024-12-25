@@ -3,7 +3,7 @@
   abstract: true
   parent: CMMREComponentBase
   id: CMMRESnackComponentBase
-  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry.
+  description: Закуска ИРП. Содержит лёгкий перекус, чтобы вы не чувствовали себя настолько голодным.
   components:
   - type: Sprite
     state: snack
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentBiscuit
-  name: MRE component (biscuit)
-  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is biscuit.
+  name: часть ИРП (бисквит)
+  description: Закуска ИРП. Содержит лёгкий перекус, чтобы вы не чувствовали себя настолько голодным. Здесь бисквит.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentMeatballs
-  name: MRE component (meatballs)
-  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is meatballs.
+  name: часть ИРП (тефтели)
+  description: Закуска ИРП. Содержит лёгкий перекус, чтобы вы не чувствовали себя настолько голодным. Здесь тефтели.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: RMCMREComponentMeatzels
-  name: MRE component (meatzels)
-  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is.. meatzels ?
+  name: часть ИРП (тефтеньдели)
+  description: Закуска ИРП. Содержит лёгкий перекус, чтобы вы не чувствовали себя настолько голодным. Здесь... здесь... Тефтеньдели? Это чё такое? Оно живое? Оно мёртвое? Мне плакать или смеяться?
   components:
   - type: SpawnItemsOnUse
     items:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentPretzels
-  name: MRE component (pretzels)
-  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is pretzels.
+  name: часть ИРП (крендели)
+  description: Закуска ИРП. Содержит лёгкий перекус, чтобы вы не чувствовали себя настолько голодным. Здесь крендели.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentPeanuts
-  name: MRE component (peanuts)
-  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is peanuts.
+  name: часть ИРП (арахис)
+  description: Закуска ИРП. Содержит лёгкий перекус, чтобы вы не чувствовали себя настолько голодным. Здесь орешки арахиса.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentSushi
-  name: MRE component (sushi)
-  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is sushi.
+  name: часть ИРП (суши)
+  description: Закуска ИРП. Содержит лёгкий перекус, чтобы вы не чувствовали себя настолько голодным. Здесь суши.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -89,8 +89,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodBiscuit
-  name: biscuit
-  description: The contents of a Marine Standard issue MRE. This one is a biscuit.
+  name: бисквит
+  description: Содержимое стандартного ИРП пехоты. Это бисквит.
   components:
   - type: Sprite
     state: biscuit
@@ -101,8 +101,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodMeatballs
-  name: meatballs
-  description: The contents of a Marine Standard issue MRE. This one is meatballs.
+  name: тефтели
+  description: Содержимое стандартного ИРП пехоты. Это тефтели.
   components:
   - type: Sprite
     state: meatballs
@@ -113,8 +113,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: RMCMREFoodMeatzels
-  name: meatzels
-  description: The contents of a Marine Standard issue MRE. This one is.. meatzels ?
+  name: тефтеньдели
+  description: Содержимое стандартного ИРП пехоты. Это... я отказываюсь это комментировать.
   components:
   - type: Sprite
     state: meatzels
@@ -125,8 +125,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodPretzels
-  name: pretzels
-  description: The contents of a Marine Standard issue MRE. This one is pretzels.
+  name: крендели
+  description: Содержимое стандартного ИРП пехоты. Это крендели.
   components:
   - type: Sprite
     state: pretzels
@@ -137,8 +137,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodPeanuts
-  name: peanuts
-  description: The contents of a Marine Standard issue MRE. This one is peanuts.
+  name: арахис
+  description: Содержимое стандартного ИРП пехоты. Это арахис!
   components:
   - type: Sprite
     state: peanuts
@@ -149,8 +149,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodSushi
-  name: sushi
-  description: The contents of a Marine Standard issue MRE. This one is sushi.
+  name: суши
+  description: Содержимое стандартного ИРП пехоты. Это суши.
   components:
   - type: Sprite
     state: sushi
@@ -162,24 +162,24 @@
 - type: flavor
   id: Biscuit
   flavorType: Complex
-  description: like biscuits
+  description: как бисквит
 
 - type: flavor
   id: Meatballs
   flavorType: Complex
-  description: like meatballs
+  description: как тефтели
 
 - type: flavor
   id: Pretzels
   flavorType: Complex
-  description: like pretzels
+  description: как крендели
 
 - type: flavor
   id: Peanuts
   flavorType: Complex
-  description: like peanuts
+  description: как арахис
 
 - type: flavor
   id: Sushi
   flavorType: Complex
-  description: like sushi
+  description: как суши

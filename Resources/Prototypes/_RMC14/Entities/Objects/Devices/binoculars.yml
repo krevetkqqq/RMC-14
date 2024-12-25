@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCBinoculars
-  name: binoculars
-  description: A military-issued pair of binoculars.
+  name: бинокль
+  description: Стандартный военный бинокль.
   components:
   - type: Item
     size: Small
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCBinoculars
   id: RMCRangefinder
-  name: rangefinder
-  description: "A pair of binoculars with a rangefinding function. Click a tile to acquire it's coordinates."
+  name: дальномер
+  description: "Бинокль с возможностью замера дистанции. Нажмите на тайл, чтобы вымерить его координаты."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCRangefinder
   id: RMCLaserDesignator
-  name: laser designator
-  description: "A laser designator with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something."
+  name: ЛЦУ
+  description: "ЛЦУ, имеющий два режима: указание цели для огневой поддержки CAS с ИК лазером и измерение дистанции. Нажмите на тайл чтобы указать цель или замерить дистанцию."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: RMCLaserDesignator
   id: RMCLaserDesignatorScout
-  name: scout laser designator
-  description: "An improved laser designator, issued to UNMC scouts, with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something."
+  name: ЛЦУ разведчика
+  description: "Улучшенный ЛЦУ, выдаваемый разведчикам КМП, с двумя режимами работы: указание цели для огневой поддержки CAS с ИК лазером и измерение дистанции. Нажмите на тайл чтобы указать цель или замерить дистанцию."
   components:
   - type: Rangefinder
     delay: 3
@@ -80,7 +80,7 @@
 
 - type: entity
   id: RMCRangefinderTarget
-  name: laser
+  name: лазер
   components:
   - type: Transform
     anchored: true
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCRangefinderTarget
   id: RMCLaserDesignatorTarget
-  description: It's a laser to designate artillery targets, get away from it!
+  description: Это лазер целеуказания для огня артилерии, если оно светит в вас - долгая жизнь вам не светит! Беги, Форест, беги!
   components:
   - type: Sprite
     sprite: _RMC14/Effects/laser.rsi

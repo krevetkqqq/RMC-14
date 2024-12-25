@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStorageItem
   id: RMCBoxShotgunBase
-  name: box of shotgun shells
+  name: коробка ружейных патронов 12g
   components:
   - type: Item
     size: Large
@@ -29,8 +29,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBuckshot
-  name: box of buckshot shells
-  description: A box filled with buckshot spread shotgun shells. 12 Gauge.
+  name: коробка дробовых патронов 12g
+  description: Коробка с дробовыми патронами 12-го калибра.
   components:
   - type: Storage
     whitelist:
@@ -50,8 +50,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunSlugs
-  name: box of shotgun slugs
-  description: A box filled with heavy shotgun shells. A timeless classic. 12 Gauge.
+  name: коробка пулевых патронов 12g
+  description: Коробка с тяжёлыми пулевыми патронами 12-го калибра.
   components:
   - type: Storage
     whitelist:
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunIncendiary
-  name: box of incendiary slugs
-  description: A box filled with self-detonating incendiary shotgun rounds. 12 Gauge.
+  name: коробка с зажигательными патронами 12g
+  description: Коробка с зажигательными пулевыми патронами 12-го калибра.
   components:
   - type: Storage
     whitelist:
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBeanbag
-  name: box of beanbag slugs
-  description: A box filled with beanbag shotgun shells used for non-lethal crowd control. 12 Gauge.
+  name: коробка елетальными патронами 12g
+  description: Коробка с патронами для нелетального контроля толпы, 12-й калибр.
   components:
   - type: Storage
     whitelist:
@@ -113,8 +113,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunFlechette
-  name: box of flechette shells
-  description: A box filled with flechette shotgun shells. 12 Gauge.
+  name: коробка флешетт 12g
+  description: Коробка с патронами флешетт, 12-й калибр.
   components:
   - type: Storage
     whitelist:
@@ -134,8 +134,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunIncendiaryBuckshot
-  name: box of incendiary buckshots
-  description: A box filled with self-detonating buckshot incendiary shotgun rounds. 12 Gauge.
+  name: коробка зажизательных патронов 12g
+  description: Коробка с зажигательными дробовыми патронами 12-го калибра.
   components:
   - type: Storage
     whitelist:
@@ -155,8 +155,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBreaching
-  name: box of breaching shells
-  description: A box filled with breaching shotgun shells. 16 Gauge.
+  name: коробка болванок 12g
+  description: Коробка с патронами для вскрытия дверей, 16-й калибр.
   components:
   - type: Storage
     whitelist:

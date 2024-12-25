@@ -31,8 +31,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanCola
-  name: classic cola
-  description: A classic cola with a taste that's been around for centuries. Nobody can beat it.
+  name: классическая кола
+  description: Классическая кола, вкус которой остаётся неизменным столетиями. Ничто её не круче.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/cola.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanMountainWind
-  name: mountain wind
-  description: Blows right through you like a space wind.
+  name: Маунтин Уинд
+  description: Подобно дуновению ветра с каждым глотком сметает с тебя сомнения, что ты пьёшь чистейшие химикаты.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/mountain_wind.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanThirteenLoko
-  name: thirteen loko
-  description: Consumption of Thirteen Loko may result in seizures, blindness, drunkenness, or even death. Please Drink Responsibly.
+  name: Сёртин Локо
+  description: Употребление этого может привести к приступам конвульсии, слепоты, опьянения и даже смерти. Наслаждайтесь!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/thirteen_loko.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanDrGibb
-  name: dr. gibb
-  description: A delicious mixture of 42 different flavors of chemicals that you can't pronounce.
+  name: доктор гибб
+  description: Вкуснейший микс 42 химикатов, название которых вы даже произнести-то толком не сможете.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/dr_gibb.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanStarkist
-  name: star-kist
-  description: The taste of a star in liquid form. And, a bit of tuna...?
+  name: стар-кист
+  description: Вкус звёзд в жидком формате. Погоди, а что в составе делает тунец...?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/starkist.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanSpaceUp
-  name: space-up
-  description: Tastes like a hull breach in your mouth.
+  name: спейс-ап
+  description: На вкус как разгерма.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/space_up.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanLemonLime
-  name: lemon-lime
-  description: You wanted ORANGE. It gave you Lemon Lime.
+  name: лимон-лайм
+  description: Ты хотел апельсиновую содовую? Какая жалость, пей что дали.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/lemon_lime.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanIcedTea
-  name: iced tea can
-  description: Just like the squad redneck's grandmother used to buy.
+  name: айс-ти
+  description: Напоминает вам о чае, который заваривала бабушка того самого вашего знакомого. Ну как там его...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/ice_tea.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanGrape
-  name: grape juice
-  description: A can of probably not grape juice.
+  name: виноградный сок
+  description: Банка вряд-ли виноградного сока.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/purple.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanTonic
-  name: tonic water
-  description: "Step One: Tonic. Check. Step Two: Gin."
+  name: бутылка тоника
+  description: "Шаг первый: Тоник. Ага, есть. Шаг второй: Джин."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/tonic.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanSoda
-  name: soda water
-  description: A can of soda water. Tap water's more refreshing cousin...according to those Europe-folk.
+  name: газированная вода
+  description: Бутылка газированной воды. Более освежающий родственник воды из под крана.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/sodawater.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: CMDrinkCanSoda
   id: CMDrinkCanBoda
-  name: boda
-  description: State regulated soda beverage. Enjoy comrades.
+  name: бутылка воды "БОДА"
+  description: Либо я не очень знаю межгаллактический русский, либо здесь буква не пропечаталась.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/boda.rsi

@@ -15,12 +15,15 @@
   - type: Item
     size: Small
     sprite: _RMC14/Objects/Consumable/Food/prepared.rsi
+  - type: Food
+    trash:
+    - RMCTray_empty
 
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealCornbread
-  name: Marine prepared meal (cornbread)
-  description: A tray of standard Marine food. Stale cornbread, tomato paste and some green goop fill this tray.
+  name: Приготовленное блюдо (кукурузный хлеб)
+  description: Поднос обычного столового блюда пехоты. В этом - черствый кукурузный хлеб, томатная паста и немного зелёной кашицы.
   components:
   - type: Sprite
     state: cornbread
@@ -37,8 +40,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealChicken
-  name: Marine prepared meal (chicken)
-  description: A tray of standard Marine food. Moist chicken, dry rice and a mildly depressed piece of broccoli fill this tray.
+  name: Приготовленное блюдо (курица)
+  description: Поднос обычного столового блюда пехоты. В этом - мокрая курятина, сухой рис и приунывшее брокколи.
   components:
   - type: Sprite
     state: chicken
@@ -55,8 +58,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealPasta
-  name: Marine prepared meal (pasta)
-  description: A tray of standard Marine food. Overcooked spaghetti, waterlogged carrots and two french fries fill this tray.
+  name: Приготовленное блюдо (паста)
+  description: Поднос обычного столового блюда пехоты. В этом - подгоревшее спагетти, вялая морковь и две картофелины фри. Всего две. Нет, простите, целых две!
   components:
   - type: Sprite
     state: pasta
@@ -73,8 +76,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealPizza
-  name: Marine prepared meal (pizza)
-  description: A tray of standard Marine food. Cold pizza, wet green beans and a shitty egg fill this tray. Get something other than pizza, lardass.
+  name: Приготовленное блюдо (пицца)
+  description: Поднос обычного столового блюда пехоты. В этом - холодная пицца, влажная фасоль и хреново сваренное яйцо. Закажи что-нибудь ещё, кроме пиццы, жиртрест!
   components:
   - type: Sprite
     state: pizza
@@ -91,8 +94,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealPork
-  name: Marine prepared meal (pork)
-  description: A tray of standard Marine food. Partially raw pork, goopy corn and some watery mashed potatoes fill this tray.
+  name: Приготовленное блюдо (свинина)
+  description: Поднос обычного столового блюда пехоты. В этом - частично сырая свинина, кукурузное месиво и немного водянистого картофельного пюре.
   components:
   - type: Sprite
     state: pork
@@ -109,8 +112,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealTofu
-  name: Marine prepared meal (tofu)
-  description: The UNMC doesn't serve tofu you grass sucking hippie. The flag signifies your defeat.
+  name: Приготовленное блюдо (тофу)
+  description: В Корпусе Колониальной Пехоты не подают тофу! Но мы всё таки подготовили для таких особенных несколько порций. Теперь забивай его за щеки и убирайся с глаз долой, хипстер.
   components:
   - type: Sprite
     state: tofu
@@ -130,8 +133,8 @@
   categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: RMCTray_empty
-  name: empty tray
-  description: Finished with its tour of duty.
+  name: пустой поднос
+  description: Пост сдал, теперь иди растряси, что набрал. Шучу, ты прекрасен.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/prepared.rsi

@@ -3,8 +3,8 @@
   parent: ClothingBackpack
   abstract: true
   id: CMPersonalStorageBase
-  name: backpack
-  description: You wear this on your back and put items into it.
+  name: рюкзак
+  description: Вы носите это на спине и кладёте в это вещи.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/standard.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMPersonalStorageBase
   id: CMBackpack
-  name: backpack
-  description: You wear this on your back and put items into it.
+  name: рюкзак
+  description: Вы носите это на спине и кладёте в это вещи.
   components:
   - type: StorageOpenDoAfter
     skipInHand: true
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackEngineer
-  name: industrial backpack
-  description: It's a tough backpack lookin' backpack used by engineers and the like.
+  name: промышленный рюкзак
+  description: Это, типо, ну, типо рюкзак, но типо он там, ну, покруче просто рюкзаков.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/engineer.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackMedical
-  name: medical backpack
-  description: It's a backpack especially designed for use in a sterile environment.
+  name: медицинский рюкзак
+  description: Рюкзак, специально разработанный для работы в стерильных условиях..
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/medical.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackSecurity
-  name: security backpack
-  description: It's a very robust backpack.
+  name: рюкзак охраны
+  description: Жду не дождусь, когда смогу разрядить всю обойму своего табельного в клуню.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/security.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackCommand
-  name: marine commanding officer backpack
-  description: The contents of this backpack are top secret.
+  name: рюкзак командующего операцией
+  description: Содержимое этого рюкзака находится под грифом СЕКРЕТНО.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/standard.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackMarine
-  name: lightweight IMP backpack
-  description: The standard-issue pack of the Marine forces. Designed to lug gear into the battlefield.
+  name: лёгкий рюкзак трёхдневник
+  description: Золотой стандарт Морской Пехоты. Разработан, чтобы тащить всякое барахло с собой на фронт и обратно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/standard.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: CMBackpackMarine
   id: CMBackpackMarineMedic
-  name: Marine corpsman backpack
-  description: A standard-issue backpack worn by Marine medics.
+  name: рюкзак военфельдшера
+  description: Золотой стандарт Морской Пехоты. Разработан, чтобы эргономично вмещать в себя медикаменты и снаряжение.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/medic.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: CMBackpackMarine
   id: CMBackpackMarineTech
-  name: Marine technician backpack
-  description: A standard-issue backpack worn by Marine technicians.
+  name: рюкзак техника
+  description: Золотой стандарт Морской Пехоты. Разработан, чтобы инженер мог навести в нём свой собственный творческий беспорядок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/techi.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackMortar
-  name: Marine mortar shell backpack
-  description: A backpack specifically designed to hold ammunition for the M402 mortar.
+  name: рюкзак для миномётных снарядов
+  description: Рюкзак, специально разработанный для транспортировки снарядов для миномёта M402.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/mortar.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackWelder
-  name: Marine technician welderpack
-  description: A specialized backpack worn by Marine technicians. It carries a fueltank for quick welder refueling and use.
+  name: рюкзак инженера-сварщика
+  description: Специализированный рюкзак для инженеров-сварщиков. Имеет встроенный топливный бак для быстрой заправки горелок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/welder.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: CMBackpack
   id: RMCBackpackAmmo
-  name: IMP ammo rack
-  description: A bare IMP frame with buckles designed to hold multiple ammo cans, but can fit any cumbersome box thanks to Marine ingenuity. Helps you lug around extra rounds or supplies.
+  name: разгрузочная система для переноса боеприпасов
+  description: Система строп и площадок, позволяющая переносить канистры с патронами, может уместить в себя достаточно большое количество аммуниции. Помогает транспортировать аммуницию. Ты патроны то взял?
   components:
   - type: Item
     size: Huge
@@ -197,8 +197,8 @@
     - state: ammo_pack-0
       map: ["enum.StorageFillLayers.Fill"]
   - type: ClothingSpeedModifier
-    walkModifier: 0.710
-    sprintModifier: 0.710
+    walkModifier: 0.7
+    sprintModifier: 0.7
   - type: HeldSpeedModifier
   - type: StorageFillVisualizer
     fillBaseName: ammo_pack

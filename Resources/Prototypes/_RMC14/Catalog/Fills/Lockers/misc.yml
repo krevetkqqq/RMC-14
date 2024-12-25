@@ -1,7 +1,7 @@
 - type: entity
   id: CMClosetEmergencyFilled
   parent: CMClosetEmergency
-  suffix: Filled
+  suffix: Полный
   components:
   - type: StorageFill
     contents:
@@ -13,7 +13,7 @@
 - type: entity
   id: CMClosetFireFilled
   parent: CMClosetFire
-  suffix: Filled
+  suffix: Полный
   components:
     - type: StorageFill
       contents:

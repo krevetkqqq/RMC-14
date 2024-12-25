@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SMixed
-  name: M96S Sniper Mixed Magazine Crate (marksman x2, flak x2, incendiary x2)
+  name: Ящик смешанных магазинов M96S (x2 высокотоных, x2 ОФ, x2 БЗТ)
   components:
   - type: StorageFill
     contents:
@@ -9,13 +9,13 @@
       amount: 2
     - id: CMMagazineSniperM96S # TODO rmc14 CMMagazineSniperM96SFlak
       amount: 2
-    - id: CMMagazineSniperM96SIncendiary
+    - id: CMMagazineSniperM96S # TODO rmc14 CMMagazineSniperM96SIncendiary
       amount: 2
 
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SStandard
-  name: M96S Sniper Standard Magazine Crate (x5)
+  name: Ящик магазинов M96S (x5 магазинов ЦМО)
   components:
   - type: StorageFill
     contents:
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SFlak
-  name: M96S Sniper Flak Magazine Crate (x5)
+  name: Ящик магазинов M96S разрывных (x5 магазинов ОФ)
   components:
   - type: StorageFill
     contents:
@@ -35,17 +35,17 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SIncendiary
-  name: M96S Sniper Incendiary Magazine Crate (x5)
+  name: Ящик магазинов M96S зажигательных (x5 магазинов БЗТ)
   components:
   - type: StorageFill
     contents:
-    - id: CMMagazineSniperM96SIncendiary
+    - id: CMMagazineSniperM96S # TODO rmc14 CMMagazineSniperM96SIncendiary
       amount: 5
 
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateM5DemoSpecMixed
-  name: M5-ATL Mixed Crate (HE x2, AP x1) # TODO RMC14 replace 1 HE with WP
+  name: Ящик смешанных ракет M5-ATL (x2 ракеты ОФ, x1 ракета ББ) # TODO RMC14 replace 1 HE with WP
   components:
   - type: StorageFill
     contents:
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateM5DemoSpecHighExplosive
-  name: M5-ATL High Explosives Crate (HE x3)
+  name: Ящик ракет M5-ATL (x3 ракеты ОФ)
   components:
   - type: StorageFill
     contents:
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateM5DemoSpecAntiArmor
-  name: M5-ATL Anti-Armor Crate (AP x3)
+  name: Ящик ракет M5-ATL (x3 ракеты ББ)
   components:
   - type: StorageFill
     contents:
@@ -78,7 +78,7 @@
 #- type: entity
 #  parent: RMCCrateAmmo
 #  id: RMCCrateM5DemoSpecWhitePhosphorous
-#  name: M5-ATL White Phosphorous Crate (HE x3)
+#  name: Ящик ракет M5-ATL с белым фосфором (x3 ракеты ОФ)
 #  components:
 #  - type: StorageFill
 #    contents:
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomMixed
-  name: M4SPR Scout Mixed Magazine Crate (regular x2, incendiary x2, impact x2)
+  name: Ящик смешанных магазинов M4SPR (x2 магазина ЦМО, x2 магазина БЗТ, x2 магазина бетонобойных)
   components:
   - type: StorageFill
     contents:
@@ -96,13 +96,13 @@
       amount: 2
     - id: RMCMagazineRifleM4SPRA19Impact
       amount: 2
-    - id: RMCMagazineRifleM4SPRA19Incendiary
+    - id: RMCMagazineRifleM4SPRA19 # TODO rmc14 RMCMagazineRifleM4SPRA19Incendiary
       amount: 2
 
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomStandard
-  name: M4SPR Scout Magazine Crate (x5)
+  name: Ящик магазинов M4SPR (x5 магазинов ЦМО)
   components:
   - type: StorageFill
     contents:
@@ -112,7 +112,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomImpact
-  name: M4SPR Scout Impact Magazine Crate (x3)
+  name: Ящик магазинов M4SPR (x3 магазина бетонобойных)
   components:
   - type: StorageFill
     contents:
@@ -122,9 +122,9 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomIncendiary
-  name: M4SPR Scout Incendiary Magazine Crate (x3)
+  name: Ящик магазинов M4SPR (x3 магазина БЗТ)
   components:
   - type: StorageFill
     contents:
-    - id: RMCMagazineRifleM4SPRA19Incendiary
+    - id: RMCMagazineRifleM4SPRA19 # TODO rmc14 RMCMagazineRifleM4SPRA19Incendiary
       amount: 3

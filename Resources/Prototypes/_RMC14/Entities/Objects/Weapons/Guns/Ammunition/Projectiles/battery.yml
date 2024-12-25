@@ -2,7 +2,7 @@
   parent: RMCBaseBullet
   id: RMCProjectileTaser
   categories: [ HideSpawnMenu ]
-  name: taser bolt
+  name: картридж шокера
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/stun_projectiles.rsi
@@ -26,6 +26,3 @@
     soundHit:
       path: /Audio/_RMC14/Bullets/energy_impact1.ogg
     forceSound: true
-  - type: RMCProjectileAccuracy
-    accuracy: 125
-    ignoreFriendlyEvasion: true

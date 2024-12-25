@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: M42A2 Pump Shotgun
+  name: M42A2
   id: WeaponShotgunM42A2
-  description: An Aegis Battlefield Armaments classic design, the M42A2 combines close-range firepower with long term reliability. Needs to be pumped.
+  description: Классика от Aegis Battlefield Armaments. Надёжное помповое ружьё.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m42a2.rsi
@@ -20,9 +20,6 @@
     scatterUnwielded: 10
     baseFireRate: 0.5
     burstScatterMult: 5
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1.15
-    accuracyMultiplierUnwielded: 0.95
   - type: PumpAction
   - type: AttachableHolder
     slots:

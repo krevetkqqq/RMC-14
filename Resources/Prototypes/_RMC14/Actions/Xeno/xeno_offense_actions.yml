@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ActionXenoBase
   id: ActionXenoAcidNormal
-  name: Corrosive Acid (100)  # TODO RMC14 proper plasma costs
-  description: Melts down a structure over time.
+  name: Нанести кислоту (100)  # TODO RMC14 proper plasma costs
+  description: Со временем плавит выбранную структуру-цель.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -20,8 +20,8 @@
 - type: entity
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidWeak
-  name: Weak Corrosive Acid (75)  # TODO RMC14 proper plasma costs
-  description: Melts down a structure over time.
+  name: Нанести слабую кислоту (75)  # TODO RMC14 proper plasma costs
+  description: Со временем плавит выбранную структуру-цель.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -39,8 +39,8 @@
 - type: entity
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidStrong
-  name: Strong Corrosive Acid (125)  # TODO RMC14 proper plasma costs
-  description: Melts down a structure over time.
+  name: Нанести сильную кислоту (125)  # TODO RMC14 proper plasma costs
+  description: Со временем плавит выбранную структуру-цель.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -56,31 +56,10 @@
     checkCanInteract: false
 
 - type: entity
-  parent: ActionXenoAcidNormal
-  id: ActionXenoAcidAcider
-  name: Strong Corrosive Acid (100 acid)
-  description: Melts down barricades or items over time. You cannot melt structures.
-  components:
-  - type: EntityTargetAction
-    itemIconStyle: NoItem
-    icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: corrosive_acid
-    event: !type:XenoCorrosiveAcidEvent
-      acidId: XenoAcidStrong
-      plasmaCost: 0
-      energyCost: 100
-      applyTimeMultiplier: 0.25
-      time: 90 # seconds or 1.5 minutes
-      dps: 20
-      expendableLightDps: 23.4375
-    checkCanInteract: false
-
-- type: entity
   id: ActionXenoRegurgitate
   parent: ActionXenoBase
-  name: Regurgitate
-  description: Eject any devoured marines.
+  name: Срыгнуть
+  description: Срыгните поглощённых.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -92,8 +71,8 @@
 - type: entity
   id: ActionXenoTailStab
   parent: ActionXenoBase
-  name: Tail Stab
-  description: Launches an attack towards a given direction. The cooldown is faster if you miss.
+  name: Нанести пронзающий удар хвостом
+  description: Нанесите пронзающий удар хвостом в выбранном направлении. Откат быстрее, если вы промахнулись.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -109,20 +88,20 @@
 - type: entity
   parent: ActionXenoTailStab
   id: ActionXenoTailStabCorrosive
-  name: Corrosive Tail Stab
-  description: Launches an attack towards a given direction. The cooldown is faster if you miss. [color=red]It also injects diluted molecular acid into the target, dealing damage over time.[/color]
+  name: Нанести отравленный пронзающий удар
+  description: Нанесите пронзающий удар хвостом в выбранном направлении. Откат быстрее, если вы промахнулись. [color=red]С ударом вы впрыскиваете разбавленную кислоту в цель, нанося ей урон со временем.[/color]
 
 - type: entity
   parent: ActionXenoTailStab
   id: ActionXenoTailStabBoiler
-  name: Corrosive Tail Stab
-  description: Launches an attack towards a given direction. The cooldown is faster if you miss. [color=red]It also injects diluted molecular acid or neurotoxin into the target, dealing damage or stunning over time. Which type depends on current gas type.[/color]
+  name: Нанести отравленный пронзающий удар
+  description: Нанесите пронзающий удар хвостом в выбранном направлении. Откат быстрее, если вы промахнулись. [color=red]С ударом вы впрыскиваете разбавленную кислоту или нейротоксин в цель, нанося ей урон или оглушая её со временем Тип вещества зависит от выбранного в данный момент.[/color]
 
 - type: entity
   id: ActionXenoLeap
   parent: ActionXenoBase
-  name: Leap
-  description: Jump towards a given location and knock down the first enemy hit.
+  name: Наброситься
+  description: Совершите прыжок в выбранном направлении и повалите с ног первую попавшуюся цель.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -137,8 +116,8 @@
 - type: entity
   parent: ActionXenoLeap
   id: ActionXenoPounce
-  name: Pounce (20) # TODO RMC14 proper plasma costs
-  description: Jump towards a given location and knock down the first enemy hit [color=red]if you are invisible.[/color]
+  name: Наброситься (20) # TODO RMC14 proper plasma costs
+  description: Совершите скрытный прыжок в выбранном направлении и повалите с ног первую попавшуюся цель, [color=red]если вы невидимы.[/color]
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -152,8 +131,8 @@
 - type: entity
   parent: ActionXenoLeap
   id: ActionXenoDash
-  name: Dash (40)
-  description: Dash a short distance towards a given location.
+  name: Совершить рыво (40)
+  description: Совершите рывок в выбранном направлении.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -161,14 +140,14 @@
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: prae_dash
     event: !type:XenoLeapActionEvent
-    useDelay: 10
+    useDelay: 11
     checkCanAccess: false
 
 - type: entity
   id: ActionXenoHeadbutt
   parent: ActionXenoBase
-  name: Headbutt (10) # TODO RMC14 proper plasma costs
-  description: Charge towards the targeted enemy and push back the first enemy hit.
+  name: Налететь (10) # TODO RMC14 proper plasma costs
+  description: Влетите в выбранную цель, чтобы оттолкнуть её или первую попавшуюся жертву.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -183,8 +162,8 @@
 - type: entity
   id: ActionXenoTailSweep
   parent: ActionXenoBase
-  name: Tail Sweep (10) # TODO RMC14 proper plasma costs
-  description: Knock down any enemies close to you.
+  name: Подсечка (10) # TODO RMC14 proper plasma costs
+  description: Сбейте ближайших врагов ловкой подсечкой хвостом.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -197,8 +176,8 @@
 - type: entity
   id: ActionXenoSlowingSpit
   parent: ActionXenoBase
-  name: Slowing Spit (20) # TODO RMC14 proper plasma costs
-  description: Launches a damageless projectile that will slow the first enemy that it hits, and paralyze them if they have no armor. It'll also drain helpful substances from their body.
+  name: Плюнуть жижей (20) # TODO RMC14 proper plasma costs
+  description: Запустите жижу, которая замедлит жертву и парализует её, если у неё нет брони. Жижа так же вытянет полезные вещества из организма жертвы.
   components:
   - type: EntityWorldTargetAction
     itemIconStyle: NoItem
@@ -214,8 +193,8 @@
 - type: entity
   id: ActionXenoScatteredSpit
   parent: ActionXenoBase
-  name: Scattered Spit (20) # TODO RMC14 proper plasma costs
-  description: Launches multiple damageless projectiles that will briefly paralyze any enemies they hit.
+  name: Рассеянный плевок (20) # TODO RMC14 proper plasma costs
+  description: Запускает рассеянный плевок по площади, который ненадолго ошарашит жертв при попадании.
   components:
   - type: EntityWorldTargetAction
     itemIconStyle: NoItem
@@ -231,8 +210,8 @@
 - type: entity
   id: ActionXenoSpit
   parent: ActionXenoBase
-  name: Xeno Spit (25) # TODO RMC14 proper plasma costs
-  description: Launches a projectile that will deal damage to the first enemy that it hits.
+  name: Плюнуть (25) # TODO RMC14 proper plasma costs
+  description: Запускает плевок, наносящий урон по первой попавшейся цели.
   components:
   - type: EntityWorldTargetAction
     itemIconStyle: NoItem
@@ -248,22 +227,22 @@
 - type: entity
   id: ActionXenoChargeSpit
   parent: ActionXenoBase
-  name: Charge Spit (50) # TODO RMC14 proper plasma costs
-  description: Charges up your next spit, making it deal more damage and coat the enemy in acid, but have less range. Increases your movement speed until the ability expires.
+  name: Густой плевок (50) # TODO RMC14 proper plasma costs
+  description: Запустите более густой плевок, наносящий больший урон и покрывающий жертву кислотой, но на меньшую дистанцию. Повышает вашу мобильность на время действия способности.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: charge_spit
-    event: !type:XenoChargeSpitActionEvent
+    event: !type:XenoChargeSpitActionEvent # TODO RMC14 more armor, move faster
     useDelay: 12
 
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSprayAcid
-  name: Spray Acid (40)
-  description: Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid and significantly strengthen acid inflicted from Charge Spit![/color]
+  name: Распылить кислоту (40)
+  description: Распылите кислоту на землю перед собой. [color=red]Кислота покроет собой баррикады и значительно усилит кислоту густого плевка![/color]
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -274,12 +253,12 @@
     useDelay: 8
     range: 6
   - type: ActionBlockIfResting
-
+  
 
 - type: entity
   parent: ActionXenoSprayAcid
   id: ActionXenoSprayAcidBoiler
-  description: Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid![/color]
+  description: Распылите кислоту на землю перед собой. [color=red]Кислота покроет собой баррикады![/color]
   components:
   - type: WorldTargetAction
     useDelay: 10
@@ -290,8 +269,8 @@
 - type: entity
   parent: ActionXenoSprayAcid
   id: ActionXenoSprayAcidPraetorian
-  name: Spray Acid (80)
-  description: Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid![/color]
+  name: Распылить кислоту (80)
+  description: Распылите кислоту на землю перед собой. [color=red]Кислота покроет собой баррикады![/color]
   components:
   - type: WorldTargetAction
     range: 7
@@ -300,7 +279,7 @@
 - type: entity
   parent: ActionXenoSprayAcidPraetorian
   id: ActionXenoSprayAcidWarden
-  name: Spray Acid (130)
+  name: Распылить кислоту (130)
   components:
   - type: WorldTargetAction
     useDelay: 13
@@ -308,8 +287,8 @@
 - type: entity
   id: ActionXenoAcidBall
   parent: ActionXenoBase
-  name: Acid Ball (80) # TODO RMC14 proper plasma costs
-  description: Throws a projectile that will explode into acid spit in all directions after a short delay.
+  name: Плюнуть комком кислоты (80) # TODO RMC14 proper plasma costs
+  description: Запустите комок кислоты, который взорвётся во все стороны спустя неторое время.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -325,8 +304,8 @@
 - type: entity
   id: ActionXenoParalyzingSlash
   parent: ActionXenoBase
-  name: Paralyzing Slash (50) # TODO RMC14 proper plasma costs
-  description: Temporarily charge up a melee attack that will knockdown the first enemy it hits after a short delay.
+  name: Парализующий удар (50) # TODO RMC14 proper plasma costs
+  description: Соберитесь с силами и нанесите точный, парализующий удар.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -339,8 +318,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoCripplingStrike
-  name: Crippling Strike (20) # TODO RMC14 proper plasma costs
-  description: Temporarily charge up a melee attack that will slow the first enemy it hits and do 20% more damage.
+  name: Сокрушительный удар (20) # TODO RMC14 proper plasma costs
+  description: Соберитесь с силами и нанесите сокрушительный удар, который замедлит жертву и нанесёт на 20% больше урона.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -353,8 +332,8 @@
 - type: entity
   id: ActionXenoBoneChips
   parent: ActionXenoBase
-  name: Bone Chips
-  description: Launch a projectile that will damage and slow down the first enemy it hits.
+  name: Бросить кости
+  description: Хиппуешь, плесень! Бросьте останки в цель, замедляя первую попавшуюся жертву.
   components:
   - type: EntityWorldTargetAction
     itemIconStyle: NoItem
@@ -368,8 +347,8 @@
 - type: entity
   id: ActionXenoPunch
   parent: ActionXenoBase
-  name: Punch
-  description: Punches the targeted enemy to deal a hefty amount of damage, slowing them and pushing them away.
+  name: Ударить
+  description: Нанесите сильный удар по цели, замедляя и отталкивая жертву.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -385,8 +364,8 @@
 - type: entity
   id: ActionXenoFling
   parent: ActionXenoBase
-  name: Fling
-  description: Flings the targeted enemy a few tiles, knocking them down and damaging them.
+  name: Швырнуть
+  description: Швырните цель на несколько клеток, сбивая их с ног и нанося урон.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -402,8 +381,8 @@
 - type: entity
   id: ActionXenoLunge
   parent: ActionXenoBase
-  name: Lunge
-  description: Lunges towards the targeted enemy and grabs the first enemy hit.
+  name: Вцепиться
+  description: Совершите прыжок на выбранную цель, хватая первую попавшуюся жертву.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -419,8 +398,8 @@
 - type: entity
   id: ActionXenoScreech
   parent: ActionXenoBase
-  name: Screech (250)
-  description: A wide area of effect stun, screeches upon activation. [color=red]This is blocked by solid walls, smoke, and boiler gas, but not windows![/color]
+  name: Вопить (250)
+  description: Оглушите врагов на внушительном расстоянии, издавая истошный вопль. [color=red]Звук заглушают стены, дым, газ Бойлера, но не окна![/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -433,8 +412,8 @@
 - type: entity
   id: ActionXenoGut
   parent: ActionXenoBase
-  name: Gut (200)
-  description: Gibs the mob you decide to gut.
+  name: Вспороть (200)
+  description: Разорвите выбранную цель на ошмётки.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -447,8 +426,8 @@
 - type: entity
   id: ActionXenoStomp
   parent: ActionXenoBase
-  name: Stomp (30)
-  description: Slam the ground with a 5x5 AOE, slowing down and disarming all enemies in range. Deals heavy damage to targets you are on top of.
+  name: Вдарить по земле (30)
+  description: Сильно ударьте по земле, создавая ударную волну в пределах 5x5 клеток, замедляя и разоружая врагов в зоне поражения. Наносит огромный урон по жертве под вами.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -461,8 +440,8 @@
 - type: entity
   id: ActionXenoCharge
   parent: ActionXenoBase
-  name: Charge (20)
-  description: Click on a tile you want to charge at, after a brief non cancel-able windup time. [color=green]Cooldown is partially refunded upon attacking an enemy, scaling with the amount of enemies you cleave with your passive.[/color]
+  name: Совершить рывок (20)
+  description: Нажмите на тайл, на который хотите совершить рывок, подготовьтесь, и бегите. [color=green]Откат уменьшается пропорционально количеству поражённых целей.[/color]
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -477,8 +456,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoBombard
-  name: Bombard (200)
-  description: Fire either an acidic or neurotoxic glob after a delay.
+  name: Запустить комок (200)
+  description: Запустите кислотный или газовый комок после небольшой подготовки атаки.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -499,8 +478,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoToggleGasType
-  name: Toggle Gas Type
-  description: Toggle between Acid or Neurotoxic gas types. Your acidic globs will deal continual damage to anything caught in its radius, while neurotoxin will cause targets to suffocate, be slowed down and blinded, alongside eventually knocking them unconscious to be kidnapped.
+  name: Выбрать тип газа
+  description: Переключите между кислотным и паралитическим типами газов. Кислотные облака наносят продолжительный урон жертвам в радиусе своего действия, в то время как нейротоксин заставит цель замедлиться, ослепнуть, начать задыхаться и в конечном итоге потерять сознание.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -517,8 +496,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAcidShroud
-  name: Acid Shroud
-  description: Create a small cloud of acidic or neurotoxic gas around you to cloak yourself. This will disable your other abilities for a short time to allow you to escape.
+  name: Распылить газовое облако
+  description: Создайте небольшое облако кислотного или паралитического газа, скрывая себя в нём. Это отключит возможность использовать другие способности, но даст вам шанс сбежать.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -534,129 +513,3 @@
     - ActionXenoSprayAcidBoiler
     cooldown: 30
     onPerform: false
-
-- type: entity
-  id: ActionXenoTremor
-  parent: ActionXenoBase
-  name: Tremor (100)
-  description: Slam the ground with a 7x7 AOE, stunning all enemies in range for a short period of time.
-  components:
-  - type: InstantAction
-    itemIconStyle: NoItem
-    icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: stomp
-    event: !type:XenoStompActionEvent
-    useDelay: 45
-
-- type: entity
-  parent: ActionXenoBase
-  id: ActionXenoForTheHive
-  name: For The Hive!
-  description: Prime yourself to detonate in a massive acid explosion in 20 seconds. Requires 200 acid at the minimum. The more acid reserves you have, the larger and more damaging the explosion will be. It will also coat barricades and mobs in acid, in a range equal to 1/2th the damage range. Damage is less the farther the mob is from the explosion. You will be slowed, change visually, and make an a loud wailing sound charging up. Dying will prevent the explosion from going off, but if successful you will respawn as a larva at your hive's hive core or at your corpse if theres none. Using this ability while primed will cancel the explosion at the cost of a 1/4th of your acid reserves.
-  components:
-  - type: InstantAction
-    itemIconStyle: NoItem
-    icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: screech
-    event: !type:XenoForTheHiveActionEvent
-  
-- type: entity
-  parent: ActionXenoBase
-  id: ActionXenoImpale
-  name: Impale (80)
-  description: Impales an adjacent enemy with your tail. Hits twice on a marked target and removes the mark. Pierces some armor.
-  components:
-  - type: EntityTargetAction
-    itemIconStyle: NoItem
-    icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: prae_impale
-    event: !type:XenoImpaleActionEvent
-    range: 1.5
-    useDelay: 13
-    deselectOnMiss: false
-  - type: XenoOffensiveAction
-  - type: ActionBlockIfResting
-
-- type: entity
-  parent: ActionXenoBase
-  id: ActionXenoTailTrip
-  name: Tail Trip (30)
-  description: Disarms and dazes an unmarked enemy. Stuns and dazes for longer on a marked target, and removes the mark.
-  components:
-  - type: EntityTargetAction
-    itemIconStyle: NoItem
-    icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: prae_tail_trip
-    event: !type:XenoTailTripActionEvent
-    range: 2
-    useDelay: 13
-    deselectOnMiss: false
-  - type: XenoOffensiveAction
-  - type: ActionBlockIfResting
-
-- type: entity
-  parent: ActionXenoBase
-  id: ActionXenoPierce
-  name: Pierce (50)
-  description: Pierce through enemies in a line doing high damage and piercing some armor. Hitting 2 or more recharges your shield.
-  components:
-  - type: WorldTargetAction
-    itemIconStyle: NoItem
-    icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: prae_pierce
-    event: !type:XenoPierceActionEvent
-    range: 15
-    useDelay: 3
-    checkCanAccess: false
-  - type: XenoOffensiveAction
-  - type: ActionBlockIfResting
-
-- type: entity
-  parent: ActionXenoDash
-  id: ActionXenoBlitz
-  name: Blitz (50)
-  description: Dash a short distance towards a given location. After 3 seconds or if you use it again before then, damages enemies around you. Hitting 1 or more recharges your shield.
-  components:
-  - type: WorldTargetAction
-    useDelay: 0
-  - type: ActionBlockIfResting
-
-- type: entity
-  parent: ActionXenoBase
-  id: ActionXenoCleave
-  name: Cleave
-  description: Root an enemy for a second or fling them depending on the toggle. The effect and distance are doubled if your shield is up.
-  components:
-  - type: EntityTargetAction
-    itemIconStyle: NoItem
-    icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: prae_cleave_action
-    event: !type:XenoCleaveActionEvent
-    range: 1.5
-    useDelay: 12
-    deselectOnMiss: false
-  - type: ActionBlockIfResting
-
-- type: entity
-  parent: ActionXenoBase
-  id: ActionXenoToggleCleave
-  name: Toggle Cleave Type
-  description: Toggle between your Cleave rooting enemies or flinging enemies.
-  components:
-  - type: InstantAction
-    itemIconStyle: NoItem
-    backgroundOn: null
-    icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: prae_cleave_root
-    iconOn:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: prae_cleave_fling
-    event: !type:XenoToggleCleaveActionEvent
-

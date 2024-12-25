@@ -2,8 +2,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitProvost
-  name: provost uniform
-  description: The crisp uniform of a Provost Officer.
+  name: ниформа провост
+  description: Чистая униформа офицера "Провост".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/officer.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMJumpsuitProvost
   id: CMJumpsuitProvostCI
-  name: provost uniform # Not sure what this should be called
-  description: The crisp uniform of a Provost Officer.
+  name: униформа провост # Not sure what this should be called
+  description: Чистая униформа офицера "Провост".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/ci.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: CMJumpsuitProvost
   id: CMJumpsuitProvostSenior
-  name: provost senior uniform
-  description: The crisp uniform of a senior member of the Provost Office.
+  name: униформа старшего офицера провост
+  description: Чистая униформа старшего офицера "Провост". 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/senior.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: CMJumpsuitProvost
   id: CMJumpsuitProvostMarshal
-  name: provost marshal uniform
-  description: The crisp uniform of a Provost Marshal.
+  name: униформа маршала провост
+  description: Чистая униформа маршала "Провост".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/marshal.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitProvostAgent
-  name: special agent uniform
-  description: A modified Provost uniform, with its original insignia replaced by those of the Intelligence Service. Special Agents are often recruited from the upper echelons of law enforcement agencies in various armed forces. These recruits often take all their gear, uniform included with them and later modify them to include intelligence service insignia.
+  name: униформа спецагента
+  description: Модифицированная униформа "Провост", с заменой исходных знаков на знаки Службы Разведки. Специальные агенты часто набираются из высших эшелонов правоохранительных органов различных вооружённых сил. Эти новобранцы часто берут с собой всё своё снаряжение, включая униформу, и затем модифицируют её, добавляя знаки разведки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Provost/agent.rsi

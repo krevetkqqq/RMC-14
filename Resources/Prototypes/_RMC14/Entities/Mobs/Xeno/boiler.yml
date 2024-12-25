@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoBoiler
-  name: Boiler
-  description: A huge, grotesque xenonid covered in glowing, oozing acid slime.
+  name: Бойлер # TODO RMC14 3x fire damage from fires (not all burn damage!)
+  description: Огромный, гротескный ксеноид, покрытый светящейся, бурлящей жижей.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-boiler
@@ -76,10 +76,10 @@
     damage:
       groups:
         Brute: 22.5
-  - type: Tackle
+  - type: Tackle # min: 2, max: 6
+    threshold: 5
+    stun: 7
     chance: 0.25
-    stunMin: 3
-    stunMax: 4
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 3.5
@@ -125,7 +125,3 @@
     icon:
       sprite: _RMC14/Interface/map_blips.rsi
       state: boiler
-  - type: Flammable
-    damage: #per second, scales with number of fire 'stacks'
-      types:
-        Heat: 3

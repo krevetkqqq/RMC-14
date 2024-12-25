@@ -2,13 +2,13 @@
 - type: entity
   parent: RMCShoesLaceup
   id: CMShoesLaceupCommander
-  name: commanding officer dress shoes
-  description: Has special soles for better trampling those underneath.
+  name: парадные туфли командующего операцией
+  description: Специальная подошва для более эффективного подавления тех, кто ниже.
 
 - type: entity
   abstract: true
   id: RMCItemSlotM5Bayonet
-  suffix: Filled
+  suffix: Полон
   components:
   - type: ContainerContainer
     containers:
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: CMBootsBlack
-  name: marine combat boots
-  description: Standard issue combat boots for combat scenarios or combat situations. All combat, all the time.
+  name: боевые ботинки морпеха
+  description: Стандартные ботинки для боевых операций и любых ситуаций. Всё для боя, всегда.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/black.rsi
@@ -69,13 +69,13 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsBlack]
   id: CMBootsBlackFilled
-  suffix: Filled
+  suffix: Полон
 
 - type: entity
   parent: CMBootsBlackFilled
   id: RMCScoutShoes
-  name: infiltrator boots # Could probably use it's own sprite
-  description: A modified pair of combat boots, including several trimmed down areas and padded with cloth alongside some form of leather
+  name: ботинки диверсанта # Could probably use it's own sprite
+  description: Модифицированные боевые ботинки с облегченными частями и обивкой из ткани и кожи.
   components:
   - type: FootstepModifier
     footstepSoundCollection:
@@ -88,7 +88,7 @@
 - type: entity
   parent: CMBootsBlack
   id: CMBootsBrown
-  description: Standard issue combat boots for combat scenarios or combat situations. All combat, all the time. These are brown.
+  description: Модифицированные боевые ботинки с облегченными частями и обивкой из ткани и кожи. В коричневом цвете, чтобы сливались с грязью.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/brown.rsi
@@ -98,14 +98,14 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsBrown]
   id: CMBootsBrownFilled
-  suffix: Filled
+  suffix: Полон
 
 # Jungle Boots
 - type: entity
   parent: CMBootsBlack
   id: CMBootsJungle
-  name: jungle boots
-  description: Don't go walkin' slow, the devil's on the loose.
+  name: ботинки для джунглей
+  description: Они на деревьях!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/jungle.rsi
@@ -115,22 +115,22 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsJungle]
   id: CMBootsJungleFilled
-  suffix: Filled
+  suffix: Полон
 
 # Corporate
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsBlack]
   id: RMCBootsCorporate
-  name: rugged boots
-  description: These synth-leather boots seem high quality when first worn, but quickly detoriate, especially in the environments the corporate security members these are issued to operate in. Still, better than nothing.
+  name: прочные ботинки
+  description: Эти ботинки из синтетической кожи сначала кажутся качественными, но быстро изнашиваются, особенно в условиях, где их используют сотрудники ЧОП. Всё же лучше, чем ничего.
 
 
 # PMC
 - type: entity
   parent: CMBootsBlack
   id: RMCBootsPMC
-  name: polished shoes
-  description: The height of fashion, but these look to be woven with protective fiber.
+  name: полированные туфли
+  description: Пик моды, но с защитным волокном в составе.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/jackboots.rsi
@@ -140,33 +140,33 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMC]
   id: RMCBootsPMCFilled
-  suffix: Filled
+  suffix: Полон
 
 # PMC Commando
 - type: entity
   parent: RMCBootsPMC
   id: RMCBootsPMCCommando
-  name: PMC commando boots
-  description: A pair of heavily armored, acid-resistant boots.
+  name: ботинки коммандос ЧВК
+  description: Тяжелые бронеботинки, устойчивые к кислоте.
 
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMCCommando]
   id: RMCBootsPMCCommandoFilled
-  suffix: Filled
+  suffix: Полон
 
 # Van Bandolier
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMC]
   id: RMCBootsVanBandolier
-  name: hiking boots
-  description: Over stone, over ice, through sun and sand, mud and snow, into raging water and hungry bog, these will never let you down.
+  name: походные ботинки
+  description: Камни, лёд, солнце, песок, грязь, снег, вода или болота — эти ботинки не подведут
 
 # CBRN
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMCCommando]
   id: RMCBootsCBRN
-  name: M3 MOPP boots
-  description: M3 MOPP boots have been designed to protect the wearer from contact with any possible infection vectors or hazardous substances that may have contaminated the area of operations. This includes further enhancements in conjunction with the standard durability of M3 boots, reducing the probability of punctures or cuts as well as the effects of radiation.
+  name: ботинки M3 комплекта СИБЗ
+  description: Разработаны для защиты от биологического заражения и опасных веществ. Усилены для предотвращения проколов, порезов и уменьшения воздействия радиации.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/cbrn.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: CMBootsBlack
   id: RMCBootsRoyal
-  name: L10 pattern combat boots
-  description: Standard issue combat boots for combat scenarios or combat situations. Used by the threa sun empires royal marines commando units.
+  name: боевые ботинки L10
+  description: Стандартные ботинки для боевых операций. Используются коммандос Королевской Морской Пехоты империи Треа Сана.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/rmc.rsi
@@ -189,4 +189,4 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsRoyal]
   id: RMCBootsRoyalFilled
-  suffix: Filled
+  suffix: Полон

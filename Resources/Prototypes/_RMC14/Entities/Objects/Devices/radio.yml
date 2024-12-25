@@ -2,8 +2,8 @@
   abstract: true
   parent: RadioHandheld
   id: RMCRadioHandheldColonyBase
-  name: shortwave radio
-  description: ""
+  name: КВ радиостанция
+  description: КВ радиостанция, передающая сигналы на коротких волнах. Выглядит надёжно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/radio.rsi

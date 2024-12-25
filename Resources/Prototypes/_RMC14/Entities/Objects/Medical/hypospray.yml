@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMHypospray
-  name: hypospray
-  description: The DeForest Medical Corporation hypospray is a sterile, air-needle auto-injector for rapid administration of drugs to patients.
+  name: гипоспрей
+  description: Гипоспрей НахеРлес МедКо - это стерильный автоматический инъектор с воздушной иглой для быстрого введения лекарств пациентам.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/hypospray.rsi
@@ -63,7 +63,7 @@
 - type: entity
   parent: CMHypospray
   id: CMHyposprayWithVial
-  suffix: Vial
+  suffix: Пробирка
   components:
   - type: ContainerFill
     containers:
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMHypospray
   id: CMHyposprayFilledTricord
-  suffix: Filled, Tricordrazine
+  suffix: Полон, Трикордразин
   components:
   - type: ContainerFill
     containers:

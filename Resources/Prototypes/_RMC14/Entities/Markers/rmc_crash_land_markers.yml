@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: MarkerBase
   id: RMCCrashLandBarrier
-  name: crash land on touch barrier
+  name: аварийная посадка (барьер)
   components:
   - type: Sprite
     layers:

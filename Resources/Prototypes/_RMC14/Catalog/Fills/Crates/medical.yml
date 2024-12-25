@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateMedicalSurgery
   parent: CMCrateSecureSurgery
-  name: surgery crate (tray,anesthetics,surgeon gear)
+  name: ящик хирургического оборудования (поднос,анастезия,хирургическое снаряжение)
   components:
   - type: StorageFill
     contents:
@@ -15,7 +15,7 @@
 - type: entity
   id: RMCCrateMedicalBodyBag
   parent: RMCCrateMedical
-  name: body bag crate (x28)
+  name: ящик мешков для тел (x28)
   components:
   - type: StorageFill
     contents:
@@ -25,7 +25,7 @@
 - type: entity
   id: RMCCrateMedicalStasisBag
   parent: RMCCrateMedical
-  name: stasis bag crate (x3)
+  name: ящик стазис мешков (x3)
   components:
   - type: StorageFill
     contents:
@@ -35,7 +35,7 @@
 - type: entity
   id: RMCCrateMedicalFirstAid
   parent: RMCCrateMedical
-  name: first aid kit crate (x2 each)
+  name: ящик аптечек первой помощи (x2 каждой)
   components:
   - type: StorageFill
     contents:
@@ -53,7 +53,7 @@
 - type: entity
   id: RMCCrateMedicalFilled
   parent: RMCCrateMedical
-  name: medical crate
+  name: ящик медицинских припасов
   suffix: Filled
   components:
   - type: StorageFill
@@ -77,7 +77,7 @@
 - type: entity
   id: RMCCrateMedicalPill
   parent: RMCCrateMedical
-  name: pill bottle crate (x2 each)
+  name: ящик таблетниц (x2 каждой)
   components:
   - type: StorageFill
     contents: # TODO RMC14 missing pill bottles

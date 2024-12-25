@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoCarrier
-  name: Carrier
-  description: A strange-looking alien creature. It carries a number of scuttling jointed crablike creatures.
+  name: Переносчик
+  description: Странно выглядящий ксеноид. Он несёт на своей спине многочисленное количество крабовидных созданий.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-carrier
@@ -77,12 +77,10 @@
     tailDamage:
       groups:
         Brute: 42
-  - type: Tackle
-    max: 4
-    chance: 0.5
-    stunMin: 4
-    stunMax: 5
-  - type: TunnelRenamer
+  - type: Tackle # min: 2, max: 4
+    threshold: 4
+    stun: 9
+    chance: 0.50
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 3.5

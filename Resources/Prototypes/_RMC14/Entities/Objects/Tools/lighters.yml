@@ -1,6 +1,6 @@
 - type: entity
-  name: zippo lighter
-  description: A fancy steel Zippo lighter. Ignite in style.
+  name: Зажигалка "Zippo"
+  description: Модная, стальная зажигалка. Клёво щёлкает, не очень клёво протекает горючим в ваш карман.
   parent: FlippoLighter
   id: RMCZippo
   components:
@@ -27,8 +27,8 @@
     - suitstorage
 
 - type: entity
-  name: cheap lighter
-  description: A cheap-as-free lighter.
+  name: дешёвая зажигалка
+  description: Простенькая зажигалка.
   parent: RMCZippo
   id: RMCLighter
   components:
@@ -93,8 +93,8 @@
 
 
 - type: entity
-  name: We-Ya executive zippo lighter
-  description: A remarkable Zippo lighter embellished in the Company's black and gold shade.
+  name: зажигалка "Zippo" специалиста We-Ya
+  description: Шикарная стальная зажигалка, выполненная со вкусом, в чёрно-золотых цветах.
   parent: RMCZippo
   id: RMCZippoExec
   components:
@@ -102,7 +102,7 @@
     sprite:  _RMC14/Objects/Tools/Lighters/execzippo.rsi
 
 - type: entity
-  name: golden zippo lighter
+  name: золотая зажигалка "Zippo"
   description: A gold-anodized Zippo lighter. Ostentatious, but it certainly stands out.
   parent: RMCZippo
   id: RMCZippoGold

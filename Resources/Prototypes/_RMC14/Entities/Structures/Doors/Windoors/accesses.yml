@@ -2,7 +2,7 @@
 - type: entity
   parent: CMWindoor
   id: CMWindoorKitchen
-  suffix: Kitchen, Locked
+  suffix: Кухня, Закрыто
   components:
   - type: AccessReader
     access: [ [ "CMAccessKitchen" ] ]
@@ -11,7 +11,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecureBrig
-  suffix: Brig, Locked
+  suffix: Бриг, Закрыто
   components:
   - type: AccessReader
     access: [ [ "CMAccessBrig" ] ]
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecurerRequisitions
-  suffix: Requisitions, Locked
+  suffix: Логистика, Закрыто
   components:
   - type: AccessReader
     access: [ [ "CMAccessRequisitions" ] ]
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecureMedical
-  suffix: Medical, Locked
+  suffix: Медицинский, Закрыто
   components:
   - type: AccessReader
     access: [ [ "CMAccessMedical" ] ]
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecureEngineering
-  suffix: Engineering, Locked
+  suffix: Инженерный, Закрыто
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ] ]
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecureCommand
-  suffix: Command, Locked
+  suffix: Командный, Закрыто
   components:
   - type: AccessReader
     access: [ [ "CMAccessCommand" ] ]

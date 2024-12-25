@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: CMHandsBlackMarine # TODO RMC14 armor
-  name: marine combat gloves
-  description: "Standard issue marine tactical gloves. It reads: 'knit by Marine Widows Association'."
+  name: тактические перчатки пехоты
+  description: "Стандартные тактические перчатки морской пехоты. Надпись на этикетке гласит: 'сшито Ассоциацией Вдов Морпехов'."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsLatexMarine # TODO RMC14 armor
-  name: marine medical combat gloves
-  description: Standard issue marine sterile gloves, offers regular protection whilst offering the user a better grip when performing medical work.
+  name: тактические стерильные перчатки
+  description: Стандартные стерильные, тактические перчатки, предоставляющие пользователю идеальный баланс между защищённостью и хваткой, в случае, если потребуется провести операцию.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/latex.rsi
@@ -32,24 +32,9 @@
 
 - type: entity
   parent: CMHandsBlackMarine
-  id: RMCHandsCOGloves
-  name: commanding officer's gloves
-  description: You may like these gloves, but THEY think you are unworthy of them.
-  components:
-  - type: Insulated
-  - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Hands/Gloves/captain.rsi
-  - type: Clothing
-    sprite: _RMC14/Objects/Clothing/Hands/Gloves/captain.rsi
-  - type: Fiber
-    fiberMaterial: fibers-durathread
-    fiberColor: fibers-yellow
-
-- type: entity
-  parent: CMHandsBlackMarine
   id: RMCHandsM3G4
-  name: M3-G4 grenadier gloves
-  description: A pair of plated, but nimble, gloves.
+  name: перчатки гренадёра M3-G4
+  description: Пара укреплённых, но эргономичных перчаток.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/grenadier.rsi

@@ -24,7 +24,6 @@
         density: 1000
         hard: false
   - type: XenoWeeds
-    level: 1
   - type: Clickable
   - type: XenoWeedsSpreading
   - type: Sprite
@@ -92,7 +91,6 @@
     soundGroups:
       Brute:
         collection: XenoResinBreak
-  - type: ExplosionRandomResistance
 #  - type: Physics
 #    bodyType: Static
 #  - type: FootstepModifier
@@ -132,10 +130,7 @@
     - Wall
   components:
   - type: XenoWeeds
-    range: 7
     spawns: XenoHiveWeeds
-    level: 3
-    blockOtherWeeds: true
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
     drawdepth: FloorTiles
@@ -264,7 +259,6 @@
   - type: Sprite
     color: "#a1a1a1"
   - type: XenoWeeds
-    level: 2
     spawns: XenoHardyWeeds
     spreadsOnSemiWeedable: true
     fruitGrowthMultiplier: 0.8

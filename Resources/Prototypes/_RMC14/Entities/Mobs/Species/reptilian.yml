@@ -2,7 +2,7 @@
   save: false
   parent: CMBaseMobSpeciesOrganic
   id: CMMobReptilian
-  name: Urisst' C-M Mzhand
+  name: Урисст МакЯщщер
   suffix: RMC14
   components:
   - type: HumanoidAppearance

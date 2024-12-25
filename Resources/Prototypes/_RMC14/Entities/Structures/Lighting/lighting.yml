@@ -1,4 +1,4 @@
-# Light Tubes
+﻿# Light Tubes
 
 # Light Tube, Always Powered
 - type: entity
@@ -32,10 +32,6 @@
     graph: CMLightFixture
     node: tubeLight
   - type: RMCBreakLightOnAttack
-  - type: InteractedBlacklist
-    blacklist:
-      components:
-      - Xeno
 
 - type: entity
   parent: CMLightFixtureAlwaysPowered

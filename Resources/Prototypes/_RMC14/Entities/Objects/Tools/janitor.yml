@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMMop
-  name: mop
-  description: The world of janitalia wouldn't be complete without a mop.
+  name: швабра
+  description: Радуйся, что тебя не заставили подметать плац монтировкой.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/mop.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseItem
   id: CMWetSign
-  name: wet floor sign
-  description: Caution! Wet Floor!
+  name: знак "осторожно, мокрый пол"
+  description: Пластиковый предупреждающий знак. Осторожно! Мокрый пол!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/caution.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseItem
   id: CMWarningCone
-  name: warning cone
-  description: This cone is trying to warn you of something!
+  name: пластиковый конус
+  description: Пластиковый предупреждающий конус. Осторожно! Это конус!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/cone.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseItem
   id: CMLightReplacer
-  name: light replacer
-  description: A device to automatically replace lights. Refill with working lightbulbs.
+  name: лампозаменитель
+  description: Устройство для автоматической замены лампочек. Пополняется рабочими лампочками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/light_replacer.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMLightReplacer
   id: CMLightReplacerEmpty
-  suffix: Empty
+  suffix: Пуст
   components:
   - type: LightReplacer
     contents:

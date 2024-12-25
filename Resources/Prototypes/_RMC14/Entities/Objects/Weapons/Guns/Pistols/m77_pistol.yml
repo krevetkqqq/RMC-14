@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMWeaponPistolBase
   id: CMWeaponPistolM77
-  name: M77 combat pistol # TODO RMC14 sounds
-  description: Standard issue Marine firearm. Also found in the hands of We-Ya PMC teams. Fires 9mm armor shredding rounds and is capable of 3-round burst.
+  name: боевой пистолет M77 # TODO RMC14 sounds
+  description: Стандартное оружие морпехов, также используется командами ЧВК We-Ya. Стреляет 9-мм бронебойными патронами, поддерживает стрельбу очередями по 3 выстрела.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/m77.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM77AP
-  name: M77 AP magazine (9mm)
+  name: магазин M77 (9мм ББ)
   components:
   - type: Tag
     tags:
@@ -103,7 +103,7 @@
 
 - type: entity
   id: CMCartridgePistolM77AP
-  name: cartridge (9mm AP)
+  name: патрон (9мм ББ)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -116,7 +116,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistolM77AP
-  name: bullet (M77 AP)
+  name: пуля (M77 ББ)
   components:
   - type: Projectile
     damage:

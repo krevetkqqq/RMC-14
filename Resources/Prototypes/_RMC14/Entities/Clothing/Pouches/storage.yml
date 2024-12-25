@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchGeneral
-  name: light general pouch
-  description: A general-purpose pouch used to carry a small item, or two tiny ones.
+  name: легкий универсальный подсумок
+  description: Универсальный подсумок для одного небольшого или двух мелких предметов.
   components:
   - type: Storage
     maxItemSize: Normal
@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCPouchGeneral
   id: RMCPouchGeneralMedium
-  name: medium general pouch
-  description: A general-purpose pouch used to carry a variety of differently sized items.
+  name: средний универсальный подсумок
+  description: Универсальный подсумок для предметов разных размеров.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_drop.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCPouchGeneral
   id: RMCPouchGeneralLarge
-  name: large general pouch
-  description: A general-purpose pouch used to carry more differently sized items.
+  name: большой универсальный подсумок
+  description: Универсальный подсумок для более крупных и разнообразных предметов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_drop.rsi
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCPouchGeneralLarge
   id: RMCPouchGeneralLargeBureauObserverFill
-  suffix: Bureau Observer, Filled
+  suffix: Наблюдатель Бюро, Полон
   components:
   - type: StorageFill
     contents:
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCPouchGeneralLarge
   id: RMCPouchGeneralLargeICBLiaison
-  suffix: Interstellar Commerce Bureau Liaison, Filled
+  suffix: Лиазон Торгового Бюро, Полон
   components:
   - type: StorageFill
     contents:
@@ -67,35 +67,15 @@
     - id: RMCSpaceCash1000 # TODO RMC14 tape recorder
 
 
-# Fuel Tank Pouch
-- type: entity
-  parent: [RMCPouchOpenClosed, RMCPouchStorage]
-  id: RMCPouchFuelTank
-  name: fuel tank strap pouch
-  description: Two ring straps to loop around M240-pattern napalm tanks. Handle with care.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Pouches/fueltank.rsi
-  - type: Storage
-    grid:
-    - 0,0,3,1 #2 slots
-    whitelist:
-      tags:
-      - FireExtinguisher
-      # - TODO RMC14 M240
-  - type: FixedItemSizeStorage
-  - type: IgnoreContentsSize
-    items:
-      tags:
-      - FireExtinguisher
-      # - TODO RMC14 M240
+# flamertank / fueltank.rsi
+
 
 # Survival Pouch
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchSurvival
-  name: survival pouch
-  description: A pouch given to colonists in the event of an emergency.
+  name: подсумок для выживания
+  description: Подсумок, выдаваемый колонистам в чрезвычайных ситуациях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/tools.rsi
@@ -119,7 +99,7 @@
 - type: entity
   parent: RMCPouchSurvival
   id: RMCPouchSurvivalFill
-  suffix: Filled
+  suffix: Полон
   components:
   - type: StorageFill
     contents:
@@ -136,8 +116,8 @@
 - type: entity
   parent: RMCPouchSurvival
   id: RMCPouchSurvivalSynth
-  name: synth survival pouch
-  description: An emergency pouch given to silicons in the event of an emergency.
+  name: подсумок для выживания синтетиков
+  description: Подсумок для экстренных случаев, выданный синтетическим юнитам.
   components:
   - type: Storage
     grid:
@@ -156,7 +136,7 @@
 - type: entity
   parent: RMCPouchSurvivalSynth
   id: RMCPouchSurvivalSynthFill
-  suffix: Filled
+  suffix: Полон
   components:
   - type: StorageFill
     contents:
@@ -172,35 +152,19 @@
 - type: entity
   parent: [RMCPouchClosed, RMCPouchStorage]
   id: RMCPouchCommand
-  name: command pouch
-  description: A specialized, sturdy pouch issued to Commanding Officers. Can hold their sidearm, the command tablet and a set of binoculars.
+  name: командирский подсумок
+  description: Прочный подсумок для командиров. Вмещает пистолет, планшет и бинокль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/command.rsi
-    layers:
+    layers: # TODO RMC14 on sprite binoculars and tablet
     - state: cmateba
       map: [ "enum.CMHolsterLayers.Fill" ]
       visible: false
       offset: -0.19, 0
     - state: icon
-    - state: command_pouch_binos
-      map: ["command_pouch_binos"]
-      visible: false
-    - state: command_pouch_tablet
-      map: ["command_pouch_tablet"]
-      visible: false
     - state: closed
       map: [ "closedLayer" ]
-  - type: ItemMapper
-    mapLayers:
-      command_pouch_binos:
-        whitelist:
-          tags:
-          - Binoculars
-      command_pouch_tablet:
-        whitelist:
-          tags:
-          - CommandTablet
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -239,8 +203,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMagazine
-  name: magazine pouch
-  description: It can carry magazines.
+  name: подсумок для магазинов
+  description: Подсумок для переноски магазинов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_ammo_mag.rsi
@@ -264,8 +228,8 @@
 - type: entity
   parent: RMCPouchMagazine
   id: RMCPouchMagazineLarge
-  name: large magazine pouch
-  description: It can carry many magazines.
+  name: большой подсумок для магазинов
+  description: Вмещает большее количество магазинов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi
@@ -278,8 +242,8 @@
 - type: entity
   parent: RMCPouchMagazine
   id: RMCPouchMagazinePistol
-  name: pistol magazine pouch
-  description: It can carry pistol magazines and revolver speedloaders.
+  name: подсумок для пистолетных магазинов
+  description: Вмещает магазины для пистолетов и скорозарядники для револьверов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/pistol_mag.rsi
@@ -296,8 +260,8 @@
 - type: entity
   parent: RMCPouchMagazinePistol
   id: RMCPouchMagazinePistolLarge
-  name: large pistol magazine pouch
-  description: It can carry many pistol magazines or revolver speedloaders.
+  name: большой подсумок для пистолетных магазинов
+  description: Вмещает большее количество пистолетных магазинов или обойм для револьверов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_pistol_mag.rsi
@@ -310,8 +274,8 @@
 - type: entity
   parent: [RMCPouchStorage]
   id: RMCPouchShotgun
-  name: shotgun shell pouch
-  description: It can contain handfuls of shells. #, or bullets if you choose to for some reason. # TODO RMC14
+  name: подсумок для патронов к дробовику
+  description: Вмещает несколько горстей дробовых патронов. #, or bullets if you choose to for some reason. # TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_shotshells.rsi
@@ -333,8 +297,8 @@
 - type: entity
   parent: RMCPouchShotgun
   id: RMCPouchShotgunLarge
-  name: large shotgun shell pouch
-  description: It can contain more handfuls of shells. #, or bullets if you choose to for some reason. TODO RMC14
+  name: большой подсумок для патронов к дробовику
+  description: Вмещает большее количество дробовых патронов. #, or bullets if you choose to for some reason. TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_shotshells.rsi
@@ -355,8 +319,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchExplosive
-  name: explosive pouch
-  description: It can carry grenades, plastic explosives, mine boxes, and other explosives.
+  name: подсумок для взрывчатки
+  description: Вмещает гранаты, пластичную взрывчатку, мины и другие взрывные устройства.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_explosive.rsi
@@ -375,8 +339,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchDocument
-  name: large document pouch
-  description: It can contain papers, folders, disks, technical manuals, and clipboards.
+  name: большой подсумок для документов
+  description: Вмещает бумаги, папки, диски, документы, технические руководства и планшеты.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/document.rsi
@@ -397,8 +361,8 @@
 - type: entity
   parent: RMCPouchDocument
   id: RMCPouchDocumentSmall
-  name: small document pouch
-  description: A smaller version of the document pouch. It can contain papers, folders, disks, technical manuals, and clipboards.
+  name: малый подсумок для документов
+  description: Компактная версия подсумка для документов. Вмещает бумаги, папки, диски, технические руководства и планшеты.
   components:
   - type: Storage
     grid:
@@ -409,8 +373,8 @@
 - type: entity
   parent: RMCPouchFill
   id: RMCPouchFlare
-  name: flare pouch
-  description: A pouch designed to hold flares. Refillable with an M94 flare pack.
+  name: подсумок для фальшфейеров
+  description: Подсумок для сигнальных ракет. Можно пополнить из набора М94.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/flare.rsi
@@ -433,7 +397,7 @@
 - type: entity
   parent: RMCPouchFlare
   id: RMCPouchFlareFilled
-  suffix: Filled
+  suffix: Полон
   components:
   - type: CMItemSlots
     startingItem: CMFlare
@@ -443,8 +407,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchRadio
-  name: radio pouch
-  description: It can contain two handheld radios.
+  name: подсумок для рации
+  description: Вмещает две переносные рации.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/radio.rsi
@@ -461,8 +425,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchElectronics
-  name: electronics pouch
-  description: It is designed to hold most electronics, power cells and circuit boards.
+  name: подсумок для электроники
+  description: Подсумок для электроники, батарей и плат.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/electronics.rsi
@@ -481,7 +445,7 @@
 - type: entity
   parent: RMCPouchElectronics
   id: RMCPouchElectronicsFill
-  suffix: Filled
+  suffix: Полон
   components:
   - type: StorageFill
     contents:
@@ -493,8 +457,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchConstruction
-  name: construction pouch
-  description: It's designed to hold construction materials - glass/metal sheets, metal rods, barbed wire, cable coil, and empty sandbags. It also has two hooks for an entrenching tool and light replacer.
+  name: строительный подсумок
+  description: Предназначен для хранения строительных материалов, таких как стекло, сталь, пластик и так далее. Оснащен двумя креплениями для лопаты или лампозаменителя.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/construction.rsi
@@ -518,7 +482,7 @@
 - type: entity
   parent: RMCPouchConstruction
   id: RMCPouchConstructionFillLowGrade
-  suffix: Low grade full
+  suffix: Полон топлива
   components:
   - type: StorageFill
     contents:
@@ -531,8 +495,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchTools
-  name: tools pouch
-  description: It's designed to hold maintenance tools - screwdriver, wrench, cable coil, etc. It also has a hook for an entrenching tool or light replacer.
+  name: подсумок для инструментов
+  description: Предназначен для инструментов. Отверток, гаечных ключей, кабеля и т. д. Есть крепление для лопаты или лампозаменителя.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/tools.rsi
@@ -563,7 +527,7 @@
 - type: entity
   parent: RMCPouchTools
   id: RMCPouchToolsFill
-  suffix: Filled
+  suffix: Полон
   components:
   - type: StorageFill
     contents:
@@ -577,8 +541,8 @@
 - type: entity
   parent: RMCPouchTools
   id: RMCPouchToolsSoc
-  name: tactical tools pouch
-  description: This particular toolkit full of sharp, heavy objects was designed for breaking into things rather than fixing them. Still does the latter pretty well, though.
+  name: тактический подсумок для инструментов
+  description: Этот набор инструментов создан скорее для взлома, чем для починки, хотя справляется и с последним.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/soctools.rsi
@@ -589,7 +553,7 @@
 - type: entity
   parent: RMCPouchToolsSoc
   id: RMCPouchToolsSocFill
-  suffix: Filled
+  suffix: Полон
   components:
   - type: StorageFill
     contents:
@@ -605,8 +569,8 @@
 - type: entity
   parent: [RMCPouchClosed, RMCPouchStorage]
   id: RMCPouchSling
-  name: sling strap # TODO RMC14 implement this
-  description: Keeps a single item attached to a strap.
+  name: ремень с петлей # TODO RMC14 implement this
+  description: Позволяет закрепить один предмет на ремне.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/sling.rsi

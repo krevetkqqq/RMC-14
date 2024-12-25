@@ -4,8 +4,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingJacketMB, RMCBaseJacket]
   id: RMCCoatBureauDeputy
-  name: bureau deputy jacket
-  description: A thick and stylish black leather jacket with a Marshal's Deputy badge pinned to it. The back is enscribed with the powerful letters of 'DEPUTY' representing justice, authority, and protection in the outer rim. The laws of the Earth stretch beyond the Sol.
+  name: пальто заместителя шерифа
+  description: Плотное и стильное пальто с приколотым к ней значком заместителя шерифа. На спине крупными буквами написано "ЗАМЕСТИТЕЛЬ", что символизирует справедливость и власть. Законы Земли простираются далеко за пределы Солнечной.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/deputy.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatBureauMarshal
-  name: bureau marshal jacket
-  description: A thick and stylish black leather jacket with a Marshal's badge pinned to it. The back is enscribed with the powerful letters of 'MARSHAL' representing justice, authority, and protection in the outer rim. The laws of the Earth stretch beyond the Sol.
+  name: пальто маршала
+  description: лотное и стильное пальто с приколотым к ней значком маршала. На спине крупными буквами написано "МАРШАЛ", что символизирует справедливость и власть. Законы Земли простираются далеко за пределы Солнечной.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/marshal.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatJacketGeneral
-  name: general's jacket
-  description: A black trench coat with gold metallic trim. Flashy, highly protective, and over-the-top. Fit for a king - or, in this case, a General. Has quite a few pockets.
+  name: пальто генерала
+  description: Черный плащ-тренч с золотой металлической отделкой. Броский, хорошо защищающий от непогоды. Подойдет королю или, в данном случае, генералу. Имеет довольно много карманов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/jacket_general.rsi

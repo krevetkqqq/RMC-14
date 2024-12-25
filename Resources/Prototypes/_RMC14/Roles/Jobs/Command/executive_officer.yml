@@ -1,15 +1,15 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMExecutiveOfficer
   name: cm-job-name-executive-officer
   description: cm-job-description-executive-officer
   playTimeTracker: CMJobExecutiveOfficer
-  # requirements:
-  # - !type:DepartmentTimeRequirement
-  #   department: CMCommand
-  #   time: 18000 # 5 hours
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: CMCommand
+    time: 18000 # 5 hours
   weight: 5
-  startingGear: CMGearExecutiveOfficer
+  startingGear: CMGearStaffOfficer
   icon: "CMJobIconExecutiveOfficer"
   requireAdminNotify: true
   joinNotifyCrew: true

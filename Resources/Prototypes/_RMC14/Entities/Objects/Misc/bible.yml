@@ -1,6 +1,6 @@
 - type: entity
-  name: bible
-  description: Apply to head repeatedly.
+  name: библия
+  description: Свечки в комплекте не идут. Помянем.
   parent: Bible
   id: RMCBible
   components:

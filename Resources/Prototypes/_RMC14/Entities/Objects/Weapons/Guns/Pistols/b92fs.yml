@@ -2,7 +2,7 @@
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolB92FS
   name: Beretta M92FS
-  description: A popular police firearm in the 20th century, often employed by hard-boiled cops while confronting terrorists. A classic of its time, chambered in 9mm. Normally found in the hands of Survivors and the Colony Liberation Front.
+  description: Популярный полицейский пистолет XX века, часто ассоциируемый с решительными копами и противостоянием террористам. Калибр — 9мм.
   components:
   - type: RMCSelectiveFire
     scatterWielded: 8
@@ -25,8 +25,6 @@
           - RMCMagazinePistolB92FS
   - type: GunDamageModifier
     multiplier: 0.9
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1.25
   - type: AttachableHolder
     slots:
       rmc-aslot-barrel:
@@ -56,8 +54,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolB92FS
-  name: Beretta M92FS magazine (9mm)
-  description: A magazine for the Beretta M92FS Pistol. Takes 9mm rounds.
+  name: магазин Beretta M92FS (9мм)
+  description: Магазин для пистолета Beretta M92FS. Вмещает патроны калибра 9мм.
   components:
   - type: Tag
     tags:

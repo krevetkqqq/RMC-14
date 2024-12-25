@@ -2,8 +2,8 @@
   parent: BaseStorageItem
   id: RMCBaseGunCase
   abstract: true
-  name: base gun case
-  description: A gun case.
+  name: оружейный кейс
+  description: Кейс для хранения оружия.
   components:
   - type: Sprite
     noRot: true
@@ -37,8 +37,8 @@
   parent: RMCBaseGunCase
   id: RMCBaseEquipmentCase
   abstract: true
-  name: base equipment case
-  description: A loadout case.
+  name: кейс для снаряжения
+  description: Кейс, используемый для транспортировки и хранения снаряжения.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/loadout_kits.rsi

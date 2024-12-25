@@ -1,5 +1,5 @@
 - type: entity
-  parent: RMCBaseTree
+  parent: BaseTree
   id: RMCBasePalm
   abstract: true
   components:
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCBasePlant
   id: BonsaiTree01
-  description: A small, leafy bush.
+  description: Небольшой кустик.
   name: Bush
   components:
   - type: Sprite
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCBasePlant
   id: BonsaiTree02
-  description: A small, leafy bush.
+  description: Небольшой кустик.
   name: Bush
   components:
   - type: Sprite
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCBasePlant
   id: BonsaiTree03
-  description: A small, leafy bush.
+  description: Небольшой кустик.
   name: Bush
   components:
   - type: Sprite
@@ -140,7 +140,7 @@
 - type: entity
   parent: RMCBasePlant
   id: BonsaiTree04
-  description: A small, leafy bush.
+  description: Небольшой кустик.
   name: Bush
   components:
   - type: Sprite
@@ -204,7 +204,6 @@
 - type: entity
   parent: RMCBasePalm
   id: RMCFloraTreePalm01
-  suffix: RMCFloraTreePalm01
   name: palm tree
   components:
   - type: Sprite
@@ -213,7 +212,6 @@
 - type: entity
   parent: RMCBasePalm
   id: RMCFloraTreePalm02
-  suffix: RMCFloraTreePalm02
   name: palm tree
   components:
   - type: Sprite
@@ -245,27 +243,3 @@
   components:
   - type: Sprite
     state: educated_rock
-
-- type: entity
-  parent: RMCBaseRockDestructible
-  id: RMCBoulder1
-  name: boulder
-  description: A large rock. It's not cooking anything.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Flora/boulder.rsi
-    state: boulder1
-
-- type: entity
-  parent: RMCBoulder1
-  id: RMCBoulder2
-  components:
-  - type: Sprite
-    state: boulder2
-    
-- type: entity
-  parent: RMCBoulder1
-  id: RMCBoulder3
-  components:
-  - type: Sprite
-    state: boulder3

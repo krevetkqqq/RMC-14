@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCWhistle
-  name: whistle
-  description: A metal pea-whistle. Can be blown while held, or worn in the mouth
+  name: свисток
+  description: Железный свисток. В него можно свистеть, держа в руке, или можно зажать его в зубах. Клёво.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/whistle.rsi

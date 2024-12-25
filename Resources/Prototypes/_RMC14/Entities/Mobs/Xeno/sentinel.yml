@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoSentinel
-  name: Sentinel
-  description: A slithery, spitting kind of alien.
+  name: Страж
+  description: Скользкий, плюющийся ксеноид.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-sentinel
@@ -65,12 +65,10 @@
     tailDamage:
       groups:
         Brute: 30
-  - type: Tackle
-    min: 4
-    max: 4
-    chance: 0.5
-    stunMin: 4
-    stunMax: 4
+  - type: Tackle # min: 4, max: 4
+    threshold: 4
+    stun: 8
+    chance: 0.50
   - type: RMCXenoDamageVisuals
     prefix: sentinel
   - type: TacticalMapIcon

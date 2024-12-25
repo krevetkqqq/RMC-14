@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCLandingZoneGas
-  name: CN20-X miasma
+  name: миазмы CN20-X
   components:
   - type: Transform
     anchored: true

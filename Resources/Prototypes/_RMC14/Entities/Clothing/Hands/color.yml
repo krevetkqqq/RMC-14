@@ -1,8 +1,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsInsulated
-  name: marine insulated gloves
-  description: These gloves will protect the wearer from electric shocks.
+  name: изолированные перчатки пехоты
+  description: Эта пара перчаток защитит вас от удара током, не сомневайтесь.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsBrown
-  name: brown gloves
-  description: A pair of brown gloves.
+  name: коричневые перчатки
+  description: Пара коричневых перчаток.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/brown.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsLightBrown
-  name: light brown gloves
-  description: A pair of light brown gloves.
+  name: ярко-коричневые перчатки
+  description: Пара ярко-коричневых перчаток.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/light_brown.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsWhite
-  name: white gloves
-  description: A pair of white gloves.
+  name: белые перчатки
+  description: Пара белых перчаток. Выглядит официально.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMHandsWhite
   id: CMHandsWhiteDress
-  name: dress gloves
-  description: A pair of fashionable white gloves, worn by marines in dress.
+  name: парадные перчатки
+  description: Пара дорогих, модных белых перчаток. Является частью парадной униформы.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi

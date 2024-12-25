@@ -16,7 +16,6 @@
   components:
   - type: Corrodible
     timeToApply: 4
-    structure: true
 
 - type: entity
   parent: BaseStructure
@@ -37,7 +36,6 @@
         collection: XenoResinBreak
   - type: XenoConstruct
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: NpcFactionMember
     factions:
     - RMCXeno
@@ -63,7 +61,7 @@
 - type: entity
   abstract: true
   id: RMCBaseWallInvincibleNoIcon
-  description: A huge chunk of metal used to separate rooms.
+  description: Огромный кусок металла, разделяющий помещения.
   placement:
     mode: SnapgridCenter
     snap:
@@ -101,7 +99,7 @@
   abstract: true
   parent: RMCBaseWallInvincibleNoIcon
   id: CMBaseWallInvincible
-  description: A huge chunk of metal used to separate rooms.
+  description: Огромный кусок металла, разделяющий помещения.
   placement:
     mode: SnapgridCenter
     snap:
@@ -114,30 +112,26 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: CMBaseWall
-  description: A huge chunk of metal used to separate rooms.
+  description: Огромный кусок металла, разделяющий помещения.
   components:
   - type: Damageable
     damageContainer: StructuralMarine
     damageModifierSet: StructuralMarine
   - type: Corrodible
     isCorrodible: true
-    structure: true
   - type: Clickable
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: DamageMultiplierFlags
     flags: Turf
   - type: ReceiverXenoClaws
     hitsToDestroy: 20
-  - type: Appearance
-  - type: Bullethole
 
 - type: entity
   parent:
   - BaseWall
   - CMBaseXenoStructure
   id: CMBaseWallXeno
-  name: resin wall
+  name: стена из смолы
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -151,7 +145,7 @@
   - type: PlacementReplacement
     key: walls
   - type: ExplosionResistance
-    damageCoefficient: 3.64
+    damageCoefficient: 12.5 # Walls take 15x explosive damage, resin walls reduce that by 15%
   - type: DamageMultiplierFlags
     flags:
     - Turf
@@ -162,8 +156,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCWallInvisibleBulletPassible
-  name: wall blocker
-  suffix: Projectile Passible
+  name: блокиратор стен
+  suffix: Простреливаемый
   placement:
     mode: SnapgridCenter
   components:
@@ -198,7 +192,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCBlockerAirtight
-  name: airtight blocker
+  name: герметичный блокиратор
   placement:
     mode: SnapgridCenter
   components:

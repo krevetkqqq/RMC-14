@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: CMRandomPosterAny
-  name: random poster spawner
+  name: Случайный Постер
   components:
   - type: Sprite
     layers:

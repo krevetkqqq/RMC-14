@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: ActionXenoTransferPlasma
   parent: ActionXenoBase
-  name: Transfer plasma (50) # TODO RMC14 proper plasma costs
-  description: Give plasma to a nearby xenonid.
+  name: Поделиться плазмой (50) # TODO RMC14 proper plasma costs
+  description: Поделитесь плазмой с ближайшим ксеноморфом.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -15,8 +15,8 @@
 - type: entity
   id: ActionXenoResinSurge
   parent: ActionXenoBase
-  name: Resin Surge (75)
-  description: Speeds up fruit growth by 5 seconds when used on fruit, creates temporary walls when used on weeds or use on existing walls to reinforce them with 6000 hp for 15 seconds. #or create patches of sticky resin. TODO RMC14
+  name: Пролить смолу (75)
+  description: При использовании на фрукте ускоряет его рост на 5 секунд. При использовании на зарослях создаёт временную стену, а при спользовании на стене усиливает её до 6000 ОЗ на 15 секунд. #or create patches of sticky resin. TODO RMC14
   components:
   - type: EntityWorldTargetAction
     itemIconStyle: NoItem
@@ -36,8 +36,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoRetrieve
-  name: Retrieve (180 plasma, 100 energy)
-  description: Pull a xenonid to you if they are still, with a 0.6 second doafter.
+  name: Подтянуть (180 plasma, 100 energy)
+  description: Подтяните к себе ксеноморфа, если он неподвижен, с задержкой в 0.6 секунды.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -57,8 +57,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAid
-  name: Aid Xenonid (100 plasma, 100 energy)
-  description: Heal a nearby ally Xeno or remove ailments and stuns from a further away ally Xeno. Healing another Xeno will also heal you, and half your remaning points will be consumed for extra healing. [color=red]This can't heal ignited xenonids![/color]
+  name: Врачевать (100 plasma, 100 energy)
+  description: Исцелите ближайшего ксеноморфа, или снимите оглушение и исцелите недуги ксеноморфа на расстоянии. Лечение другого ксеноморфа так же подлечит и вас, а половина ваших оставшихся очков будет использовано для дополнительного лечения.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -75,8 +75,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAidToggle
-  name: Toggle Aid Type
-  description: Toggles between healing or removing ailments with Aid Xenonid.
+  name: Переключить режим врачевания
+  description: Переключите режимы с врачевания на снятие недугов ксеноморфа.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -93,8 +93,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoLeader
-  name: Choose/Follow Xenonid Leaders
-  description: Promotes and demotes xenonid leaders, or watches them. Promoting a xeno to leader will make them emit your pheromones around themselves.
+  name: Выбрать/Следовать за лидером
+  description: Позволяет повысить, разжаловать или следовать за лидером. Повышение ксеноморфа до лидера заставит их источять ваши феромоны вокруг себя.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -108,8 +108,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHeal
-  name: Heal Xenonid (600) # TODO RMC14 proper plasma costs
-  description: Heals xenonids in a 4 tile range around where you click for 30% of their health over 20 seconds.
+  name: Врачевать рядом (600) # TODO RMC14 proper plasma costs
+  description: Лечите ксеноморфов в радиусе 4 клеток до 30% от их общего здоровья в течение 20 секунд.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem

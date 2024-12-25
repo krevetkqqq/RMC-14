@@ -2,8 +2,8 @@
   abstract: true
   parent: ChemicalMedipen
   id: CMAutoInjector
-  name: autoinjector
-  description: An autoinjector.
+  name: автоинъектор
+  description: Автоинъектор.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -48,8 +48,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMEmergencyAutoInjector
-  name: emergency autoinjector (CAUTION)
-  description: An autoinjector loaded with a special cocktail of chemicals, to be used in life-threatening situations. Doesn't require any training to use.
+  name: аварийный автоинъектор (ОСТОРОЖНО)
+  description: Автоинъектор, наполненный специальным химическим коктейлем, который можно использовать в опасных для жизни ситуациях. Не требует специальной подготовки для использования.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/emergency_auto_injector.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMTricordrazineAutoInjector
-  name: tricordrazine autoinjector
-  description: An autoinjector loaded with 3 uses of Tricordrazine, a weak general use medicine for treating damage.
+  name: автоинъектор трикордразина
+  description: Автоинъектор, заряженный тремя уколами трикордразина, слабого препарата общего назначения для лечения травм.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -104,8 +104,8 @@
 - type: entity
   parent: CMTricordrazineAutoInjector
   id: CMTricordrazineAutoInjectorNoSkill
-  name: first-aid autoinjector
-  description: An autoinjector loaded with a small dose of medicine for marines to treat themselves with.
+  name: автоинъектор первой помощи
+  description: Автоинъектор, заряженный малой дозой медикаментов для оказания первой помощи самому себе.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/auto_injectors.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMKelotaneAutoInjector
-  name: kelotane autoinjector
-  description: An autoinjector loaded with 3 uses of Kelotane, a common burn medicine.
+  name: автоинъектор келотана
+  description: Автоинъектор, заряженный тремя уколами келотана, простого препарата от ожогов.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -154,8 +154,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMDexalinPlusAutoInjector
-  name: dexalin plus autoinjector
-  description: An autoinjector loaded with 3 uses of Dexalin+, designed to immediately oxygenate the entire body.
+  name: автоинъектор дексалина плюс
+  description: Автоинъектор, заряженный тремя уколами дексалина плюс. Разработан для быстрого насыщения крови кислородом.
   components:
   - type: Hypospray
     transferAmount: 1
@@ -176,8 +176,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMBicaridineAutoInjector
-  name: bicaridine autoinjector
-  description: An autoinjector loaded with 3 uses of Bicaridine, a common brute and circulatory damage medicine.
+  name: автоинъектор бикаридина
+  description: Автоинъектор, заряженный тремя уколами бикаридина, используется для лечения физических травм.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -217,8 +217,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMEpinephrineAutoInjector
-  name: epinephrine autoinjector
-  description: An autoinjector loaded with 3 uses of Epinephrine, better known as Adrenaline, a nerve stimulant useful in restarting the heart.
+  name: автоинъектор эпинефрина
+  description: Автоинъектор, заряженный тремя уколами эпинефрина, более известного как адреналин, стимулятор мышечного нерва, хорош в перезапуске сердечных сокращений.
   components:
   - type: Hypospray
     transferAmount: 5.25
@@ -238,8 +238,8 @@
 - type: entity
   parent: CMAutoInjector
   id: RMCMedicAutoInjector15
-  name: medic autoinjector (M-M)
-  description: A custom-made professional injector, likely from research. Has a similar lock to pill bottles, and fits up to 6 injections.
+  name: медицинский автоинъектор (M-M)
+  description: Изготовленный на заказ профессиональный автоинъектор. Имеет схожий с таблетницами блокировочный механизм, может хранить до шести уколов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/medic_auto_injector.rsi
@@ -264,7 +264,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjector30
-  name: medic autoinjector (M-L)
+  name: mмедицинский автоинъектор (M-L30)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -276,8 +276,8 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorEZ1
-  name: autoinjector (E-U)
-  description: A custom-made EZ autoinjector, likely from research. Injects its entire payload immediately and doesn't require any training.
+  name: автоинъектор (E-U1)
+  description: Изготовленный на заказ EZ автоинъектор. Вводит сразу весь объём, прост в использовании, не требует обучения использованию.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/ez_medic_auto_injector.rsi
@@ -298,7 +298,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ5
-  name: autoinjector (E-VS)
+  name: автоинъектор (E-VS5)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -310,7 +310,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ10
-  name: autoinjector (E-S)
+  name: автоинъектор (E-S10)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -322,7 +322,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ15
-  name: autoinjector (E-T)
+  name: автоинъектор (E-T15)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -334,7 +334,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ30
-  name: autoinjector (E-M)
+  name: автоинъектор (E-M30)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -346,7 +346,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ45
-  name: autoinjector (E-L)
+  name: автоинъектор (E-L40)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -358,7 +358,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ60
-  name: autoinjector (E-XL)
+  name: автоинъектор (E-XL60)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -370,7 +370,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorBicaridine15
-  suffix: Bicaridine
+  suffix: Бикаридин
   components:
   - type: SolutionContainerManager
     solutions:
@@ -383,7 +383,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorKelotane15
-  suffix: Kelotane
+  suffix: Келотан
   components:
   - type: SolutionContainerManager
     solutions:
@@ -396,7 +396,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorTricordrazineRevival15
-  suffix: Tricordrazine - Revival
+  suffix: Трикордразин - Реанимация
   components:
   - type: SolutionContainerManager
     solutions:
@@ -413,7 +413,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorTricordrazine15
-  suffix: Tricordrazine
+  suffix: Трикордразин
   components:
   - type: SolutionContainerManager
     solutions:

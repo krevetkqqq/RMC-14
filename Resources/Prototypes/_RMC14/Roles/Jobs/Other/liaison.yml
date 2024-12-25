@@ -3,10 +3,10 @@
   id: CMLiaison
   name: cm-job-name-liaison
   description: cm-job-description-liaison
-  # requirements:
-  # - !type:TotalDepartmentsTimeRequirement
-  #   group: CMDepartmentsHuman
-  #   time: 36000 # 10 hours
+  requirements:
+  - !type:TotalDepartmentsTimeRequirement
+    group: CMDepartmentsHuman
+    time: 36000 # 10 hours
   playTimeTracker: CMJobLiaison
   startingGear: CMGearLiaison
   icon: "CMJobIconLiaison"

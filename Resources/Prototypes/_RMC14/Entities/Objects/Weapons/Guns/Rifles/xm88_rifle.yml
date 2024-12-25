@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWeaponRifle
-  name: XM88 Heavy Rifle
+  name: XM88
   id: WeaponRifleXM88
-  description: An experimental man-portable anti-material rifle chambered in .458 SOCOM. It must be manually chambered for every shot.
+  description: Экспериментальная противоматериальная винтовка под патрон .458, требует ручного взведения после каждого выстрела.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/xm88.rsi
@@ -27,9 +27,6 @@
     scatterWielded: 6
     scatterUnwielded: 20
     baseFireRate: 0.8
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1.1
-    accuracyMultiplierUnwielded: 0.5
   - type: WieldDelay
     baseDelay: 0.4
   - type: WieldableSpeedModifiers
@@ -39,12 +36,12 @@
     sound:
       path: /Audio/_RMC14/Weapons/Guns/Pump/gun_boomslang_lever.ogg
   - type: BallisticAmmoProvider
-    cycleable: true
+    cycleable: false
     whitelist:
       tags:
       - RMCCartridge458SOCOM
     capacity: 9
-    proto: RMCCartridge458SOCOM
+    proto: null
     soundInsert:
       collection: CMShotgunLoad
   - type: GunDamageModifier
@@ -101,17 +98,12 @@
       ignoreModifiers: true
     - range: 7
       falloff: 1
-  - type: RMCProjectileAccuracy
-    accuracy: 90
-    thresholds:
-    - range: 14
-      falloff: 10
 
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBox458SOCOM
-  name: box of .458 SOCOM
-  description: A box filled with handfuls of .458 SOCOM rounds, designed for use with the XM88 heavy rifle.
+  name: коробка патронов .458
+  description: Коробка, полная патронов .458 калибра, разработанных для XM88.
   components:
   - type: Storage
     grid:

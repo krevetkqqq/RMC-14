@@ -2,8 +2,8 @@
   parent: CMBaseStructureCorrodible
   id: RMCShutterBase
   abstract: true
-  name: shutters
-  description: That looks like it doesn't open easily.
+  name: ставни
+  description: Вряд-ли их можно открыть с лёгкостью.
   placement:
     mode: SnapgridCenter
   components:
@@ -64,8 +64,6 @@
   - type: Airtight
   - type: Occluder
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
-    threshold: 1
   - type: MinimapColor
     color: "#451e5eb8"
   - type: WallMount
@@ -87,7 +85,7 @@
 - type: entity
   parent: RMCShutterAlmayer
   id: RMCShutterAlmayerOpen
-  suffix: Open
+  suffix: Открыто
   components:
   - type: Door
     state: Open

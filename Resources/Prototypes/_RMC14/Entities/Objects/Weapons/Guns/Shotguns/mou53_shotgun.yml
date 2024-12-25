@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ RMCBaseBreechloader, RMCBaseAttachableHolder ]
-  name: MOU53 break action shotgun
+  name: MOU53
   id: WeaponShotgunMOU53
-  description: A limited production Kerchner MOU53 triple break action classic. Respectable damage output at medium ranges, while the Aegis M42 is the king of CQC, the Kerchner MOU53 is what hits the broadside of that barn. This specific model cannot safely fire buckshot shells.
+  description: Трёхствольное ружьё с переломным механизмом, отличается высокой точностью на средних дистанциях. Этот экземпляр небезопасен для стрельбы картечью.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/mou53.rsi
@@ -23,9 +23,6 @@
     scatterUnwielded: 18
     baseFireRate: 2
     burstScatterMult: 1
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1
-    accuracyMultiplierUnwielded: 0.95
   - type: BallisticAmmoProvider
     cycleable: true
     whitelist:

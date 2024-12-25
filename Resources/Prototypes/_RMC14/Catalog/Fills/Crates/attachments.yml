@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateAttachmentRedDot
   parent: RMCCrateWeldable
-  name: red-dot sight attachment crate (x8)
+  name: ящик с колиматорными прицелами (x8)
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   id: RMCCrateAttachmentSmartScope
   parent: RMCCrateWeldable
-  name: B8 smart-scope attachment crate (x4)
+  name: ящик с умными Б8 прицелами (x4)
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   id: RMCCrateAttachmentRailFlashlight
   parent: RMCCrateWeldable
-  name: rail flashlight crate (x8)
+  name: ящик с тактическими фонариками (x8)
   components:
   - type: StorageFill
     contents:
@@ -31,7 +31,7 @@
 - type: entity
   id: RMCCrateAttachmentTelescopicScope
   parent: RMCCrateWeldable
-  name: railscope attachment crate (x2)
+  name: ящик со снайперскими прицелами (x2)
   components:
   - type: StorageFill
     contents:
@@ -41,7 +41,7 @@
 - type: entity
   id: RMCCrateAttachmentMiniScope
   parent: RMCCrateWeldable
-  name: mini railscope attachment crate (x2)
+  name: ящик с оптическими прицелами (x2)
   components:
   - type: StorageFill
     contents:
@@ -51,7 +51,7 @@
 - type: entity
   id: RMCCrateAttachmentMagneticHarness
   parent: RMCCrateWeldable
-  name: magnetic harness attachment crate (x6)
+  name: ящик с оружейными ремнями (x6)
   components:
   - type: StorageFill
     contents:
@@ -61,7 +61,7 @@
 - type: entity
   id: RMCCrateAttachmentSuppressor
   parent: RMCCrateWeldable
-  name: suppressor attachment crate (x8)
+  name: ящик с оружейными глушителями (x8)
   components:
   - type: StorageFill
     contents:
@@ -71,7 +71,7 @@
 - type: entity
   id: RMCCrateAttachmentExtendedBarrel
   parent: RMCCrateWeldable
-  name: extended barrel attachment crate (x6)
+  name: ящик с удлинёнными стволами (x6)
   components:
   - type: StorageFill
     contents:
@@ -81,7 +81,7 @@
 - type: entity
   id: RMCCrateAttachmentCompensator
   parent: RMCCrateWeldable
-  name: compensator attachment crate (x6)
+  name: ящик с оружейными компенсаторами (x6)
   components:
   - type: StorageFill
     contents:
@@ -91,7 +91,7 @@
 - type: entity
   id: RMCCrateAttachmentForegrip
   parent: RMCCrateWeldable
-  name: foregrip attachment crate (x8)
+  name: ящик с тактическими рукоятками (x8)
   components:
   - type: StorageFill
     contents:
@@ -103,7 +103,7 @@
 - type: entity
   id: RMCCrateAttachmentGyro
   parent: RMCCrateWeldable
-  name: gyroscopic stabilizer attachment crate (x2)
+  name: ящик со стабилизаторами (x2)
   components:
   - type: StorageFill
     contents:
@@ -113,7 +113,7 @@
 - type: entity
   id: RMCCrateAttachmentBipod
   parent: RMCCrateWeldable
-  name: bipod attachment crate (x6)
+  name: ящик с оружейными сошками (x6)
   components:
   - type: StorageFill
     contents:
@@ -123,7 +123,7 @@
 - type: entity
   id: RMCCrateAttachmentUnderbarrelShotgun
   parent: RMCCrateWeldable
-  name: underbarrel shotgun attachment crate (x4)
+  name: ящик с подствольными дробовиками (x4)
   components:
   - type: StorageFill
     contents:
@@ -133,7 +133,7 @@
 - type: entity
   id: RMCCrateAttachmentUnderbarrelExtinguisher
   parent: RMCCrateWeldable
-  name: underbarrel extinguisher attachment crate (x4)
+  name: ящик с подствольными огнетушителями (x4)
   components:
   - type: StorageFill
     contents:
@@ -143,7 +143,7 @@
 - type: entity
   id: RMCCrateAttachmentUnderbarrelFlamer
   parent: RMCCrateWeldable
-  name: underbarrel flamer attachment crate (x4)
+  name: ящик с подствольными огнемётами (x4)
   components:
   - type: StorageFill
     contents:
@@ -153,7 +153,7 @@
 - type: entity
   id: RMCCrateAttachmentBurstfire
   parent: RMCCrateWeldable
-  name: burstfire assembly attachment crate (x2)
+  name: ящик с деталями механизма отсечки (x2)
   components:
   - type: StorageFill
     contents:
@@ -163,7 +163,7 @@
 - type: entity
   id: RMCCrateAttachmentAllStocks
   parent: RMCCrateWeldable
-  name: stock attachments crate (x3 each, x1 paratroopers)
+  name: ящик с оружейными прикладами (x3 каждого, x1 десантный)
   components:
   - type: StorageFill
     contents:
@@ -181,7 +181,7 @@
 - type: entity
   id: RMCCrateAttachmentRevolverStock
   parent: RMCCrateWeldable
-  name: revolver stock attachment crate (x4)
+  name: ящик с прикладами для револьвера (x4)
   components:
   - type: StorageFill
     contents:
@@ -191,7 +191,7 @@
 - type: entity
   id: RMCCrateAttachmentRifleStock
   parent: RMCCrateWeldable
-  name: rifle stock attachment crate (x4)
+  name: ящик с винтовочными прикладами (x4)
   components:
   - type: StorageFill
     contents:
@@ -201,7 +201,7 @@
 - type: entity
   id: RMCCrateAttachmentShotgunStock
   parent: RMCCrateWeldable
-  name: shotgun stock attachment crate (x4)
+  name: ящик с прикладами для дробовика (x4)
   components:
   - type: StorageFill
     contents:
@@ -211,7 +211,7 @@
 - type: entity
   id: RMCCrateAttachmentSmgStock
   parent: RMCCrateWeldable
-  name: submachinegun stock attachment crate (x4)
+  name: ящик с прикладами для пистолета пулемёта (x4)
   components:
   - type: StorageFill
     contents:

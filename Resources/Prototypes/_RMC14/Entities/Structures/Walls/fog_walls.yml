@@ -113,19 +113,3 @@
   components:
   - type: RandomAnchoredSpawner
     group: RMCFogWallRemoverThree
-
-- type: entity
-  id: RMCFogShockwave
-  name: shockwave smoke
-  components:
-  - type: Transform
-    anchored: true
-  - type: Sprite
-    drawdepth: Effects
-    sprite: _RMC14/Effects/fog.rsi
-    state: smoke
-  - type: TimedDespawn
-    lifetime: 0.05
-  - type: Tag
-    tags:
-    - HideContextMenu

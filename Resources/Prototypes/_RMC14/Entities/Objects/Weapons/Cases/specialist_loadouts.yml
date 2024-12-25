@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseEquipmentCase
   id: CMSniperEquipmentCase
-  name: sniper equipment case
-  description: "A large case containing your very own long-range M96S sniper rifle, M45 ghillie armor and helmet, M42 scout sight, ammunition, spotter equipment, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
+  name: кейс снайперского снаряжения
+  description: "Большой кейс, содержащий высокоточную снайперскую винтовку M96S, бронежилет с маскхалатом M45 и шлем, снайперский прицел M42, БК, снаряжение наблюдателя и дополнительные плюшки для ваших военных нужд.\n\nЗАМЕТКА: Вы не сможете сложить вещи обратно в ящик."
   components:
   - type: StorageFill
     contents:
@@ -10,7 +10,7 @@
     - id: CMArmorHelmetM45
     - id: CMGlassesM42ScoutSight
     - id: CMMagazineSniperM96S
-    - id: CMMagazineSniperM96SIncendiary
+    - id: CMMagazineSniperM96S # TODO rmc14 CMMagazineSniperM96SIncendiary
       amount: 2
     - id: CMMagazineSniperM96S # TODO rmc14 CMMagazineSniperM96SFlak
     - id: CMBackpackSniper
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCGrenadeSpecEquipmentCase
-  name: heavy grenadier equipment case
-  description: "A large case containing a heavy-duty multi-shot M83 grenade launcher, M3-G4 grenadier armor and helmet, significant amount of various M40 grenades and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
+  name: кейс снаряжения гренадёра
+  description: "Большой кейс, содержащий многозарядный гранатомёт M83, броню M3-G4 и шлем, внушительное количество разнообразных гранат M40 и дополнительные плюшки для ваших военных нужд.\n\nЗАМЕТКА: Вы не сможете сложить вещи обратно в ящик."
   components:
   - type: Sprite
     layers:
@@ -60,8 +60,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCDemoSpecEquipmentCase
-  name: demolitionist equipment case
-  description: "A large case containing a heavy-caliber M5 Anti-Tank Launcher, reinforced M3-T light armor, five 84mm rockets, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
+  name: кейс снаряжения подрывника
+  description: "Большой кейс, содержащий противотанковый гранатомёт M5, укреплённую лёгкую броню M3-T, пять ракет 84мм, и дополнительные плюшки для ваших военных нужд.\n\nЗАМЕТКА: Вы не сможете сложить вещи обратно в ящик."
   components:
   - type: Sprite
     layers:
@@ -100,8 +100,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCScoutSpecEquipmentCase
-  name: scout equipment case
-  description: "A large case containing an M4RA battle rifle, M3-S light armor and helmet, M4RA battle sight, M68 thermal cloak, V3 reactive thermal tarp, ammunition and additional pieces of equipment.\nNOTE: You cannot put items back inside this case."
+  name: кейс снаряжения разведчика
+  description: "Большой кейс, содержащий боевую винтовку M4RA, лёгкую броню M3-S и шлем, боевой прицел M4RA, термоплащ M68, термобрезент V3, БП и дополнительные плюшки для ваших военных нужд.\n\nЗАМЕТКА: Вы не сможете сложить вещи обратно в ящик."
   components:
   - type: Sprite
     layers:
@@ -120,7 +120,7 @@
     - id: RMCGlassesM4SPRBattleSight
     - id: RMCMagazineRifleM4SPRA19
       amount: 4
-    - id: RMCMagazineRifleM4SPRA19Incendiary
+    - id: RMCMagazineRifleM4SPRA19 # TODO: RMCMagazineRifleM4SPRA19Incendiary
       amount: 2
     - id: RMCMagazineRifleM4SPRA19Impact
       amount: 2

@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCCrateWeapons
   id: RMCCrateMortarKit
-  name: M402 mortar crate (Mortar x1, Mortar shell backpack x1)
+  name: ящик с миномётом M402 (Миномёт x1, Рюкзак для снарядов x1)
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCCrateMortarAmmo
   id: RMCCrateMortarShellHE
-  name: M402 mortar shells crate (x6 HE)
+  name: ящик миномётных снарядов M402 (x6 Фугас)
   components:
   - type: StorageFill
     contents:
@@ -20,18 +20,8 @@
 
 - type: entity
   parent: RMCCrateMortarAmmo
-  id: RMCCrateMortarShellIncendiary
-  name: M402 mortar shells crate (x6 Incend)
-  components:
-  - type: StorageFill
-    contents:
-    - id: RMCMortarShellIncendiary
-      amount: 6
-
-- type: entity
-  parent: RMCCrateMortarAmmo
   id: RMCCrateMortarShellFlare
-  name: M402 mortar shells crate (x6 Flare/Camera)
+  name: ящик миномётных снарядов M402 (x6 Осветительный/Камера)
   components:
   - type: StorageFill
     contents:

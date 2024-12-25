@@ -2,11 +2,10 @@
   parent: BaseItem
   abstract: true
   id: RMCBaseSentry #Conversion Rate for turret vision range = CM + 1
-  name: turret
+  name: турель
   components:
   - type: Corrodible
     timeToApply: 4
-    structure: true
   - type: Item
     size: Normal
   - type: Clickable
@@ -127,7 +126,6 @@
   - type: RMCNameItemOnVend
     item: Sentry
   - type: RequireProjectileTarget
-  - type: RMCWeaponAccuracy
 
 - type: htnCompound
   id: RMCSentryCompound
@@ -180,8 +178,8 @@
 - type: entity
   parent: BaseItem
   id: RMCEngineeringUpgrade
-  name: engineering upgrade kit
-  description: A kit used to upgrade the defenses of an engineer's sentry. Back in 1980 when the machines tried to break free, it was a single android who laid them low. Now their technology is used widely on the rim.
+  name: инженерный набор улучшения
+  description: Набор для улучшения защиты турели инженера, использующий старые технологии.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/engineering_kit.rsi
@@ -191,8 +189,8 @@
 - type: entity
   parent: RMCBaseSentry
   id: RMCSentry
-  name: UN 571-C sentry gun
-  description: A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a 500-round drum magazine.
+  name: турель UN 571-C
+  description: Развёртываемая полуавтоматическая турель с ИИ-наведением, вооружена автопушкой M30 и 500-зарядным магазином.
   components:
   - type: Icon
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -206,8 +204,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryMini
-  name: UN 512-M mini sentry
-  description: A compact version of the UNMC defenses. Designed for quick deployment of the associated type in the field.
+  name: турель UN 512-M 
+  description: Компактная версия оборонительной турели КМП для быстрого развертывания.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -251,8 +249,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentrySniper
-  name: UN 725-D sniper sentry
-  description: A fully-automated defence turret with long-range targeting capabilities. Armed with a modified M32-S Autocannon and an internal belt feed.
+  name: турель UN 725-D
+  description: Автоматизированная оборонительная турель с дальнобойным прицеливанием, вооружена модифицированным M32-S Autocannon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -303,15 +301,12 @@
         11.0
   - type: Sentry
     upgrades: null
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 4
-    accuracyMultiplierUnwielded: 4
 
 - type: entity
   parent: RMCSentry
   id: RMCSentryOmni
-  name: UN 571-D omnidirectional sentry gun
-  description: A deployable, semi-automated turret with 360 degree range AI targeting capabilities. Armed with an M30 Autocannon and a 500-round drum magazine.
+  name: турель UN 571-D
+  description: Развёртываемая полуавтоматическая турель с 360-градусным ИИ-наведением, вооружена M30 Autocannon и 500-зарядным магазином.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -354,8 +349,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryShotgun
-  name: UN 12-G Shotgun Sentry
-  description: A deployable, semi-automated turret with specialized for close range combat. Protects itself with sturdier plating and steel tusks.
+  name: турель UN 12-G
+  description: Полуавтоматическая турель для ближнего боя, защищена усиленной бронёй и стальными шипами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -412,6 +407,3 @@
     upgrades: null
     startingMagazine: RMCMagazineSentryShotgun
     magazineTag: RMCMagazineSentryShotgun
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 2
-    accuracyMultiplierUnwielded: 2

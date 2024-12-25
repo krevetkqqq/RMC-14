@@ -3,8 +3,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: JumpsuitMarine
-  name: Marine uniform
-  description: Standard-issue Marine uniform. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: униформа морпеха
+  description: Стандартная униформа морпехов. Оснащена вставками из лёгкого кевлара для защиты от колюще-режущего оружия и пуль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/standard.rsi
@@ -12,7 +12,7 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitMarineFormal
-  name: formal marine uniform
+  name: формальная униформа морпеха
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/formal.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineEngineer
-  name: Marine ComTech uniform
-  description: Standard-issue Marine combat technician fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: униформа морпеха-комтехника
+  description: Стандартная униформа боевого техника. Оснащена вставками из лёгкого кевлара для защиты от колюще-режущего оружия и пуль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/engineer.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineMedic
-  name: Marine corpsman uniform
-  description: Standard-issue Marine hospital corpsman fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: униформа военфледьшера
+  description: Стандартная униформа военфельдшера. Оснащена вставками из лёгкого кевлара для защиты от колюще-режущего оружия и пуль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/medic.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineRTO
-  name: marine radio telephone operator uniform
-  description: Standard-issue RTO fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: униформа радиста морпехов
+  description: Стандартная униформа радиста. Оснащена вставками из лёгкого кевлара для защиты от колюще-режущего оружия и пуль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/rto.rsi
@@ -51,13 +51,13 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineSniper
-  name: marine snipet uniform
+  name: униформа снайпера морпехов
 
 # Tanker
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitMarineTanker
-  name: marine tanker uniform
+  name: униформа танкиста морпехов
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/tanker.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitQM
-  name: quartermaster uniform
-  description: Standard-issue quartermaster uniform.
+  name: униформа офицера тылового обеспечения
+  description: Стандартная униформа Офицера Тылового Обеспечения.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Supply/ro.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitCargoTech
-  name: cargo technician uniform
-  description: A standard-issue cargo tech uniform.
+  name: униформа такелажника
+  description: Стандартная униформа такелажника.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Supply/cargo_tech.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitMessTech
-  name: mess technician uniform
-  description: Standard-issue Mess Technician uniform.
+  name: униформа кока
+  description: Стандартная униформа кока.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Supply/chef.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitChiefEngineer
-  name: chief engineer uniform
-  description: Standard-issue Chief Engineer uniform.
+  name: униформа главного корабельного инженера
+  description: Стандартная униформа Главного Корабельного Инженера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Engineering/ec.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitOrdnanceTech
-  name: ordnance technician uniform
-  description: Standard-issue Ordnance Technician uniform.
+  name: униформа техника по вооружению
+  description: Стандартная униформа техника по вооружению.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Engineering/ot.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMaintTech
-  name: maintenance technician uniform
-  description: Standard-issue Maintenance Technician uniform.
+  name: униформа техника по обслуживанию
+  description: Стандартная униформа Специалиста Технического Обслуживания.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Engineering/mt.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitCO
-  name: commanding officer uniform
-  description: Standard-issue Commanding Officer uniform.
+  name: униформа командующего операцией
+  description: Стандартная униформа командующего операцией.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/standard.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: CMJumpsuitCO
   id: CMJumpsuitCOFormalBlack
-  name: formal commanding officer uniform
-  description: Standard-issue commanding officer uniform.
+  name: формальная униформа командующего операцией
+  description: Формальная версия униформы командующего операцией.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/formal_black.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMJumpsuitCO
   id: CMJumpsuitCOFormalWhite
-  name: formal commanding officer uniform
-  description: Standard-issue commanding officer uniform.
+  name: формальная униформа командующего операцией
+  description: Формальная версия униформы командующего операцией. В белом цвете.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/formal_white.rsi
@@ -162,7 +162,7 @@
 - type: entity
   parent: CMJumpsuitCO
   id: CMJumpsuitCOService
-  name: commanding officer uniform
+  name: униформа командующего операцией
   description: Standard-issue commanding officer uniform.
   components:
   - type: Sprite
@@ -173,8 +173,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitXOFormal
-  name: marine formal service uniform
-  description: A formal service uniform typically worn by marines of the UNMC. Still practicable while still being more formal than the standard service uniform.
+  name: формальная парадная униформа морпехов
+  description: Парадная униформа, обычно носимая морпехами КМП. Более формальная, чем стандартная униформа, но остаётся практичной.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/formal_service.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitBO
-  name: marine service uniform
-  description: A service uniform worn by members of the marines. Do the corps proud. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: повседневная униформа морпехов
+  description: Повседневная униформа морпехов. Делайте честь корпусу. Оснащена вставками из лёгкого кевлара для защиты от колюще-режущего оружия и пуль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/bo.rsi
@@ -198,8 +198,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitOperations
-  name: marine operations uniform
-  description: An operations uniform worn by members of the marines. Do the corps proud. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: оперативная униформа морпехов
+  description: Униформа для операций, носимая морпехами. Делайте честь корпусу. Оснащена вставками из лёгкого кевлара для защиты от колюще-режущего оружия и пуль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/operations.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitIO
-  name: marine intelligence officer uniform
-  description: Tighter than a vice. Slicker than beard oil. Covered from head to toe in pouches, pockets, bags, straps, and belts. Clearly, you are not only the most intelligent of intelligence officers, but the most fashionable as well. This suit took an entire R&D team five days to develop. It is more expensive than the entire Almayer... probably.
+  name: униформа офицера разведки морпехов
+  description: Плотная, стильная униформа, полная карманов, ремней и сумок. Очевидно, это выбор самых модных и умных офицеров разведки. Её создание заняло у целой команды РНД пять дней, и, вероятно, она стоит дороже, чем весь корабль «Альмайер».
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/io.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitPilot
-  name: pilot officer bodysuit
-  description: A bodysuit worn by pilot officers of the marines, and is meant for survival in inhospitable conditions. Fly the marines onwards to glory. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: комбинезон пилота-офицера
+  description: Комбинезон пилотов морпехов, предназначенный для выживания в суровых условиях. Ведите морпехов к славе. Оснащён вставками из лёгкого кевлара для защиты от колюще-режущего оружия и пуль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Auxiliary/pilot.rsi
@@ -236,8 +236,8 @@
 - type: entity
   parent: CMJumpsuitPilot
   id: CMJumpsuitDCC
-  name: dropship crew chief bodysuit
-  description: A bodysuit worn by dropship crew chiefs of the UNMC, and is meant for survival in inhospitable conditions. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: комбинезон начальника экипажа десантного корабля
+  description: Комбинезон начальника экипажа десантного корабля КМП. Предназначен для выживания в суровых условиях. Оснащён вставками из лёгкого кевлара для защиты от колюще-режущего оружия и пуль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Auxiliary/crewchief.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitTShirtWhite
-  name: white tshirt
-  description: Simple pair of tshirt and pants.
+  name: белая футболка
+  description: Простая футболка с брюками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/T-shirt/white.rsi
@@ -257,7 +257,7 @@
 - type: entity
   parent: CMJumpsuitTShirtWhite
   id: CMJumpsuitTShirtRed
-  name: red tshirt
+  name: красная футболка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/T-shirt/red.rsi
@@ -265,7 +265,7 @@
 - type: entity
   parent: CMJumpsuitTShirtWhite
   id: CMJumpsuitTShirtGray
-  name: gray tshirt
+  name: серая футболка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/T-shirt/gray.rsi
@@ -276,8 +276,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitColonist
-  name: colonist uniform
-  description: A stylish gray-green jumpsuit - standard issue for colonists.
+  name: униформа колониста
+  description: Стильный серо-зелёный комбинезон — стандартная униформа колонистов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/colonist.rsi
@@ -286,8 +286,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitSurvivorMarine
-  name: UNMC uniform
-  description: Torn, Burned and blood stained. This uniform has seen much more than you could possibly imagine.
+  name: униформа КМП
+  description: Ободранная, обгоревшая и заляпанная кровью. Эта униформа пережила больше, чем вы можете себе представить.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/recon_marine.rsi
@@ -301,8 +301,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitGeneral
-  name: general's uniform
-  description: A uniform worn by a fleet general. It comes in a shade of deep black, and has a light shimmer to it. The weave looks strong enough to provide some light protections.
+  name: униформа генерала
+  description: Униформа Генерала Флота, выполненная в глубоком чёрном цвете с лёгким блеском. Прочная ткань обеспечивает некоторую защиту.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/general.rsi

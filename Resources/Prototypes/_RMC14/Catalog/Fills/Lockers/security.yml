@@ -1,7 +1,7 @@
 - type: entity
   id: CMClosetBombFilled
   parent: CMClosetBomb
-  suffix: Filled
+  suffix: Полный
   components:
   - type: StorageFill
     contents:

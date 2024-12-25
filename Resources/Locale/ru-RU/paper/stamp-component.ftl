@@ -1,19 +1,15 @@
-stamp-component-stamped-name-default = VIP
-stamp-component-stamped-name-detective = Детектив
-stamp-component-stamped-name-mime = Мим
-stamp-component-stamped-name-captain = Капитан
-stamp-component-stamped-name-centcom = Центком
-stamp-component-stamped-name-chaplain = Священник
-stamp-component-stamped-name-lawyer = Адвокат
-stamp-component-stamped-name-clown = Клоун
-stamp-component-stamped-name-cmo = Главврач
-stamp-component-stamped-name-denied = ОТКАЗАНО
-stamp-component-stamped-name-approved = ОДОБРЕНО
-stamp-component-stamped-name-hop = Глава персонала
-stamp-component-stamped-name-hos = Глава службы безопасности
-stamp-component-stamped-name-qm = Квартирмейстер
-stamp-component-stamped-name-rd = Научный руководитель
-stamp-component-stamped-name-warden = Смотритель
-stamp-component-stamped-name-trader = Торговец
-stamp-component-stamped-name-syndicate = Синдикат
-stamp-component-stamped-name-ce = Старший инженер
+stamp-component-stamped-name-cm-default = Проштамповано
+
+stamp-component-stamped-name-cm-we-ya = Вейланд-Ютани
+stamp-component-stamped-name-cm-marine = Высшее Командование Морпехов
+stamp-component-stamped-name-cm-cmb = Бюро Маршалов Колонии
+
+stamp-component-stamped-name-cm-co = Командующий Операцией
+stamp-component-stamped-name-cm-aso = Офицер Вспомогательной Поддержки
+stamp-component-stamped-name-cm-cmp = Офицер Военной Полиции
+stamp-component-stamped-name-cm-cmo = Главный Медицинский Офицер
+stamp-component-stamped-name-cm-qm = Офицер Тылового Обеспечения
+stamp-component-stamped-name-cm-ce = Главный Корабельный Инженер
+
+stamp-component-stamped-name-cm-approve = ОДОБРЕНО
+stamp-component-stamped-name-cm-deny = ОТКАЗАНО

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMRadioHandheld
-  name: marine radiophone
-  description: Also known as a Walkie-Talkie, this device allows for long range communication when telecommunications are down.
+  name: пехотная радиостанция
+  description: Более известна как рация, данное устройство позволяет поддерживать коммуникацию на больших расстояниях когда обычная телекоммуникация невозможна.
   components:
   - type: RadioMicrophone
     broadcastChannel: Handheld

@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   id: XenoBaseProjectile
-  name: projectile
+  name: плевок
   components:
   - type: Clickable
   - type: Sprite
@@ -28,8 +28,6 @@
   - type: XenoProjectile
   - type: ProjectileMaxRange
     max: 7
-  - type: RMCProjectileAccuracy
-    accuracy: 165
 
 - type: entity
   abstract: true
@@ -42,7 +40,7 @@
 - type: entity
   parent: [XenoSpitImpactSounds, XenoBaseProjectile]
   id: XenoSpitProjectile
-  name: spit
+  name: плевок
   categories:
   - HideSpawnMenu
   components:
@@ -60,8 +58,6 @@
     amount: 10
   - type: XenoProjectile
     deleteOnFriendlyXeno: true
-  - type: RMCProjectileAccuracy
-    accuracy: 110
 
 - type: entity
   parent: XenoSpitProjectile
@@ -96,7 +92,7 @@
 - type: entity
   id: XenoSlowingSpitProjectile
   parent: [XenoSpitImpactSounds, XenoBaseProjectile]
-  name: slowing spit
+  name: замедляющий плевок
   categories:
   - HideSpawnMenu
   components:
@@ -116,7 +112,7 @@
 - type: entity
   id: XenoScatteredSpitProjectile
   parent: [XenoSpitImpactSounds, XenoBaseProjectile]
-  name: scattered spit
+  name: рассеяный плевок
   categories:
   - HideSpawnMenu
   components:
@@ -137,7 +133,7 @@
 - type: entity
   id: XenoBoneChipsProjectile
   parent: XenoBaseProjectile
-  name: bone chips
+  name: брошенные останки
   categories:
   - HideSpawnMenu
   components:
@@ -147,7 +143,6 @@
     - state: bonechips
       shader: unshaded
   - type: XenoSlowingSpitProjectile
-    superSlow: false
     slow: 5
     paralyze: 0
   - type: Projectile
@@ -159,13 +154,11 @@
     deleteOnFriendlyXeno: false
   - type: ProjectileMaxRange
     max: 4
-  - type: RMCProjectileAccuracy
-    accuracy: 135
 
 - type: entity
   parent: XenoBaseProjectile
   id: XenoBombardAcidProjectile
-  name: glob of acid gas
+  name: сгусток кислотного газа
   categories:
   - HideSpawnMenu
   components:
@@ -203,13 +196,11 @@
     whitelist:
       components:
       - Marine
-  - type: RMCProjectileAccuracy
-    accuracy: 95
 
 - type: entity
   parent: XenoBaseProjectile
   id: XenoBombardNeurotoxinProjectile
-  name: glob of neurotoxin gas
+  name: сгусток паралитического газа
   categories:
   - HideSpawnMenu
   components:
@@ -250,8 +241,6 @@
     coughDamage:
         groups:
           Brute: 5
-  - type: RMCProjectileAccuracy
-    accuracy: 95
 
 - type: entity
   parent: XenoSpitProjectile
@@ -267,8 +256,6 @@
     damage:
       types:
         Heat: 30
-  - type: RMCProjectileAccuracy
-    accuracy: 110
 
 - type: entity
   parent: XenoAcidBallSpitProjectile
@@ -278,8 +265,6 @@
   components:
   - type: XenoProjectileShieldOnHit
   - type: PreventCollideWithDead
-  - type: RMCProjectileAccuracy
-    accuracy: 160
 
 - type: entity
   parent: XenoSpitProjectile
@@ -294,8 +279,8 @@
 
 - type: entity
   id: XenoAcidBallProjectile
-  name: acid ball
-  description: A small, pulsating ball of gas.
+  name: кислотный комок
+  description: Маленький, пульсирующий комок газа.
   categories:
   - HideSpawnMenu
   components:

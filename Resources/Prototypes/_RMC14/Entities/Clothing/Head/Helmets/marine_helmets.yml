@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCMarineHelmetBase, RMCFoldableHelmetBase]
   id: ArmorHelmetM10
-  name: M10 pattern marine helmet
-  description: A standard M10 Pattern Helmet. The inside label, along with washing information, reads, 'The difference between an open-casket and closed-casket funeral. Wear on head for best results.'. There is a built-in camera on the right side.
+  name: шлем M10
+  description: Стандартное снаряжение пехоты. Этикетка на внутренней стороне, рядом с инструкцией по стирке, гласит, 'Сделает ваши потенциальные похороны в закрытом гробу - похоронами в открытом. Для большей эффективности носить на голове.'. Имеет встроенную камеру.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/standard.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10MP
-  name: M10 helmet MP
-  description: A special variant of the M10 Pattern Helmet worn by the Military Police of the Marines.
+  name: шлем M10 военной полиции
+  description: Специально разработанная конфигурация для нужд Военной Полиции.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/mp.rsi
@@ -24,47 +24,30 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10ChiefMP
-  name: M10 helmet chief MP
-  description: A special variant of the M10 Pattern Helmet worn by the Chief MP of the Marines.
+  name: шлем M10 офицера военной полиции
+  description: Специально разработанная конфигурация для нужд Офицеров Военной Полиции.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/cmp.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/cmp.rsi
-
-- type: entity
-  parent: ArmorHelmetM10
-  id: RMCArmorHelmetM10SO
-  name: M10 pattern officer helmet
-  description: A special variant of the M10 Pattern Helmet worn by Officers of the UNMC, attracting the attention of the grunts and sniper fire alike.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/officer/jungle.rsi
-  - type: Clothing
-    sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/officer/jungle.rsi
 
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10CO
-  name: M10 pattern commanding officer helmet
-  description: A special M10 Pattern Helmet worn by Commanding Officers of the UNMC. It reads on the label, 'The difference between an open-casket and closed-casket funeral. Wear on head for best results.'.
+  name: шлем M10 командующего операцией
+  description: Специально разработанная конфигурация для нужд Командующего Операцией. Тобишь, собирать пыль на полке. Да ни в жизнь он не явится на фронт!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/co.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/co.rsi
-  - type: CMArmor
-    armor: 30
-    bio: 25
-    explosionArmor: 10 #same as base m10 helmet
-    #todo RMC: melee armor: 25
-    #todo RMC: energy armor: 15
 
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10Medic
-  name: M10 medic helmet
-  description: A special variant of the M10 Pattern Helmet worn by the medic marines of the Marines.
+  name: шлем M10 военфельдшера
+  description: Специально разработанная конфигурация для нужд военфельдшеров.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/med.rsi
@@ -90,8 +73,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10Tech
-  name: M10 tech helmet
-  description: A special variant of the M10 Pattern Helmet worn by the engineer marines of the Marines.
+  name: шлем M10 инженера
+  description: Специально разработанная конфигурация для нужд инженеров.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/tech.rsi
@@ -103,8 +86,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM11
-  name: M11 pattern leader helmet
-  description: A slightly fancier helmet for marine leaders. This one contains a small built-in camera and has cushioning to protect your fragile brain.
+  name: шлем M11 лидера отряда
+  description: Чуть более крутой шлем для лидеров отряда. В этот, например, встроена камера и вшиты мягкие подушечки, чтобы защитить ваш хрупкий мозг.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m11.rsi
@@ -115,8 +98,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM12
-  name: M12 pattern helmet
-  description: An experimental brain-bucket. A dust ruffle hangs from back. Moderately better at deflecting blunt objects at the cost of humiliation. But who will be laughing at the memorial? Not you, you'll be busy getting medals for your intel work or for your fantastic leadership.
+  name: шлем M12
+  description: Экспериментальное ведро на голову. Да, выглядит убого, но хей, он хорошо защищает от ударов. Сначала посмеются над вами, потом посмеётесь вы, у мемориала..
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m12.rsi
@@ -127,8 +110,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM30
-  name: M30 tactical helmet
-  description: The M30 tactical helmet has an left eyepiece filter used to filter tactical data.
+  name: тактический шлем M30
+  description: Имеет встроенный визор для обрабатывания информации на поле боя. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m30.rsi
@@ -139,8 +122,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetPress
-  name: press helmet
-  description: A special helmet variant worn by the press.
+  name: шлем прессы
+  description: Специальный шлем, разработанный для военкоров.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/press.rsi
@@ -151,8 +134,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM3Scout
-  name: M3-S helmet
-  description: A custom helmet from the M3 series designed to be lightweight and used for recon missions.
+  name: шлем M3-S
+  description: Выполненный на заказ шлем. Его облегчённая конструкция и повышенная эргономика делает его выбором профессионалов в разведывательных операциях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/scout.rsi
@@ -163,8 +146,8 @@
 - type: entity
   parent: RMCArmorHelmetM3Scout
   id: RMCArmorHelmetM3G4
-  name: M3-G4 helmet
-  description: Pairs with the M3-G4 heavy grenadier plating. A distant cousin of the experimental B18 defensive helmet. # As such, it also resists some parasite latching attempts.
+  name: шлем M3-G4
+  description: Шлем со встроенными креплениями M3-G4. Дальний родственник оборонительного шлема B18. # As such, it also resists some parasite latching attempts.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/g4.rsi
@@ -180,8 +163,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM35
-  name: M35 helmet
-  description: A custom helmet from the M3 series designed to be highly flame retardant.
+  name: шлем M35
+  description: Выполненный на заказ шлем, собранный на базе шлемов M3 серии, разработанный для максимальной защиты от огня и высоких температур. Ваше лицо раславится быстрее, чем с него слезет покрытие.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m35.rsi
@@ -192,8 +175,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: CMArmorHelmetM45
-  name: M45 ghillie helmet
-  description: A lightweight M45 helmet with ghillie coif used by Marine snipers on recon missions.
+  name: шлем M45 маскировочный
+  description: Лёгкий шлем M45 с маскировочной сеткой. Используется снайперами и наблюдателями КМП.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m45.rsi
@@ -210,8 +193,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM3TDemo
-  name: M3-T bombardier helmet
-  description: A custom-built helmet for explosive weaponry users. Comes with inbuilt ear blast protection, firing a rocket launcher without this is not recommended.
+  name: шлем M3-T для подрывников
+  description: Изготовленный на заказ шлем для подрывников. Идёт в комплекте с защитой ушей от ударных волн. Стрельба из гранатамёта без такой защиты не рекомендуется.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/t_demo.rsi

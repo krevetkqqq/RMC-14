@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseEquipmentCase
   id: CMSmartGunOperatorEquipmentCase
-  name: ML66A smart gun system case
-  description: "A large case containing an ML66A Smartgun, ML66A combat harness, head mounted sight and powerpack.\n\nNOTE: You cannot put items back inside this case."
+  name: кейс для хранения ML66A
+  description: "Оружейный кейс, содержащий систему СМАРТ ML66A. В комплекте идёт разгрузочная система, БК, крепление на шлем и аккумулятор.\n\nЗАМЕТКА: Вы не сможете сложить вещи обратно в контейнер."
   components:
   - type: Sprite
     layers:

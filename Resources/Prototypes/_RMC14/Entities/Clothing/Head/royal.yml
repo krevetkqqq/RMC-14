@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadRoyalBeanie
-  name: royal marine beanie
-  description: A standard military beanie.
+  name: вязаная шапка королевских морпехов
+  description: Стандартная военная шапка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/beanie.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCHeadRoyalBeanie
   id: RMCHeadRoyalTurban
-  name: royal marine turban
-  description: A standard military turban found in the royal marines. Considered a rare item, these kind of turbans are prized by collectors.
+  name: тюрбан королевских морпехов
+  description: Стандартный военный тюрбан королевских морпехов. Считается редким предметом, ценимым коллекционерами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/turban.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadRoyalBeret
-  name: royal marine beret
-  description: A green beret belonging to the royal marines commando.
+  name: берет королевских морпехов  
+  description: Зелёный берет, принадлежащий группе командос королевских морпехов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/beret.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCHeadRoyalBeret
   id: RMCHeadRoyalBeretLead
-  name: royal marine leader beret
-  description: A green beret belonging to the royal marines commando.
+  name: берет лидера королевских морпехов
+  description: Зелёный берет, принадлежащий командос королевских морпехов
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/beret_tl.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCHeadRoyalHelmet
-  name: royal L5A2 ballistic helmet
-  description: A High-cut ballistic helmet. Designed to be used by Royal Marines Commando as part of the kestrel armour system.
+  name: королевский баллистический шлем L5A2
+  description: Высокий баллистический шлем, разработанный для использования командос королевских морпехов как часть системы брони "Кестрел".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/helmet.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCHeadRoyalHelmetBallistic
-  name: royal L5A3 ballistic helmet
-  description: A High-cut ballistic helmet featuring an attached mandible. Designed to be used by Royal Marines Commando as part of the kestrel armour system.
+  name: королевский баллистический шлем L5A3
+  description: Высокий баллистический шлем с прикреплённой защитой нижней челюсти. Разработан для использования командос королевских морпехов как часть системы брони "Кестрел".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/ballistic.rsi

@@ -2,9 +2,9 @@
   parent: CMMobHuman
   id: RMCHumanCorpse
   save: false
-  name: unidentified corpse
-  description: I think they're dead.
-  suffix: RMC14, Dead
+  name: неизвестное тело
+  description: Кажется, оно мертво.
+  suffix: RMC14, Мёртв
   components:
   - type: RandomHumanoidAppearance
     randomizeName: false

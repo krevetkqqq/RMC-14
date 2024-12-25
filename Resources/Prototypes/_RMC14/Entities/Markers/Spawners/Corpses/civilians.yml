@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpsePrisoner
-  name: Corpse Spawner - Prisoner
+  name: Спавнер Трупа - Заключенный
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpsePrisoner
@@ -9,7 +9,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseChef
-  name: Corpse Spawner - Chef
+  name: Спавнер Трупа - Шеф
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseChef
@@ -17,7 +17,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseDoctor
-  name: Corpse Spawner - Doctor
+  name: Спавнер Трупа - Врач
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseDoctor
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseEngineer
-  name: Corpse Spawner - Engineer
+  name: Спавнер Трупа - Инженер
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseEngineer
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseScientist
-  name: Corpse Spawner - Scientist
+  name: Спавнер Трупа - Учёный
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseScientist
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseMiner
-  name: Corpse Spawner - Shaft Miner
+  name: Спавнер Трупа - Шахтёр
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseMiner
@@ -49,7 +49,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseSecurity
-  name: Corpse Spawner - Security Officer
+  name: Спавнер Трупа - Сотрудник Охраны
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseSecurity
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseDeputy
-  name: Corpse Spawner - Bureau Deputy
+  name: Спавнер Трупа - Заместитель Шерифа
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseDeputy
@@ -65,7 +65,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseLiaison
-  name: Corpse Spawner - Corporate Liaison
+  name: Спавнер Трупа - Лиазон Офицер
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseLiaison
@@ -73,7 +73,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpsePrisonGuard
-  name: Corpse Spawner - Prison Guard
+  name: Спавнер Трупа - Надзиратель
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpsePrisonGuard
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseColonist
-  name: Corpse Spawner - Colonist
+  name: Спавнер Трупа - Колонист
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseColonist
@@ -89,7 +89,7 @@
 - type: entity
   parent: RMCSpawnerCorpseColonist
   id: RMCSpawnerCorpseColonistBust
-  name: Corpse Spawner - Colonist
+  name: Спавнер Трупа - Колонист
   suffix: RMC14, Burst
   components:
   - type: CorpseSpawner
@@ -98,7 +98,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseWeYaGoon
-  name: Corpse Spawner - We-Ya Goon
+  name: Спавнер Трупа - Наёмник We-Ya
   components:
   - type: CorpseSpawner
     spawn: RMCHumanCorpseWeYaGoon

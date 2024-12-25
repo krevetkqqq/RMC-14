@@ -3,8 +3,8 @@
   parent: BaseToolSurgery
   id: CMBaseToolSurgery
   abstract: true
-  name: retractor
-  description: Retracts stuff.
+  name: ранорасширитель
+  description: Расширяет раны. Как зажим, но наоборот.
   components:
   - type: Item
     size: Small
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMRetractor
   id: CMRetractorPredator
-  name: opener
+  name: торакальный ретрактор
   components:
   - type: Sprite
     state: predator_retractor
@@ -44,8 +44,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMHemostat
-  name: hemostat
-  description: You think you have seen this before.
+  name: зажим бильрота
+  description: Кровоостанавливающий зажим, применяемый для временной остановки кровотечения.
   components:
   - type: CMSurgeryTool
     endSound:
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMHemostat
   id: CMHemostatPredator
-  name: pincher
+  name: сосудистая клипса мюллера
   components:
   - type: Sprite
     state: predator_hemostat
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMCautery
-  name: cautery
-  description: This stops bleeding.
+  name: термокаутер
+  description: Ручной термокаутер, используемый для остановки кровотечения методом прижигания.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -98,7 +98,7 @@
 - type: entity
   parent: CMCautery
   id: CMCauteryPredator
-  name: cauterizer
+  name: каутер
   components:
   - type: Sprite
     state: predator_cautery
@@ -109,8 +109,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMSurgicalDrill
-  name: surgical drill
-  description: You can drill using this item. You dig?
+  name: дрель хирургическая
+  description: Стерильная, электрическая дрель, используемая для множества задач, в число которых входит проведение скелетного вытяжения, резекция костей и краниотомия. Универсальный инстурмент, им даже можно в стенах дырки делать. Простите, впрочем, технические отверстия.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -143,8 +143,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMScalpel
-  name: scalpel
-  description: Cut, cut, and once more cut.
+  name: остроконечный скальпель
+  description: Используется для разъединения тканей, это его первостепенная задача. Этот, к слову, отлично с ней справится.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -180,7 +180,7 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelPredator
-  name: cutter
+  name: брюшистый скальпель
   components:
   - type: Sprite
     state: predator_scalpel
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelLaser
-  name: prototype laser scalpel
-  description: A scalpel augmented with a directed laser, for controlling bleeding as the incision is made. Also functions as a cautery. This one looks like an unreliable early model.
+  name: прототип лазерного скальпеля
+  description: Скальпель со встроенным лазером для коррекции разрезов и системой автоматического прижигания сразу после того, как надрез был сделан. Выглядит больше как прототип, нежели скальпель.
   components:
   - type: Sprite
     layers:
@@ -220,8 +220,8 @@
 - type: entity
   parent: CMScalpelLaser
   id: CMScalpelLaserImproved
-  name: laser scalpel
-  description: A scalpel augmented with a directed laser, for controlling bleeding as the incision is made. Also functions as a cautery. This one looks trustworthy, though it could be better.
+  name: улучшенный прототип лазерного скальпеля
+  description: Скальпель со встроенным лазером для коррекции разрезов и системой автоматического прижигания сразу после того, как надрез был сделан. Этот уже больше похож на скальпель, но РНД есть ещё над чем поработать.
   components:
   - type: Sprite
     layers:
@@ -238,8 +238,8 @@
 - type: entity
   parent: CMScalpelLaser
   id: CMScalpelLaserAdvanced
-  name: advanced laser scalpel
-  description: A scalpel augmented with a directed laser, for controlling bleeding as the incision is made. Also functions as a cautery. This one looks to be the pinnacle of precision energy cutlery!
+  name: лазерный скальпель
+  description: Скальпель со встроенным лазером для коррекции разрезов и системой автоматического прижигания сразу после того, как надрез был сделан. Пик технологий в хирургии.
   components:
   - type: Sprite
     layers:
@@ -256,8 +256,8 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelPICT
-  name: PICT system
-  description: The Precision Incision and Cauterization Tool uses a high-frequency vibrating blade, laser cautery, and suction liquid control system to precisely sever target tissues while preventing all fluid leakage. Despite its troubled development program and horrifying price tag, outside of complex experimental surgeries it isn't any better than an ordinary twenty-dollar scalpel and can't create a full-length incision bloodlessly.
+  name: система СКЛАЙ
+  description: Передовой инструмент в хирургии, совмещающий скальпель, каутер, лазерный корректор и систему аспирации ирригации. Позволяет одновременно делать точный надрез по линии, прижигать и промывать рану. Чудо-технология!
   components:
   - type: Sprite
     state: pict_system
@@ -266,8 +266,8 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelManager
-  name: incision management system
-  description: A true extension of the surgeon's body, this marvel instantly and completely prepares an incision allowing for the immediate commencement of therapeutic steps.
+  name: система управления надрезами
+  description: Инструмент, совмещающий в себе скальпель, зажим, ретрактор и каутер одновременно. Делает разрезы намного быстрее, что позволяет незамедлительно приступить к терапии.
   components:
   - type: Sprite
     state: scalpel_manager
@@ -278,8 +278,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMCircularSaw
-  name: circular saw
-  description: For heavy-duty cutting.
+  name: осциллирующая пила
+  description: Инструмент, использующийся для распиливания костной ткани. Эта работает на аккумуляторе, очень, очень объёмном аккумуляторе.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -305,7 +305,7 @@
 - type: entity
   parent: CMCircularSaw
   id: CMCircularSawPredator
-  name: bone saw
+  name: листовая пила
   components:
   - type: Sprite
     state: predator_bonesaw
@@ -316,8 +316,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMBonesetter
-  name: bone setter
-  description: Used for setting bones back into place.
+  name: фиксационные костные щипцы
+  description: Используются для фиксации костей во время операции.
   components: # TODO RMC14
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/bonesetter.rsi
@@ -330,7 +330,7 @@
 - type: entity
   parent: CMBonesetter
   id: CMBonesetterPredator
-  name: bone placer
+  name: фиксационные костные щипцы
   components:
   - type: Sprite
     state: predator_bonesetter
@@ -342,8 +342,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMWoundClamp
-  name: wound clamp
-  description: Used for clamping wounds after treatment.
+  name: старый хирургический зажим
+  description: Используется для зажима раны после операции.
   components: # TODO RMC14
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/wound_clamp.rsi
@@ -357,8 +357,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMAutopsy
-  name: We-Ya Brand Automatic Autopsy System(TM)
-  description: Putting the FUN back in Autopsy.  This little gadget performs an entire autopsy of whatever strange life form you've found in about 30 seconds.
+  name: система автоматического вскрытия (TM) марки We-Ya
+  description: Благодаря этому новейшему прибору работа патологоанатомов станет более увлекательной. Этот маленький чудо-аппарат проведёт вскрытие тела любого существа всего за тридцать секунд!
   components: # TODO RMC14
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/scalpel.rsi
@@ -372,8 +372,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMBoneGel
-  name: bottle of bone gel
-  description: A container for bone gel that often needs to be refilled from a specialized machine.
+  name: бутыль костного геля
+  description: Бутыль костного геля, используемого для ускорения заживления костных тканей и сращивания переломов. Её можно пополнить из специального аппарата.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/bone_gel.rsi

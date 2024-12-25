@@ -2,7 +2,7 @@
   save: false
   parent: CMBaseMobSpeciesOrganic
   id: CMMobHuman
-  name: Urist C.M. McHands
+  name: Урист МакРучки
   suffix: RMC14
   components:
   - type: Vocal

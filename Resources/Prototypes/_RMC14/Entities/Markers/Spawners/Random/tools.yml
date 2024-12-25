@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomTools
-  name: random tools spawner
-  description: This is a random tool.
+  name: Случайный Инструмент
+  description: Спавнер случайного инструмента.
   components:
     - type: Sprite
       layers:
@@ -21,8 +21,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomToolbox
-  name: random toolbox spawner
-  description: This is a random toolbox.
+  name: Случайный ящик с инструментами
+  description: То и значит.
   components:
     - type: Sprite
       layers:
@@ -43,8 +43,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomPowercell
-  name: random powercell spawner
-  description: This is a random powercell.
+  name: Случайный аккумулятор
+  description: То и значит.
   components:
     - type: Sprite
       layers:
@@ -71,8 +71,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomTechSupply
-  name: random tech supply spawner
-  description: This is a random piece of technology supplies.
+  name: Случайное оборудование
+  description: Спавнер случайного оборудования.
   components:
     - type: Sprite
       layers:

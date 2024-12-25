@@ -24,7 +24,7 @@
   suffix: RMC14
 
 - type: entity
-  name: emergency toolbox
+  name: аварийный ящик с инструментами
   parent: [RMCToolboxEmergency, ToolboxEmergencyFilled]
   id: RMCToolboxEmergencyFilled
   components:
@@ -42,7 +42,7 @@
   suffix: RMC14, Filled
 
 - type: entity
-  name: electrical toolbox
+  name: ящик электроинструментов
   parent: [RMCToolboxBase, ToolboxElectrical]
   id: RMCToolboxElectrical
   components:
@@ -72,7 +72,7 @@
   suffix: RMC14, Filled
 
 - type: entity
-  name: mechanical toolbox
+  name: ящик технических принадлежностей
   parent: [RMCToolboxBase, ToolboxMechanical]
   id: RMCToolboxMechanical
   components:
@@ -113,8 +113,8 @@
   suffix: RMC14, Filled, Green
 
 - type: entity
-  name: suspicious toolbox
-  description: A compact and suspicious looking toolbox. This one is small enough to fit into a bag.
+  name: подозрительный ящик
+  description: Оно следит за тобой.
   parent: RMCToolboxBase
   id: RMCToolboxSyndicate
   components:

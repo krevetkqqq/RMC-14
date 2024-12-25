@@ -17,8 +17,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMOintment
-  name: ointment
-  description: Used to treat those nasty burns. Less effective on caustic burns.
+  name: мазь
+  description: Используется для эффективного лечения ожогов первой и второй степени. Не очень эффективна против химических ожогов.
   suffix: Ten
   components:
   - type: Tag
@@ -60,7 +60,7 @@
 
 - type: stack
   id: CMOintment
-  name: ointment
+  name: мазь
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: ointment }
   spawn: CMOintment1
   maxCount: 10
@@ -68,7 +68,7 @@
 - type: entity
   id: CMOintment1
   parent: CMOintment
-  suffix: One
+  suffix: Одна
   components:
   - type: Stack
     stackType: CMOintment
@@ -77,7 +77,7 @@
 - type: entity
   id: CMOintment10
   parent: CMOintment
-  suffix: Ten
+  suffix: Десять
   components:
   - type: Stack
     stackType: CMOintment
@@ -87,8 +87,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMGauze
-  name: medical gauze
-  description: Some sterile gauze to wrap around bloody stumps and lacerations.
+  name: бинт
+  description: Стерильный бинт, используемый для тампонации проникающих ранений, остановки кровотечения и перевязки.
   suffix: Ten
   components:
   - type: Tag
@@ -126,7 +126,7 @@
 
 - type: stack
   id: CMGauze
-  name: gauze
+  name: бинт
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: gauze }
   spawn: CMGauze1
   maxCount: 10
@@ -134,7 +134,7 @@
 - type: entity
   id: CMGauze1
   parent: CMGauze
-  suffix: One
+  suffix: Один
   components:
   - type: Stack
     count: 1
@@ -142,7 +142,7 @@
 - type: entity
   id: CMGauze10
   parent: CMGauze
-  suffix: Ten
+  suffix: Десять
   components:
   - type: Stack
     count: 10
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSurgicalLine
-  name: surgical line
-  description: A roll of military-grade surgical line, able to seamlessly sew up any wound. Also works as a robust fishing line for maritime deployments.
+  name: хирургическая нить и игла
+  description: Моток хирургической, стерильной растворимой нити с иголкой, способной зашить даже самую серьёзную рваную рану. А ещё её можно использовать как леску.
   components:
   - type: Tag
     tags:
@@ -192,8 +192,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSynthGraft
-  name: synth graft
-  description: An applicator for silicon skin field grafts. The stuff reeks, itches like the dickens, hurts going on, and the color is a perfectly averaged multiethnic tone that doesn't blend with anyone's complexion. But at least you don't have to stay in sickbay.
+  name: синтетический трансплантат
+  description: Аппликатор для полевых пересадок силиконовой кожи. Эта штука жутко воняет, чешется и болит, а цвет представляет собой идеально усреднённый многоэтнический тон, который не сочетается ни с одним оттенком кожи. Но, по крайней мере, вам не придётся оставаться в лазарете.
   components:
   - type: Tag
     tags:
@@ -285,14 +285,14 @@
 - type: entity
   id: CMBurnKit10
   parent: CMBurnKit
-  suffix: Ten
+  suffix: Десять
   components:
   - type: Stack
     count: 10
 
 - type: stack
   id: CMBurnKit
-  name: advanced burn kit
+  name: продвинутый набор для лечения ожогов
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit }
   spawn: CMBurnKit1
   maxCount: 10
@@ -301,8 +301,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMTraumaKit
-  name: trauma kit
-  description: A trauma kit for severe injuries.
+  name: травматологический набор
+  description: Травматологический набор для серьёзных ранений.
   suffix: Ten
   components:
   - type: Stack
@@ -343,7 +343,7 @@
 - type: entity
   id: CMTraumaKit1
   parent: CMTraumaKit
-  suffix: One
+  suffix: Один
   components:
   - type: Stack
     count: 1
@@ -351,7 +351,7 @@
 - type: entity
   id: CMTraumaKit10
   parent: CMTraumaKit
-  suffix: Ten
+  suffix: Десять
   components:
   - type: Stack
     count: 10

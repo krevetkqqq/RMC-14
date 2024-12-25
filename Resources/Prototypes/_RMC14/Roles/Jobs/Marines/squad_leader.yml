@@ -4,12 +4,11 @@
   name: cm-job-name-squad-leader
   description: cm-job-description-squad-leader
   playTimeTracker: CMJobSquadLeader
-  # requirements:
-  # - !type:DepartmentTimeRequirement
-  #   department: CMSquad
-  #   time: 36000 # 10 hours
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: CMSquad
+    time: 36000 # 10 hours
   startingGear: CMGearSquadLeader
-  dummyStartingGear: CMGearSquadLeaderEquipped
   icon: "CMJobIconSquadLeader"
   joinNotifyCrew: false
   supervisors: cm-job-supervisors-co
@@ -61,7 +60,7 @@
     back: CMSatchelMarine
     shoes: CMBootsBlackFilled
     head: CMArmorHelmetM11
-    outerClothing: CMArmorB12
+    outerClothing: CMArmorM3Medium
     gloves: CMHandsBlackMarine
     id: CMDogtagSquadLeader
     ears: CMHeadsetAlphaLeader

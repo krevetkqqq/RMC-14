@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCSmallFloodlight
-  name: small floodlight
-  description: A small bit of light in the darkness.
+  name: маленький прожектор
+  description: Маленький лучик света в непроглядной темноте.
   components:
   - type: Transform
     anchored: true
@@ -66,8 +66,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCTallFloodlight
-  name: tall floodlight
-  description: A pillar of light in the darkness.
+  name: высокий прожектор
+  description: Отличный выбор для освещения больших площадей.
   placement:
     mode: SnapgridCenter
   components:
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCFloodlightBroken
-  name: tall broken floodlight
-  description: A pasted on note says 'To fix, unscrew the panel, crowbar out the damaged assembly, weld it fixed, add 2 cable, then close the panel.'
+  name: неисправный прожектор
+  description: На наклейке написано "Чтобы починить, отвинтите панель, извлеките поврежденный компонент ломом, почините его, добавьте 2 кабеля, затем закройте панель".
   components:
   - type: Transform
     anchored: true
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCLZFloodlight
-  name: LZ floodlight
-  description: An indestructible bit of light in the darkness. Never seems to run out of power.
+  name: светильник периметра зоны приземления 
+  description: Неразрушимый источник освещения для взлётно-посадочных площадок. Питается святым духом.
   placement:
     mode: SnapgridCenter
   components:

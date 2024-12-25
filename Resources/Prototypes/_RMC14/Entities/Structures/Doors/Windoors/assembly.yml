@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseStructureCorrodible
   id: CMWindoorAssembly
-  name: windoor assembly
-  description: It opens, it closes, and you can see through it!
+  name: каркас ставней
+  description: Они открываются, они закрываются, через них можно смотреть!
   placement:
     mode: SnapgridCenter
   components:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMWindoorAssembly
   id: CMWindoorAssemblySecure
-  name: secure windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks tough.
+  name: каркас укрепленных ставней
+  description: Они открываются, они закрываются, через них можно смотреть! Эти выглядят надёжными.
   components:
   - type: Sprite
     state: secure_assembly01

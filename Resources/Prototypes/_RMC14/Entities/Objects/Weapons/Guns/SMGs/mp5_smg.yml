@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: MP5 submachine gun
+  name: MP5
   id: WeaponSMGMP5 # TODO RMC14 10% chance to have an underbarrel grenade launcher
-  description: A German design, this was one of the most widely used submachine guns in the world. It's still possible to find this firearm in the hands of collectors or gun fanatics.
+  description: Немецкий пистолет-пулемёт, один из самых широко используемых в мире. Всё ещё встречается у коллекционеров и фанатов оружия.
   suffix: Filled
   components:
   - type: Sprite
@@ -41,9 +41,6 @@
         useBurstScatterMult: true
         unwieldedScatterMultiplier: 2
         shotsToMaxScatter: 4
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1.2
-    accuracyMultiplierUnwielded: 0.8
   - type: MagazineAmmoProvider
     autoEject: false
     soundAutoEject: null
@@ -94,8 +91,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: CMMagazineSMGMP5
-  name: "MP5 magazine (9mm)"
-  description: "A 9mm magazine for the MP5."
+  name: "магазин MP5 (9мм ЦМО)"
+  description: "Магазин для MP5."
   components:
   - type: Tag
     tags:
@@ -125,8 +122,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: CMCartridge9mmSMG
-  name: cartridge (9mm SMG)
-  description: A 9mm cartridge for the mp5 submachinegun.
+  name: патрон (9мм ПП)
+  description: Патрон калибра 9мм для пистолета пулемёта MP5.
   components:
   - type: Tag
     tags:

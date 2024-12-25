@@ -1,8 +1,8 @@
 - type: entity
-  name: flare
+  name: фальшфейер M94
   parent: BaseItem
   id: CMFlare
-  description: A red Marine issued flare. There are instructions on the side, it reads 'pull cord, make light'.
+  description: Стандартный фальшфейер M94 КМП. На одной из сторон изображена инструкция, которая гласит 'потяни за шнур и да будет свет'.
   components:
   - type: Tag
     tags:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMFlare
   id: RMCFlareCAS
-  name: signal flare
-  description: A green UNMC issued signal flare. The telemetry computer works on chemical reaction that releases smoke and light and thus works only while the flare is burning.
+  name: сигнальная шашка M89-S
+  description: Зелёная сигнальная шашка M89-S КМП. Позволяет указать зону для атаки огневой поддержки с воздуха.
   components:
   - type: Tag
     tags:
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxPackFlareEmpty
-  name: box of M94 flare packs
-  description: A box of M94 marking flare packs, to brighten up your day.
+  name: коробка фальшфейеров M94
+  description: Коробка фальшфейеров M94, чтобы ваш день стал чуточку ярче.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCBoxMagazineBase
   id: RMCBoxPackFlareCASEmpty
-  name: box of M89-S flare packs
-  description: A box of M89 signal flare packs, to mark up the way.
+  name: коробка сигнальных шашек M89-S
+  description: Коробка сигнальных шашек M89-S, для особо важных пометок.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -194,7 +194,7 @@
 - type: entity
   parent: RMCBoxPackFlareCASEmpty
   id: RMCBoxPackFlareCAS
-  suffix: Filled
+  suffix: Полная
   components:
   - type: CMItemSlots
     startingItem: RMCPackFlareCAS
@@ -203,8 +203,8 @@
   abstract: true
   parent: BaseItem
   id: CMPackFlareBase
-  name: M94 marking flare pack
-  description: A packet of eight M94 Marking Flares. Carried by Marine soldiers to light dark areas that cannot be reached with the usual TNR Shoulder Lamp.
+  name: упаковка фальшфейеров M94
+  description: Упаковка восьми фальшфейеров M94. Используется для подсветки тёмных зон, где фонарик уже не справляется.
   components:
   - type: Item
     size: Normal
@@ -253,8 +253,8 @@
 - type: entity
   parent: CMPackFlareBase
   id: RMCPackFlareCAS
-  name: M89-S signal flare pack
-  description: A packet of eight M89-S Signal Marking Flares.
+  name: упаковка сигнальных шашек M89-S
+  description: Упаковка восьми сигнальных шашек M89-S.
   suffix: Filled
   components:
   - type: Tag

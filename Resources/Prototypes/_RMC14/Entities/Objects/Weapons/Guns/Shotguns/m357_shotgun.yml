@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ RMCBaseBreechloader, RMCBaseAttachableHolder ]
-  name: M357 Rival
+  name: M357
   id: WeaponShotgunM357
-  description: A double barrel shotgun produced by Aegis. Archaic, sturdy, affordable. Only holds two 12g shells at a time.
+  description: Двуствольное ружьё, надёжное и доступное. Вмещает два патрона калибра 12g.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/doublebarrel.rsi
@@ -25,9 +25,6 @@
     scatterUnwielded: 20
     baseFireRate: 2
     burstScatterMult: 1
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1.15
-    accuracyMultiplierUnwielded: 0.95
   - type: Construction
     graph: M357Sawn
     node: start

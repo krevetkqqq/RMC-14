@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatCorrespondent
-  name: combat correspondent jacket
-  description: A jacket for the most fashionable war correspondents.
+  name: куртка военного корреспондента
+  description: Куртка для самых стильных военных корреспондентов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Correspondent/brown.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
   id: RMCHazardVest
-  name: orange hazard vest
-  description: An orange high-visibility vest used in work zones.
+  name: оранжевый сигнальный жилет
+  description: Оранжевый жилет высокой видимости, используемый в рабочих зонах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/orange.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestBlue
-  name: blue hazard vest
-  description: A blue high-visibility vest used in work zones.
+  name: синий сигнальный жилет
+  description: Синий жилет высокой видимости, используемый в рабочих зонах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/blue.rsi
@@ -62,9 +62,9 @@
 
 - type: entity
   parent: RMCHazardVest
-  name: yellow hazard vest
+  name: желтый сигнальный жилет
   id: RMCHazardVestYellow
-  description: A yellow high-visibility vest used in work zones.
+  description: Желтый жилет высокой видимости, используемый в рабочих зонах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/yellow.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestBlack
-  name: black hazard vest
-  description: A niche-market, black, allegedly high-visibility vest supposedly used in work zones. Features extra-reflective tapes. The etiquette on the vest insists that it's fully compliant with all the United Nations workplace safety standards.
+  name: черный сигнальный жилет
+  description: Черный жилет высокой видимости, предназначенный для узкого рынка и якобы используемый в рабочих зонах. Оснащен сверхотражающими полосами. Инструкция на жилете утверждает, что он полностью соответствует всем стандартам безопасности труда ООН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/black.rsi

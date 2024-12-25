@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: nailgun
+  name: нейлган
   id: WeaponNailgun
-  description: A carpentry tool, used to drive nails into tough surfaces. Of course, if there isn't anything there, that's just a very sharp nail launching at high velocity...
-  suffix: Filled
+  description: Строительный инструмент для забивания гвоздей в твёрдые поверхности. При отсутствии цели — это просто гвоздь, летящий с высокой скоростью...
+  suffix: Полон
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/nailgun.rsi
@@ -43,9 +43,6 @@
         useBurstScatterMult: true
         unwieldedScatterMultiplier: 2
         shotsToMaxScatter: 4
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1.25
-    accuracyMultiplierUnwielded: 1.2
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -59,13 +56,12 @@
           - RMCMagazineSMGNailgun
   - type: GunDamageModifier
     multiplier: 1.2
-  - type: Nailgun
 
 - type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSMGNailgun
-  name: "nailgun magazine (7x45mm)"
-  description: "A large magazine of oversized plasteel nails. Unfortunately, the production cost of those nail makes them ill-affordable for most military projects, and only some specific construction projects requires them."
+  name: "обойма нейлгана (7x45мм)"
+  description: "Большая обойма пласталевых гвоздей. К сожалению, стоимость производства этих гвоздей очень быстро разорит кого угодно. Не лучшее вложение средств."
   components:
   - type: Tag
     tags:
@@ -95,7 +91,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: RMCCartridge7x45mm
-  name: nail (7x45mm)
+  name: гвоздь (7x45мм)
   components:
   - type: Tag
     tags:
@@ -105,7 +101,7 @@
     proto: Nail7x45mm
 
 - type: entity
-  parent: RMCBaseBullet
+  parent: BaseBullet
   id: Nail7x45mm
   components:
   - type: Projectile
@@ -121,11 +117,6 @@
       falloff: 6
   - type: CMArmorPiercing
     amount: 25
-  - type: RMCProjectileAccuracy
-    accuracy: 100
-    thresholds:
-    - range: 5
-      falloff: 10
 
 - type: Tag
   id: RMCMagazineSMGNailgun

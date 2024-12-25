@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolHoldout
-  name: holdout pistol
-  description: A tiny pistol meant for hiding in hard-to-reach areas. Best not ask where it came from.
+  name: пистолет скрытого ношения
+  description: Крошечный пистолет для скрытого ношения. Лучше не спрашивать, откуда он.
   suffix: Filled
   components:
   - type: Item
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolHoldout
-  name: tiny pistol magazine (.22)
-  description: A surprisingly small magazine, holding .22 bullets. No Kolibri, but it's getting there.
+  name: крошечный магазин (.22)
+  description: Очень маленький магазин для патронов калибра .22. Не Kolibri, но близко.
   components:
   - type: Tag
     tags:
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol.22mm
-  name: bullet (.22)
+  name: пуля (.22)
   components:
   - type: Projectile
     damage:
@@ -96,7 +96,7 @@
 
 - type: entity
   id: CMCartridgePistol.22mm
-  name: cartridge (.22)
+  name: патрон (.22)
   parent: CMCartridgePistolBase
   components:
   - type: Tag

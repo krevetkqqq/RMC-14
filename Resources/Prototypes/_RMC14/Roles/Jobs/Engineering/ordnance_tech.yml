@@ -4,10 +4,10 @@
   name: cm-job-name-ordnance-tech
   description: cm-job-description-ordnance-tech
   playTimeTracker: CMJobOrdnanceTech
-  # requirements:
-  # - !type:TotalJobsTimeRequirement
-  #   group: CMJobsEngineering
-  #   time: 3600 # 1 hour
+  requirements:
+  - !type:TotalJobsTimeRequirement
+    group: CMJobsEngineering
+    time: 3600 # 1 hour
   startingGear: CMGearOrdnanceTech
   icon: "CMJobIconOrdnanceTech"
   joinNotifyCrew: false

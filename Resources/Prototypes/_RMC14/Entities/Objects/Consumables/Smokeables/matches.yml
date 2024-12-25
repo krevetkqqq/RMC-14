@@ -1,6 +1,6 @@
 - type: entity
-  name: match box
-  description: A small box of 'Space-Proof' premium matches.
+  name: спичечный коробок
+  description: Маленький коробок 'Космо-стойких' премиальных спичек.
   parent: [ SmallboxItem, BaseBagOpenClose ]
   id: RMCMatchbox
   components:
@@ -18,10 +18,7 @@
   - type: Item
     sprite: Objects/Tools/matches.rsi
     heldPrefix: matchbox
-    size: Tiny
-  - type: Clothing
-    slots:
-    - belt
+    size: Small
   - type: StorageFillVisualizer
     maxFillLevels: 7
     fillBaseName: matchbox
@@ -48,7 +45,7 @@
       - Xeno
 
 - type: entity
-  name: match box
+  name: коробок спичек
   parent: RMCMatchbox
   id: RMCMatchboxFull
   suffix: Full
@@ -59,8 +56,8 @@
       amount: 14
 
 - type: entity
-  name: match
-  description: A simple match stick, used for lighting fine smokables.
+  name: спичка
+  description: Простая спичка, используемая курильщиками и поджигателями.
   parent: Matchstick
   id: RMCMatchstick
   components:
@@ -69,8 +66,8 @@
     state: match_unlit
 
 - type: entity
-  name: paper match
-  description: A simple match stick, used for lighting fine smokables.
+  name: бумажная спичка
+  description: Простая спичка, используемая курильщиками и поджигателями.
   parent: RMCMatchstick
   id: RMCMatchstickPaper
   components:

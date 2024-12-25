@@ -4,8 +4,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorMARSOC
-  name: marine raider armor
-  description: A heavily customized suit of M3 armor. Used by Marine Raiders.
+  name: рейдерская броня пехоты
+  description: Сильно модифицированная броня M3. Используется рейдерами КМП.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/marsoc.rsi
@@ -14,8 +14,8 @@
     bio: 15 # CLOTHING_ARMOR_MEDIUMLOW
     explosionArmor: 40 # CLOTHING_ARMOR_VERYHIGH
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_LIGHT
-    walkModifier: 0.725
-    sprintModifier: 0.725
+    walkModifier: 0.814
+    sprintModifier: 0.814
   - type: Storage
     grid:
     - 0,0,7,1 # 4 slots
@@ -25,8 +25,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: CMArmorIronBear
-  name: H1 Iron Bears vest
-  description: A protective vest worn by Iron Bears mercenaries.
+  name: бронежилет железных медведей H1
+  description: Бронежилет, используемый ЧВК "Железный Ведведь".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/SPP/bear.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: CMArmorDutchVest
-  name: D2 armored vest
-  description: A protective vest worn by some seriously experienced mercs.
+  name: бронежилет D2
+  description: Бронежилет, используемый крайне опытными наёмниками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Dutch/vest.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: CMArmorDutchJacket
-  name: safari jacket
-  description: A tailored hunting jacket, cunningly lined with segmented armor plates. Sometimes the game shoots back.
+  name: охотничья куртка
+  description: Сшитая на заказ охотничья куртка, искусно отделанная сегментированными пластинами брони.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Dutch/bandolier.rsi
@@ -76,15 +76,15 @@
     bio: 20
     explosionArmor: 20 # CLOTHING_ARMOR_MEDIUM
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_LIGHT
-    walkModifier: 0.725
-    sprintModifier: 0.725
+    walkModifier: 0.814
+    sprintModifier: 0.814
 
 # Freelancer
 - type: entity
   parent: RMCArmorSPP
   id: CMArmorFreelancer
-  name: freelancer cuirass
-  description: An armored protective chestplate scrapped together from various plates. It keeps up remarkably well, as the craftsmanship is solid, and the design mirrors such armors in the SPP and the UNMC. The many skilled craftsmen in the freelancers ranks produce these vests at a rate about one a month.
+  name: кираса авантюриста
+  description: Бронированный защитный нагрудник, собранный из разных пластин. Отличается, на удивление, высоким качеством изготовления.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/freelancer.rsi
@@ -93,8 +93,8 @@
     bio: 15
     explosionArmor: 20
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_LIGHT
-    walkModifier: 0.725
-    sprintModifier: 0.725
+    walkModifier: 0.814
+    sprintModifier: 0.814
   - type: ExplosionResistance
     damageCoefficient: 0
     worn: false
@@ -108,8 +108,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: RMCCoatMilitia
-  name: colonial militia hauberk
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops.
+  name: кольчуга колониального ополчения
+  description: Броня члена колониального ополчения, изготовленная из вареной кожи и некоторых современных бронированных пластин. Да, примитивная. Да, кустарная. Зато надёжная и доступная.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Militia/rebel.rsi
@@ -119,8 +119,8 @@
     armor: 18 # CLOTHING_ARMOR_MEDIUM (melee); CLOTHING_ARMOR_MEDIUMLOW (bullets)
     explosionArmor: 20 # CLOTHING_ARMOR_MEDIUM
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_LIGHT
-    walkModifier: 0.725
-    sprintModifier: 0.725
+    walkModifier: 0.814
+    sprintModifier: 0.814
   - type: WieldSlowdownCompensation
     walk: 0.12
     sprint: 0.198
@@ -132,8 +132,8 @@
 - type: entity
   parent: RMCCoatMilitia
   id: RMCCoatMilitiaVest
-  name: colonial militia vest
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops. This extremely light variant protects only the chest and abdomen.
+  name: доспех колониального ополчения
+  description: Броня члена колониального ополчения, изготовленная из вареной кожи и некоторых современных бронированных пластин. Да, примитивная. Да, кустарная. Зато надёжная и доступная.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Militia/vest.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: RMCCoatMilitia
   id: RMCCoatMilitiaBrace
-  name: colonial militia brace
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops. This extremely light variant has some of the chest pieces removed.
+  name: латы колониального ополчения
+  description: Броня члена колониального ополчения, изготовленная из вареной кожи и некоторых современных бронированных пластин. Да, примитивная. Да, кустарная. Зато надёжная и доступная.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Militia/brace.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: RMCCoatMilitia
   id: RMCCoatMilitiaHauberk
-  name: colonial militia partial hauberk
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops. This even lighter variant has some of the arm pieces removed.
+  name: лёгкий доспех колониального ополчения
+  description: Броня члена колониального ополчения, изготовленная из вареной кожи и некоторых современных бронированных пластин. Да, примитивная. Да, кустарная. Зато надёжная и доступная.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Militia/hauberk.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: RMCCoatMilitia
   id: RMCCoatMilitiaHarness
-  name: colonial militia harness
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops. This one has straps interweaved with the plates, that allow the user to fire a captured smart gun, if a bit uncomfortably.
+  name: наплечники колониального ополчения
+  description: Броня члена колониального ополчения, изготовленная из вареной кожи и некоторых современных бронированных пластин. Да, примитивная. Да, кустарная. Зато надёжная и доступная.
   components:
   - type: SmartGunArmor
 
@@ -184,8 +184,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorRoyal, RMCArmorM4PMC]
   id: RMCArmorMercenary
-  name: mercenary K12 ceramic plated armor
-  description: A set of grey, heavy ceramic armor with dark blue highlights. It is the standard uniform of an unknown mercenary group working in the sector.
+  name: броня ЧВК модели K12 с керамическими пластинами
+  description: Комплект тяжелой, керамической брони серого цвета с темно-синими вставками. Это стандартная униформа неизвестной группы наемников, работающих в этом секторе.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Mercenary/heavy.rsi
@@ -194,8 +194,8 @@
     bio: 20
     explosionArmor: 20 # CLOTHING_ARMOR_MEDIUM
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_LIGHT
-    walkModifier: 0.725
-    sprintModifier: 0.725
+    walkModifier: 0.814
+    sprintModifier: 0.814
   - type: Storage
     grid:
     - 0,0,3,1 # 2 slots
@@ -204,8 +204,8 @@
 - type: entity
   parent: RMCArmorMercenary
   id: RMCArmorMercenaryHeavy
-  name: mercenary modified K12 ceramic plated armor
-  description: A set of grey, heavy ceramic armor with dark blue highlights. It has been modified with extra ceramic plates placed in its storage pouch, and seems intended to support an extremely heavy weapon.
+  name: модифицировання броня ЧВК модели K12 с керамическими пластинами
+  description: Комплект тяжелых керамических доспехов серого цвета с темно-синими вставками. Он был модифицирован дополнительными керамическими пластинами, помещенными в подсумки, и, похоже, предназначен для использования с тяжелым вооружением.
   components:
   - type: CMArmor
     armor: 52 # CLOTHING_ARMOR_ULTRAHIGH (melee); CLOTHING_ARMOR_ULTRAHIGHPLUS (bullet)
@@ -220,8 +220,8 @@
 - type: entity
   parent: RMCArmorMercenary
   id: RMCArmorMercenaryMiner
-  name: mercenary Y8 armored miner vest
-  description: A set of beige, light armor built for protection while mining. It is a specialized uniform of an unknown mercenary group working in the sector.
+  name: бронежилет ЧВК модели Y8 для шахтёрских операций
+  description: Комплект легкой брони бежевого цвета, предназначенный для защиты при добыче полезных ископаемых. Это специальная униформа неизвестной группы наемников, работающих в этом секторе.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Mercenary/miner.rsi
@@ -233,8 +233,8 @@
 - type: entity
   parent: RMCArmorMercenary
   id: RMCArmorMercenaryEngineer
-  name: mercenary Z7 armored vest
-  description: A set of blue armor with yellow highlights built for protection while building or carrying out medical treatment in highly dangerous environments. It is a specialized uniform of an unknown mercenary group working in the sector.
+  name: бронежилет ЧВК модели Z7
+  description: Комплект синей брони с желтыми вставками, предназначенный для защиты при строительстве зданий или оказании медицинской помощи в особо опасных условиях. Это специализированная униформа неизвестной группы наемников, работающей в этом секторе.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Mercenary/engi.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: RMCArmorM3G4
   id: RMCArmorMercenaryHEFA
-  name: HEFA Knight armor
-  description: A thick piece of armor adorning a HEFA. Usually seen on a HEFA knight.
+  name: бронежилет братства ОФППГ
+  description: Массивный доспех, созданный во славу братству ОФППГ. Обычно используется рыцарями братства. Наводит жути.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Mercenary/hefa.rsi
@@ -257,8 +257,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: RMCArmorPMCRiot
-  name: UN-M1 riot armor
-  description: Based on the M3 pattern employed by the UNMC, the UN-M1 body armor is employed by security, riot control and union-busting teams. While robust against melee and bullet attacks, it critically lacks coverage of the legs and arms.
+  name: броня модели UN-M1 для подавления мятежей
+  description: Основанный на модели M3, используемой КМП, бронежилет UN-M1 используется службами безопасности для борьбы с массовыми беспорядками. Несмотря на то, что он устойчив к рукопашному бою и выстрелам, ему критически не хватает защиты ног и рук.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/riot.rsi
@@ -267,14 +267,14 @@
     bio: 20
     explosionArmor: 20 # CLOTHING_ARMOR_MEDIUM
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_VERY_LIGHT
-    walkModifier: 0.725
-    sprintModifier: 0.725
+    walkModifier: 0.897
+    sprintModifier: 0.897
 
 - type: entity
   parent: RMCArmorPMCRiot
   id: RMCArmorPMCRiotSynth
-  name: UN-M1S synthetic body armor
-  description: Based on the M3 pattern employed by the UNMC, the UN-M1 body armor is employed by security, riot control and union-busting teams. The UN-1MS modification is Synthetic programming compliant, sacrificing protection for speed and carrying capacity.
+  name: синтетическая броня модели UN-M1S
+  description: Бронежилет UN-M1, основанный на модели M3, используемой КМП, используется службами безопасности для борьбы с массовыми беспорядками. Модификация UN-1MS совместима с синтетическим программированием, что позволяет жертвовать защитой ради скорости и грузоподъемности.
   components:
   - type: CMArmor
     armor: 0
@@ -289,8 +289,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorCBRN
-  name: CBRN M3-M armor
-  description: While lacking the appearance of the M3 pattern armor worn in regular service, this armor piece is still a derivative of it. It has been heavily modified to fit over the MOPP suit with additional padding and Venlar composite layers removed, so as not to restrict the wearer’s movement. However, with the reduction of composite layers, the personal protection offered is less than desired with complaints having been lodged since 2165.
+  name: броня M3-M комплекта СИБЗ
+  description: Несмотря на то, что этот доспех не похож на броню образца M3, которую носят в обычных войсках, он по-прежнему является ее производным. Он был сильно модифицирован, чтобы надеваться поверх СИБЗ. Для этого были удалены дополнительные прокладки и слои композитного материала венлар, чтобы не стеснять движения владельца. Однако из-за сокращения количества композитных слоев предлагаемая индивидуальная защита оказывается ниже желаемой, поскольку жалобы подаются с 2165 года.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/cbrn.rsi
@@ -299,13 +299,13 @@
     explosionArmor: 20 # CLOTHING_ARMOR_MEDIUM
     bio: 10 # CLOTHING_ARMOR_LOW
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_HEAVY
-    walkModifier: 0.62
-    sprintModifier: 0.62
+    walkModifier: 0.68
+    sprintModifier: 0.68
 
 - type: entity
   parent: RMCArmorCBRN
   id: RMCArmorCBRNAdvanced
-  name: CBRN M3-M advanced armor
+  name: продвинутая броня M3-M комплекта СИБЗ
   components:
   - type: CMArmor
     armor: 20 # CLOTHING_ARMOR_MEDIUM

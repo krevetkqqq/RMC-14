@@ -66,8 +66,8 @@
       entries:
       - id: CMPacketGrenadeHighExplosiveFilled
         points: 18
-      - id: RMCPacketGrenadeIncendiaryFilled
-        points: 18
+    #- id: CMM40HIDPIncendiaryPacket3
+    #  points: 18
     #- id: CMM40HPDPPhosphorusPacket3
     #  points: 18
       - id: RMCPacketGrenadeSmokeFilled
@@ -230,11 +230,8 @@
       - id: RMCM276ShotgunShellLoadingRig
       - id: CMBeltMortar
       - id: CMBeltUtilityFilled
-        name: M276 pattern toolbelt rig (Full)
-        # mandatory: true, TODO allow vendors to mark entries as mandatory
-      - id: RMCBeltGrenade
-      - id: RMCBeltConstruction
         recommended: true
+      - id: RMCBeltGrenade
     - name: Pouches
       choices: { RMCPouch: 2 }
       entries:
@@ -249,8 +246,7 @@
       - id: RMCPouchFirstAidPills
         name: first-aid pouch (pills)
         recommended: true
-      # - id: RMCPouchElectronicsFill
-        # name: electronics pouch (Full)
+      #- id: CMElectronicsPouchFull
       - id: RMCPouchExplosive
       - id: RMCPouchFlareFilled
         name: Flare pouch (Full)
@@ -260,7 +256,7 @@
       - id: RMCPouchGeneralMedium
       - id: RMCPouchPistol
       - id: RMCPouchToolsFill
-        name: Tools pouch (Full)
+        name: Tools pouch (Filled)
     - name: Accessories
       choices: { CMAccessories: 1 }
       entries:
@@ -270,8 +266,6 @@
       - id: CMWebbing
       - id: CMWebbingPouch
       - id: CMWebbingHolster
-      - id: RMCToolWebbingSmallFilled
-        name: small tool webbing (Full)
     - name: Mask
       choices: { CMMask: 1 }
       entries:

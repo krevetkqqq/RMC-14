@@ -1,7 +1,7 @@
 - type: entity
   parent: CMAirlockSecurity
   id: CMAirlockBrigLocked
-  suffix: Brig, Locked
+  suffix: Бриг, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessBrig"]]
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMAirlockGlassSecurity
   id: CMAirlockGlassBrigLocked
-  suffix: Brig, Locked, Glass
+  suffix: Бриг, Закрыто, Стеклянный
   components:
   - type: AccessReader
     access: [["CMAccessBrig"]]
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintBrigLocked
-  suffix: Brig, Locked, Maint
+  suffix: Бриг, Закрыто, Технический
   components:
   - type: AccessReader
     access: [["CMAccessBrig"]]
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMAirlockSecurity
   id: CMAirlockArmoryLocked
-  suffix: Armory, Locked
+  suffix: Оружейная, Закрыто
   components:
   - type: AccessReader
     access: [["CMAccessArmory"]]
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMAirlockGlassSecurity
   id: CMAirlockGlassArmoryLocked
-  suffix: Armory, Locked, Glass
+  suffix: Оружейная, Закрыто, Стеклянный
   components:
   - type: AccessReader
     access: [["CMAccessArmory"]]

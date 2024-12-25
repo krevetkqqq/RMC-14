@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCBucket
-  name: bucket
-  description: It's a bucket. Holds 120 units.
+  name: ведро
+  description: Чувак, это ведро. Объём в 120ед.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/bucket.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: RMCBucket
   id: CMBucketMop
-  name: mop bucket
-  description: A larger bucket, typically used with a mop. Holds 240 units
+  name: ведро для швабры
+  description: Более вместительное ведро, используемое уборщиками. Объём в 240ед.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/mopbucket.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCBucket
   id: CMBucketJani
-  name: janitorial bucket
-  description: It's a large bucket that fits in a janitorial cart. Holds 500 units.
+  name: ведро уборщика
+  description: Большое корыто, помещаемое на тележку уборщика. Объём в 500ед.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/janibucket.rsi

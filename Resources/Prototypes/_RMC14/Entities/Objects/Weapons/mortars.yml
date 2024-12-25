@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCMortarKit
-  name: M402 mortar portable kit
-  description: A manual, crew-operated mortar system intended to rain down 80mm goodness on anything it's aimed at. Needs to be set down first.
+  name: переносной миномёт M402
+  description: Пехотный миномёт с ручным управлением, для обстрела калибра 80мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -86,8 +86,8 @@
   abstract: true
   parent: BaseItem
   id: RMCMortarShellBase
-  name: 80mm mortar shell
-  description: An unlabeled 80mm mortar shell, probably a casing.
+  name: миномётный снаряд 80мм
+  description: Безымянный 80мм снаряд, вероятно, корпус.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellHE
-  name: 80mm high explosive mortar shell
-  description: An 80mm mortar shell, loaded with a high explosive charge.
+  name: миномётный снаряд 80мм ОФ
+  description: Осколочно-фугасный миномётный снаряд калибра 80мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -117,31 +117,9 @@
 
 - type: entity
   parent: RMCMortarShellBase
-  id: RMCMortarShellIncendiary
-  name: 80mm incendiary mortar shell
-  description: An 80mm mortar shell, loaded with a Type B napalm charge. Perfect for long-range area denial.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Weapons/mortar.rsi
-    state: mortar_ammo_inc
-  - type: Explosive
-    explosionType: RMCMortar
-    maxIntensity: 30 # max 150 brute, 150 burn
-    intensitySlope: 6
-    totalIntensity: 800
-    canCreateVacuum: false
-  - type: CMExplosionEffect
-  - type: RMCScorchEffect
-  - type: MortarShell
-  - type: TileFireOnTrigger
-    spawn: RMCTileFireGreen
-    range: 5
-
-- type: entity
-  parent: RMCMortarShellBase
   id: RMCMortarShellFlare
-  name: 80mm flare/camera mortar shell
-  description: An 80mm mortar shell, loaded with an illumination flare / camera combo, attached to a parachute.
+  name: миномётный снаряд 80мм с камерой\осветительным зарядом
+  description: Разведывательно-осветительный миномётный снаряд калибра 80мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -151,8 +129,8 @@
 
 - type: entity
   id: RMCMortarFlare
-  name: illumination flare
-  description: It's really bright, and unreachable.
+  name: осветительный разяд
+  description: Яркий, как второе солнце.
   components:
   - type: Transform
     anchored: true
@@ -168,7 +146,7 @@
 
 - type: entity
   id: RMCMortarCamera
-  name: para-cam
+  name: пара-камера
   components:
   - type: Transform
     anchored: true

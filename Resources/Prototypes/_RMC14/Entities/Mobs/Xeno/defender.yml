@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoDefender
-  name: Defender
-  description: An alien with an armored crest.
+  name: Защитник
+  description: Ксеноид с бронированной пластиной, подобной щиту.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-defender
@@ -73,8 +73,9 @@
     tailDamage:
       groups:
         Brute: 36
-  - type: Tackle
-    max: 4
+  - type: Tackle # min: 2, max: 4
+    threshold: 4
+    stun: 5
   - type: Fixtures
     fixtures:
       fix1:

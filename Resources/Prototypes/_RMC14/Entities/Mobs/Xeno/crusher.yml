@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoCrusher
-  name: Crusher
-  description: A huge alien with an enormous armored crest.
+  name: Таран
+  description: Здоровенный ксеноид с огромной бронированной пластиной, подобной щиту.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-crusher
@@ -45,8 +45,6 @@
     damage:
       types:
         Blunt: 65
-    selfEffect: CMEffectSelfStomp
-    effect: CMEffectStomp
   - type: XenoCharge
     damage:
       types:
@@ -75,7 +73,9 @@
   - type: XenoMeleeSlow
     slowTime: 2
     effect: RMCEffectCrusherSlow
-  - type: Tackle
+  - type: Tackle # min: 2, max: 6
+    threshold: 5
+    stun: 5
     chance: 0.25
   - type: MovementSpeedModifier
     baseWalkSpeed: 1.66
@@ -103,5 +103,3 @@
     icon:
       sprite: _RMC14/Interface/map_blips.rsi
       state: crusher
-  - type: StunOnExplosionReceived
-    weak: false

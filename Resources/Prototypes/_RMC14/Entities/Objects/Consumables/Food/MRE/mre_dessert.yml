@@ -3,7 +3,7 @@
   abstract: true
   parent: CMMREComponentBase
   id: CMMREDessertComponentBase
-  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious).
+  description: Завершающая часть ИРП. Вишенка на торте. Правда не совсем вишенка, и точно не торт. Содержит дессерт для завершения трапезы (или её начала, дорогой наш бунтарь).
   components:
   - type: Sprite
     state: dessert
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentSpicedApples
-  name: MRE component (spiced apples)
-  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is spiced apples.
+  name: часть ИРП (пряные яблоки)
+  description: Завершающая часть ИРП. Вишенка на торте. Правда не совсем вишенка, а яблоко. Ну и торт в комплекте не идёт. Содержит дессерт для завершения трапезы (или её начала, дорогой наш бунтарь).
   components:
   - type: SpawnItemsOnUse
     items:
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentChocolateBrownie
-  name: MRE component (chocolate brownie)
-  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is a chocolate brownie.
+  name: часть ИРП (шоколадный брауни)
+  description: Завершающая часть ИРП. Вишенка на торте. Правда не совсем вишенка, а брауни. Ну и торт в комплекте не идёт. Содержит дессерт для завершения трапезы (или её начала, дорогой наш бунтарь).
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentSugarCookie
-  name: MRE component (sugar cookie)
-  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is a sugar cookie.
+  name: часть ИРП (сахарное печенье)
+  description: Завершающая часть ИРП. Вишенка на торте. Но не вишенка. Печенье. Торт по прежнему - ложь. Содержит дессерт для завершения трапезы (или её начала, дорогой наш бунтарь).
   components:
   - type: SpawnItemsOnUse
     items:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentCocoBar
-  name: MRE component (coco bar)
-  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is a coco bar.
+  name: часть ИРП (кокосовый батончик)
+  description: Завершающая часть ИРП. Содержит сладкий, кокосовый батончик. Отличный дессерт для завершения трапезы (или её начала, дорогой наш бунтарь).
   components:
   - type: SpawnItemsOnUse
     items:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentFlan
-  name: MRE component (flan)
-  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is flan.
+  name: часть ИРП (флан)
+  description: Чё такое "флан"?. Содержит сладкий флан. Для особо любопытных - аналог запеканки из яиц с сахаром на бисквитной, пропитанной основе. Отличный дессерт для завершения трапезы (или её начала, дорогой наш бунтарь).
   components:
   - type: SpawnItemsOnUse
     items:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentHoneyFlan
-  name: MRE component (honey flan)
-  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is honey flan.
+  name: MRE component (медовый флан)
+  description: Чё такое "флан"?. Содержит сладкий флан. Для особо любопытных - аналог запеканки из яиц с сахаром на бисквитной, пропитанной основе. Этот покрыт мёдом. Отличный дессерт для завершения трапезы (или её начала, дорогой наш бунтарь).
   components:
   - type: SpawnItemsOnUse
     items:
@@ -91,8 +91,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodSpicedApples
-  name: spiced apples
-  description: The contents of a Marine Standard issue MRE. This one is spiced apples.
+  name: пряные яблоки
+  description: Содержимое стандартного ИРП пехоты. Это пряные яблоки.
   components:
   - type: Sprite
     state: spiced_apples
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodChocolateBrownie
-  name: chocolate brownie
-  description: The contents of a Marine Standard issue MRE. This one is a chocolate brownie.
+  name: шоколадный брауни
+  description: Содержимое стандартного ИРП пехоты. Это шоколадный брауни.
   components:
   - type: Sprite
     state: chocolate_brownie
@@ -115,8 +115,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodSugarCookie
-  name: sugar cookie
-  description: The contents of a Marine Standard issue MRE. This one is a sugar cookie.
+  name: сахарное печенье
+  description: Содержимое стандартного ИРП пехоты. Это сахарное печенье.
   components:
   - type: Sprite
     state: sugar_cookie
@@ -127,8 +127,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodCocoBar
-  name: coco bar
-  description: The contents of a Marine Standard issue MRE. This one is a coco bar.
+  name: кокосовый батончик
+  description: Содержимое стандартного ИРП пехоты. Это кокосовый батончик.
   components:
   - type: Sprite
     state: coco_bar
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodFlan
-  name: flan
-  description: The contents of a Marine Standard issue MRE. This one is flan.
+  name: флан
+  description: Содержимое стандартного ИРП пехоты. Это флан.
   components:
   - type: Sprite
     state: flan
@@ -151,8 +151,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodHoneyFlan
-  name: honey flan
-  description: The contents of a Marine Standard issue MRE. This one is honey flan.
+  name: медовый флан
+  description: Содержимое стандартного ИРП пехоты. Это медовый флан.
   components:
   - type: Sprite
     state: honey_flan
@@ -164,29 +164,29 @@
 - type: flavor
   id: SpicedApples
   flavorType: Complex
-  description: like spiced apples
+  description: как пряные яблоки
 
 - type: flavor
   id: ChocolateBrownie
   flavorType: Complex
-  description: like chocolate brownies
+  description: как шоколадный брауни
 
 - type: flavor
   id: SugarCookie
   flavorType: Complex
-  description: like sugar cookie
+  description: как сахарное печенье
 
 - type: flavor
   id: CocoBar
   flavorType: Complex
-  description: like chocolate
+  description: как шоколад и кокос
 
 - type: flavor
   id: Flan
   flavorType: Complex
-  description: like flan
+  description: как флан
 
 - type: flavor
   id: HoneyFlan
   flavorType: Complex
-  description: like honey flan
+  description: как медовый флан

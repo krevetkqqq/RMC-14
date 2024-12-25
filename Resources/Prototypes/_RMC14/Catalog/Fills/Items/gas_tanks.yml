@@ -1,7 +1,7 @@
 - type: entity
   id: CMAnestheticTankFilled
   parent: CMAnestheticTank
-  suffix: Filled
+  suffix: Полный
   components:
   - type: GasTank
     #      0.21  | % oxygen in normal atmosphere

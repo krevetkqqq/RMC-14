@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMBaseDefibrillator
-  name: emergency defibrillator
-  description: A handheld emergency defibrillator, used to restore fibrillating patients. Can optionally bring people back from the dead.
+  name: 'экстренный дефибрилятор'
+  description: Ручной, экстренный дефибриллятор, используемый для фибрилляции сердца пациента. При хорошем исходе - может вернуть пациента к жизни, при плохом - посадить аккумулятор.
   abstract: true
   components:
   - type: Sprite

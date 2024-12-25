@@ -20,7 +20,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: TimedDespawn
-    lifetime: 1
+    lifetime: 1.6
   - type: Sprite
     sprite: _RMC14/Effects/attacks.rsi
     noRot: true

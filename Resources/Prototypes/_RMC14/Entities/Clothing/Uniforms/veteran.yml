@@ -1,8 +1,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: RMCJumpsuitVeteranPMC
-  name: PMC fatigues
-  description: A white set of fatigues, designed for private security operators. The symbol of the Weston-Yamada corporation is emblazed on the suit.
+  name: униформа ЧВК
+  description: Белый комплект униформы, предназначенный для операторов частной охраны. Символ корпорации Weston-Yamada вышит на форме.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/standard.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitVeteranPMCLeader
-  name: PMC command fatigues
-  description: A white set of fatigues, designed for private security operators. The symbol of the Weston-Yamada corporation is emblazed on the suit. This particular suit looks like it belongs to a high-ranking officer.
+  name: униформа лидера ЧВК
+  description: Белый комплект униформы, предназначенный для операторов частной охраны. Символ корпорации Weston-Yamada вышит на форме. Этот комплект выглядит так, как будто он принадлежит высокопоставленному офицеру.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/officer.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: RMCJumpsuitVeteranPMCCommando
-  name: PMC commando uniform
-  description: An armored uniform worn by We-Ya elite commandos. It is well protected while remaining light and comfortable.
+  name: униформа командос ЧВК
+  description: Бронированная униформа, носимая элитными командос We-Ya. Хорошо защищена, но остаётся лёгкой и комфортной.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/commando.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: RMCJumpsuitVeteranPMCCorporate
-  name: We-Ya corporate security uniform
-  description: An armored uniform worn by We-Ya corporate security members. This variant is commonly worn by what are known as 'goons'.
+  name: униформа корпоративной охраны We-Ya
+  description: Бронированная униформа, носимая сотрудниками охраны корпорации We-Ya. Этот вариант часто носится так называемыми «пособниками».
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/corporate.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: RMCJumpsuitVeteranPMCCorporateLead
-  name: We-Ya corporate security uniform
-  description: An armored uniform worn by We-Ya corporate security members. This variant is commonly worn by the lead of the 'goonsquad', as they are colloquially known.
+  name: униформа лидера корпоративной охраны We-Ya
+  description: Бронированная униформа, носимая сотрудниками охраны корпорации We-Ya. Этот вариант часто носится руководителем «группы подстрекателей», как их называют.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/corporate_lead.rsi

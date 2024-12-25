@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatDressBluesEnlisted
-  name: marine enlisted dress blues jacket
-  description: The jacket of the legendary Marine dress blues, virtually unchanged since the 19th century. You're wearing history, Marine. Don't let your ancestors down.
+  name: синяя куртка рядового состава
+  description: Куртка легендарной формы морской пехоты, практически не менявшаяся с 19-го века. Ты носишь историю, боец. Не подведи своих предков.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/DressBlues/enlisted.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatDressBluesSenior
-  name: marine NCO dress blues jacket
-  description: The jacket of the legendary Marine dress blues, virtually unchanged since the 19th century. Features the adornments of a decorated non-commissioned officer. Heritage, embodied.
+  name: синяя куртка сержанта
+  description: Куртка легендарной формы морской пехоты, практически не менявшаяся с 19-го века. На нем присутствуют украшения унтер-офицера с наградами. Наследие, воплощенное в жизнь.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/DressBlues/senior.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatDressBluesGeneral
-  name: marine officer dress blues jacket
-  description: The jacket of the legendary Marine dress blues, virtually unchanged since the 19th century. Features the sleek dark design of the uniform worn by a commissioned officer.
+  name: синяя куртка офицера
+  description: Куртка легендарной формы морской пехоты, практически не менявшаяся с 19-го века. Отличается элегантным темным дизайном униформы.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/DressBlues/general.rsi

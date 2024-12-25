@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: CMXenoRunner
   id: RMCXenoRouny
-  name: Rouny
+  name: Рунни
   suffix: RMC14
-  description: thas a fuckin rouny.
+  description: Это чё блять?
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Rouny/rouny.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMXenoRunner
   id: RMCXenoWehny
-  name: Wehny
-  description: A cruel, cruel joke made by some sick individual.
+  name: Веххи
+  description: Ура! Пыхыч!
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Wehny/wehny.rsi

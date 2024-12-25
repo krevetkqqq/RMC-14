@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCWeaponRevolverBase
   id: RMCWeaponRevolverM44
-  name: M44 combat revolver
-  description: A bulky revolver, occasionally carried by assault troops and officers in the Marine Corps, as well as civilian law enforcement. Fires .44 Magnum rounds.
+  name: M44
+  description: Тяжёлый револьвер под патроны .44 Magnum, используется штурмовыми войсками, офицерами и полицейскими.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/m44.rsi
@@ -54,7 +54,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoader44
-  name: "M44 speed loader (.44)"
+  name: "обойма M44 (.44)"
   parent: BaseItem
   abstract: true
   components:
@@ -79,8 +79,8 @@
 - type: entity
   parent: RMCBaseSpeedLoader44
   id: RMCSpeedLoaderM44
-  name: "M44 speed loader (.44)"
-  description: A revolver speed loader.
+  name: "обойма M44 (.44)"
+  description: Обойма револьвера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/m44.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: RMCSpeedLoaderM44
   id: RMCSpeedLoader44Marksman
-  name: "M44 marksman speed loader (.44)"
-  description: A revolver speed loader filled with Marksman ammo.
+  name: "обойма M44 (.44 высокоточные)"
+  description: Обойма револьвера с высокоточными боеприпасами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/m44.rsi
@@ -120,7 +120,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44
-  name: cartridge (.44)
+  name: патрон (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -132,7 +132,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44Marksman
-  name: cartridge (.44)
+  name: патрон (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -145,7 +145,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletRevolver44
-  name: bullet (.44)
+  name: пуля (.44)
   components:
   - type: Projectile
     damage:
@@ -153,13 +153,11 @@
         Piercing: 72
   - type: CMArmorPiercing
     amount: 5
-  - type: RMCProjectileAccuracy
-    accuracy: 90
 
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver44Marksman
-  name: bullet (.44 Marksman)
+  name: пуля (.44 Marksman)
   components:
   - type: Projectile
     damage:
@@ -172,11 +170,6 @@
       ignoreModifiers: true
   - type: CMArmorPiercing
     amount: 35
-  - type: RMCProjectileAccuracy
-    accuracy: 90
-    thresholds:
-    - range: 12
-      falloff: 10
 
 - type: Tag
   id: RMCSpeedLoaderM44

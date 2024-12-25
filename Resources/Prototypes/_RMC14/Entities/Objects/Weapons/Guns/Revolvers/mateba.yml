@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCWeaponRevolverBase
   id: RMCWeaponRevolverMateba
-  name: Mateba autorevolver custom
-  description: The .454 Mateba 6 Unica autorevolver is a semi-automatic handcannon that uses its own recoil to rotate the cylinders. Extremely rare, prohibitively costly, and unyieldingly powerful, it's found in the hands of a select few high-ranking UNMC officials. Stylish, sophisticated, and above all, extremely deadly.
+  name: Матеба Кастом
+  description: Полуавтоматический револьвер .454 Матеба 6 Уника. Редкий, дорогой и мощный, используется высокопоставленными офицерами КМП.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mateba.rsi
@@ -28,9 +28,6 @@
   - type: RMCSelectiveFire
     baseFireRate: 1.111
     scatterWielded: 8
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1.1
-    accuracyMultiplierUnwielded: 0.75
   - type: AttachableHolder
     slots:
       rmc-aslot-barrel:
@@ -53,7 +50,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoaderMateba
-  name: "Mateba speed loader (.454)"
+  name: "Обойма Матеба (.454)"
   parent: BaseItem
   abstract: true
   components:
@@ -78,7 +75,7 @@
 - type: entity
   parent: RMCBaseSpeedLoaderMateba
   id: RMCSpeedLoaderMateba
-  description: A formidable .454 speedloader, made exclusively for the Mateba autorevolver. Packs a devastating punch. This standard-variant is optimized for anti-armor.
+  description: Обойма, созданная специально под револьвер Матеба калибра .454.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -98,7 +95,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMateba
-  name: cartridge (.454)
+  name: патрон (.454)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -111,7 +108,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletMateba
-  name: bullet (.454)
+  name: пуля (.454)
   components:
   - type: Projectile
     damage:
@@ -120,10 +117,8 @@
   - type: CMArmorPiercing
     amount: 20
   - type: RMCStunOnHit
-    maxRange: 4.5
+    maxRange: 4
     stunTime: 1
-  - type: RMCProjectileAccuracy
-    accuracy: 90
 
 - type: Tag
   id: RMCSpeedLoaderMateba

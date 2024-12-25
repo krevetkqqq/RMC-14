@@ -4,8 +4,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed]
   id: RMCPouchBayonet
-  name: bayonet sheath
-  description: Knife to meet you!
+  name: ножны для штыка
+  description: Ха-ха, да ты ОСТРЯК!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/bayonet.rsi
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCPouchBayonet
   id: RMCPouchBayonetFill
-  suffix: Filled
+  suffix: Полон
   components:
   - type: CMItemSlots
     startingItem: CMM11Knife
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCPouch
   id: RMCPouchPistol
-  name: sidearm pouch
-  description: You could carry a pistol in this; more importantly, you could draw it quickly. Useful for emergencies.
+  name: подсумок для пистолета
+  description: Вмещает пистолет, обеспечивая быстрый доступ. Полезен в экстренных ситуациях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/pistol.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ Clothing, ClothingSlotBase ]
   id: RMCPouchMachete
-  name: H6B pattern M2132 machete pouch
-  description: A large leather pouch used to carry a M2132 machete. It can be strapped to the pouch slot.
+  name: подсумок для мачете M2132
+  description: Большой кожаный подсумок для переноски мачете M2132. Крепится в слот подсумка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/machete.rsi
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCPouchMachete
   id: RMCPouchMacheteFilled
-  suffix: Filled
+  suffix: Полон
   components:
   - type: ContainerFill
     containers:

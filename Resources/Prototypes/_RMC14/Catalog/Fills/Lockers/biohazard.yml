@@ -1,6 +1,6 @@
  - type: entity
    id: CMClosetBioFilled
-   suffix: Filled, Generic
+   suffix: Полный, Обычный
    parent: CMClosetBio
    components:
    - type: StorageFill
@@ -10,7 +10,7 @@
 
  - type: entity
    id: CMClosetBioVirologyFilled
-   suffix: Filled, Virology
+   suffix: Полный, Вирусология
    parent: CMClosetBioVirology
    components:
    - type: StorageFill
@@ -20,7 +20,7 @@
   
  - type: entity
    id: CMClosetBioSecurityFilled
-   suffix: Filled, Security
+   suffix: Полный, Служба Безопасности
    parent: CMClosetBioSecurity
    components:
    - type: StorageFill
@@ -30,7 +30,7 @@
 
  - type: entity
    id: CMClosetBioJanitorFilled
-   suffix: Filled, Janitor
+   suffix: Полный, Уборщик
    parent: CMClosetBioJanitor
    components:
    - type: StorageFill
@@ -40,7 +40,7 @@
 
  - type: entity
    id: CMClosetBioScientistFilled
-   suffix: Filled, Science
+   suffix: Полный, НИО
    parent: CMClosetBioScientist
    components:
    - type: StorageFill

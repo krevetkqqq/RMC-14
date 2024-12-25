@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: M54CE2 heavy assault rifle
+  name: M54CE2
   parent: CMBaseWeaponRifle
   id: WeaponRifleM54CE2
-  description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
+  description: Тяжёлое оружие поддержки, способное вести подавляющий огонь. Меньше точности, но можно использовать в переносном режиме.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi
@@ -46,9 +46,6 @@
         useBurstScatterMult: true
         unwieldedScatterMultiplier: 2
         shotsToMaxScatter: 30
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1
-    accuracyMultiplierUnwielded: 0.5
   - type: WieldableSpeedModifiers
     baseWalk: 0.696
     baseSprint: 0.559
@@ -56,7 +53,6 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: CMMagazineRifleM54CE2
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/hpr_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/hpr_unload.ogg
         priority: 2
@@ -98,7 +94,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CE2
-  name: "M54CE2 magazine (10x24mm)"
+  name: "магазин M54CE2 (10x24мм)"
   components:
   - type: Tag
     tags:

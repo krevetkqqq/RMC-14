@@ -1,0 +1,1 @@
+rmc-power-usage-display-defib = Оно имеет [color=yellow]{$uses}[/color] использований из [color=yellow]{$maxuses}[/color] в своей батарее.

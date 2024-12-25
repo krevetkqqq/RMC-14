@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateBlack
-  name: black suit jacket
-  description: A black suit jacket.
+  name: чёрный пиджак
+  description: Чёрный пиджак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_black_jacket.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateBlue
-  name: blue suit jacket
-  description: A blue suit jacket.
+  name: синий пиджак
+  description: Синий пиджак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_blue_jacket.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateBrown
-  name: brown suit jacket
-  description: A brown suit jacket.
+  name: коричневый пиджак
+  description: Коричневый пиджак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_brown_jacket.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateFormal
-  name: formal suit jacket
-  description: A formal suit jacket.
+  name: формальный пиджак
+  description: Формальный пиджак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_formal_jacket.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateKhaki
-  name: khaki jacket
-  description: A khaki suit jacket.
+  name: пиджак цвета хаки
+  description: Пиджак цвета хаки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_ivy_jacket.rsi

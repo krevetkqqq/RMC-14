@@ -62,7 +62,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameCorsatReinforced
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowCorsatReinforced
     node: windowCorsatReinforced

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ WeaponShotgunM357, RMCBaseAttachableHolder ]
-  name: Sawn-Off M357 Rival
+  name: Обрез M357
   id: WeaponShotgunM357Sawn
-  description: A double barrel shotgun produced by Aegis. Archaic, sturdy, affordable. It has been artificially shortened to reduce range but increase damage and spread.
+  description: Двуствольное ружьё, укороченное для увеличения урона и разброса за счёт дальности.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/dbsawnoff.rsi
@@ -21,9 +21,6 @@
     scatterUnwielded: 20
     baseFireRate: 2
     burstScatterMult: 1
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 0.9
-    accuracyMultiplierUnwielded: 0.95
   - type: AttachableHolder
     slots:
       rmc-aslot-rail:

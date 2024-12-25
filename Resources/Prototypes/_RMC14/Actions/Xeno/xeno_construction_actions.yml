@@ -8,8 +8,8 @@
 - type: entity
   id: ActionXenoPlantWeeds
   parent: ActionXenoBase
-  name: Plant Weeds (75) # TODO RMC14 proper plasma costs
-  description: Plant a weed node that will spread more weeds.
+  name: Распространить заросли (75) # TODO RMC14 proper plasma costs
+  description: Помещает растущие заросли.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -22,8 +22,8 @@
 - type: entity
   id: ActionXenoChooseStructure
   parent: ActionXenoBase
-  name: Choose Resin Structure
-  description: "Choose a structure to secrete with the 'Secrete Resin' action."
+  name: Выбрать сооружение
+  description: "Выберите сооружение для размещения через действие 'Выделить смолу'."
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -36,8 +36,8 @@
 - type: entity
   id: ActionXenoSecreteStructure
   parent: ActionXenoBase
-  name: Secrete Resin
-  description: "Builds the structure chosen with the 'Choose Resin Structure' action."
+  name: Выделить смолу
+  description: "Возвести сооружение, выбранное через действие 'Выбрать сооружение'."
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -57,8 +57,8 @@
 - type: entity
   id: ActionXenoOrderConstruction
   parent: ActionXenoBase
-  name: Order Construction
-  description: Starts construction of an important hive structure.
+  name: Приказать возвести сооружение
+  description: Начинает возведение важных сооружений улья.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -75,8 +75,8 @@
 - type: entity
   id: ActionXenoResinHole
   parent: ActionXenoBase
-  name: Plant Resin Hole (200)
-  description: Places a resin hole on weeds. It can be filled with boiler gas, acid, or parasites.
+  name: Создать яму из смолы (200)
+  description: Создаёт яму из смолы на зарослях. Яма может быть заполнена газом Бойлера, кислотой или лицехватами.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -90,8 +90,8 @@
 - type: entity
   id: ActionXenoFruitChoose
   parent: ActionXenoBase
-  name: Change Fruit
-  description: Choose a fruit to be planted with 'Plant Resin Fruit' action.
+  name: Выбрать другой фрукт
+  description: Позволяет выбрать другой фрукт для выращивания через действие 'Посадить фрукт'.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -104,8 +104,8 @@
 - type: entity
   id: ActionXenoFruitPlant
   parent: ActionXenoBase
-  name: Plant Resin Fruit (100)
-  description: Plant chosen resin fruit on weeds at the cost of health and plasma. Xenos can pick these fruits once they're mature, you can also pick a plant early to get rid of it. Xenos can use them in hand or eat them on the ground to gain their effects. They can also be used on other xenos to feed them. You can only have 6 fruits planted and picked at a time.
+  name: Посадить фрукт (100)
+  description: Сажает выбранный фрукт на заросли ценой вашего здоровья и плазмы. Ксено могут выбирать их только когда достигают зрелости, вы так же можете вырвать фрукт в любой момент, чтобы избавиться от него. Чтобы получить эффект, вы можете съесть их, подобрав, или прямиком из зарослей. Вы так же можете кормить ими других ксено. Вы можете сажать и собирать лишь 6 фруктов единовременно.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -118,8 +118,8 @@
 - type: entity
   id: ActionXenoPlantWeedsHardy
   parent: ActionXenoBase
-  name: Plant Hardy Weeds (125) # TODO RMC14 proper plasma costs
-  description: Plant a weed node that will spread hardier weeds, which grow fruit 25% faster, have slightly more health, and can be spread on some surfaces where normal weeds won't grow.
+  name: Распространить густые заросли (125) # TODO RMC14 proper plasma costs
+  description: Поместите более крепкие заросли, в которых немного больше здоровья. Фрукты в них растут на 25% быстрее, а так же сами они растут там, где обычные заросли расти не могут.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -136,24 +136,9 @@
 - type: entity
   id: ActionXenoFruitPlantLesser
   parent: ActionXenoFruitPlant
-  name: Plant Resin Fruit (50)
-  description: Plant resin fruit on weeds at the cost of health and plasma.
+  name: Посадить фрукт лекаря (50)
+  description: Посадите фрукт лекаря в заросли ценой собственного здоровья и плазмы.
   components:
   - type: InstantAction
     event: !type:XenoFruitPlantActionEvent
       plasmaCost: 50
-
-- type: entity
-  id: ActionXenoDigTunnel
-  parent: ActionXenoBase
-  name: Dig Tunnel (200)
-  description: Dig a tunnel for speedy transportation across the hive.
-  components:
-  - type: InstantAction
-    event: !type:XenoDigTunnelActionEvent
-    itemIconStyle: NoItem
-    icon:
-      sprite: _RMC14/Actions/xeno_actions.rsi
-      state: build_tunnel
-    useDelay: 300
-

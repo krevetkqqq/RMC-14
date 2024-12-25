@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   abstract: true
   parent: CMBaseStructureCorrodible
   id: CMBaseWindow # TODO RMC14 this needs to be 2 separate entities eventually
@@ -27,14 +27,6 @@
     price: 75
   - type: Physics
     bodyType: Static
-  - type: InteractionPopup
-    interactDelay: 10
-    interactSuccessString: comp-window-knock
-    messagePerceivedByOthers: comp-window-knock
-    interactSuccessSound:
-      path: /Audio/Effects/glass_knock.ogg
-      params:
-        variation: 0.125
   - type: Fixtures
     fixtures:
       fix1:
@@ -114,7 +106,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameAlmayer
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowAlmayer
     node: windowAlmayerReinforced
@@ -184,7 +175,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameWhite
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowWhite
     node: windowWhiteReinforced
@@ -232,7 +222,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameColony
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowColony
     node: windowColony
@@ -283,7 +272,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameColonyReinforced
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowColonyReinforced
     node: windowColonyReinforced
@@ -337,7 +325,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameHunterReinforced
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowHunterReinforced
     node: windowHunterReinforced
@@ -385,7 +372,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameWood
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowWood
     node: windowWood
@@ -436,7 +422,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameWood
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowWood
     node: windowWoodReinforced
@@ -487,7 +472,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameAI
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowAI
     node: windowAIReinforced

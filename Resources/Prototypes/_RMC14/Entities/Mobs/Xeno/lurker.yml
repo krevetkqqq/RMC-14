@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoLurker
-  name: Lurker
-  description: A beefy, fast alien with sharp claws.
+  name: Скрытень
+  description: Крупный ксеноид с острыми когтями.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-lurker
@@ -74,9 +74,9 @@
     tailDamage:
       groups:
         Brute: 42
-  - type: Tackle
-    stunMin: 2
-    stunMax: 6
+  - type: Tackle # min: 2, max: 6
+    threshold: 4
+    stun: 5
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.7
     baseSprintSpeed: 5

@@ -8,9 +8,9 @@
 - type: entity
   parent: BaseItem
   id: RMCInflatableWallFolded
-  name: inflatable wall
-  description: A folded membrane which rapidly expands into a large cubical shape on activation.
-  suffix: Full
+  name: надувная стена
+  description: Сложенная мембрана, принимающая форму куба при надувании.
+  suffix: Полная
   components:
     - type: Stack
       stackType: RMCInflatableWall
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCInflatableWallFolded
   id: RMCInflatableWallFolded1
-  suffix: Single
+  suffix: Одна
   components:
     - type: Sprite
       state: folded_wall

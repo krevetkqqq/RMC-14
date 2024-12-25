@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWeaponBatterySmall
   id: RMCWeaponTaser
-  name: disabler gun
-  description: An advanced stun device capable of firing balls of ionized electricity. Used for nonlethal takedowns.
+  name: шокер
+  description: Продвинутое устройство нелетального действия, способное выстреливать электродами под напряжением. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Energy/taser.rsi
@@ -34,6 +34,3 @@
     tags:
     - Taser
     - Sidearm
-  - type: GunPointBlank
-  - type: GunDualWielding
-    weaponGroup: Handgun

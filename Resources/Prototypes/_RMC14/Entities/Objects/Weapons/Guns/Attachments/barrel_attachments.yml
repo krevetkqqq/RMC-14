@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentExtendedBarrel
-  name: extended barrel
-  description: The lengthened barrel speeds up and stabilizes the bullet, increasing velocity. # and accuracy.
+  name: удлинённый ствол
+  description: Удлинённый ствол увеличивает скорость пули и обеспечивает большую точность. # and accuracy.
   components:
   - type: Sprite
     state: ebarrel
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentBarrelCharger
-  name: barrel charger
-  description: A hyper threaded barrel extender that fits to the muzzle of most firearms. Greatly increases projectile damage at the cost of firing speed.
+  name: ускоритель ствола
+  description: Ускоритель ствола с универсальной резьбой, подходящей почти ко всем видам оружия. Значительно увеличивает мощность ценой скорострельности.
   components:
   - type: Sprite
     state: hbarrel
@@ -68,9 +68,9 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentRecoilCompensator
-  name: recoil compensator
-  description: "A muzzle attachment that reduces recoil by diverting expelled gasses upwards.
-    Reduces recoil, at the cost of a small amount of weapon damage." # increases accuracy and reduces recoil
+  name: компенсатор
+  description: "Дульное устройство компенсирующее отдачу путём распределения пороховых газов вверх.
+    Компенсирует отдачу и повышает точность ценой уменьшения урона." # increases accuracy and reduces recoil
   components:
   - type: Sprite
     state: comp
@@ -94,9 +94,9 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentSuppressor
-  name: suppressor
-  description: "A small tube with exhaust ports to expel noise and gas.
-    Does not completely silence a weapon, but does make it much quieter at the cost of slightly reduced damage."
+  name: глушитель
+  description: "Маленькая трубка, содержащая множество камор для распределения пороховых газов и уменьшения хлопка при выстреле.
+    Не делает оружие полностью бесшумным, но делает его значительно тише, ценой уменьшения урона."
   components:
   - type: Sprite
     state: suppressor
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentMatebaStandard
-  name: Standard Mateba Barrel
-  description: A standard mateba barrel. Offers a balance between accuracy and fire rate.
+  name: стандартный ствол "Матеба"
+  description: Стандартный ствол "Матеба". Идеальный баланс между точностью и скорострельностью.
   components:
   - type: Sprite
     state: mateba_medium

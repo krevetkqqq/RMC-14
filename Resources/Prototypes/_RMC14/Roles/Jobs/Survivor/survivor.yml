@@ -4,16 +4,16 @@
   name: cm-job-name-survivor
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
-  # requirements:
-  # - !type:DepartmentTimeRequirement
-  #   department: CMSquad
-  #   time: 18000 # 5 hours
-  # - !type:TotalJobsTimeRequirement
-  #   group: CMJobsEngineering
-  #   time: 18000 # 5 hours
-  # - !type:TotalJobsTimeRequirement
-  #   group: CMJobsMedical
-  #   time: 18000 # 5 hours
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: CMSquad
+    time: 18000 # 5 hours
+  - !type:TotalJobsTimeRequirement
+    group: CMJobsEngineering
+    time: 18000 # 5 hours
+  - !type:TotalJobsTimeRequirement
+    group: CMJobsMedical
+    time: 18000 # 5 hours
   startingGear: RMCGearSurvivor
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false

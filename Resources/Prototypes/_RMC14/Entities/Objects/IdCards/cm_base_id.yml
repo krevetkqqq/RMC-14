@@ -2,8 +2,8 @@
 - type: entity
   parent: [Clothing, CMIDCardBase]
   id: CMIDCardStandardDogtag
-  name: dog tag
-  description: A marine dog tag.
+  name: жетон
+  description: Жетон пехотинца.
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseItem
   id: RMCInformationDogtag
-  name: information dog tag
-  description: A fallen marine's information dog tag.
+  name: Информационный жетон
+  description: Информационный жетон павшего бойца.
   components:
   - type: Item
     size: Tiny
@@ -50,8 +50,8 @@
 - type: entity
   parent: Clothing
   id: CMIDCardBase
-  name: identification holo-badge
-  description: A slice of encoded compressed fiber glass. Used for identification and access control.
+  name: идентификационный голографический бейдж
+  description: Фрагмент закодированного спрессованного стекловолокна. Используется для идентификации и контроля доступа.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -79,8 +79,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardGold
-  name: gold identification holo-badge
-  description: A gold plated holo-badge which shows power and might.
+  name: золотой идентификационный голографический бейдж
+  description: Позолоченный голографический бейдж, символизирующий власть и могущество.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -94,8 +94,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardSilver
-  name: silver identification holo-badge
-  description: A silver plated holo-badge which shows honour and dedication.
+  name: серебрянный идентификационный голографический бейдж
+  description: Голографический бейдж с серебряным покрытием, свидетельствующий о чести и преданности делу.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -109,8 +109,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardLanyard
-  name: identification holo-lanyard
-  description: A crude holo-lanyard. As cheap as they come.
+  name: идентификационный голографический ремешок
+  description: Простенький голографический ремешок. Настолько дешевый, насколько это возможно.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponRifle
-  name: M4SPR battle rifle
+  name: M4SPR
   id: WeaponRifleM4SPR
-  description: The M4SPR battle rifle is a designated marksman rifle in service with the Marine. Sporting a bullpup configuration, the M4SPR battle rifle is perfect for reconnaissance and fire support teams.
+  description: Марксманская винтовка в буллпап-конфигурации, предназначена для разведки и поддержки, калибр 5.56мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr.rsi
@@ -29,9 +29,6 @@
     recoilUnwielded: 2
     scatterWielded: 6
     baseFireRate: 2.86
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1.25
-    accuracyMultiplierUnwielded: 0.6
   - type: RMCWeaponDamageFalloff
     falloffMultiplier: 0
   - type: WieldDelay
@@ -88,8 +85,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM4SPR
-  name: "M4SPR magazine (10x24mm)"
-  description: "A magazine of standard 10x24mm rounds for use in the M4SPR battle rifle."
+  name: "магазин M4SPR (10x24мм ЦМО)"
+  description: "Магазин ЦМО патронов калибра 10x24мм для M4SPR."
   components:
   - type: Tag
     tags:
@@ -108,9 +105,9 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRAP
-  name: M4SPR AP magazine (10x24mm)
-  description: "A magazine of armor-piercing 10x24mm rounds for use in the M4SPR battle rifle."
-  suffix: AP
+  name: магазин M4SPR (10x24мм ББ)
+  description: "Магазин ББ патронов калибра 10x24мм для M4SPR."
+  suffix: ББ
   components:
   - type: Tag
     tags:
@@ -134,7 +131,7 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRExt
-  name: "M4SPR extended magazine (10x24mm)"
+  name: "магазин M4SPR (10x24мм увел.)"
   components:
   - type: BallisticAmmoProvider
     capacity: 35

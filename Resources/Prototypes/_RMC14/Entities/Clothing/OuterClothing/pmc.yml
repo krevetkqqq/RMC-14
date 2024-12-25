@@ -2,8 +2,8 @@
 - type: entity
   parent: [CMArmorM3Medium, RMCAllowSuitStorageClothingArmorPMC]
   id: RMCArmorM4PMC
-  name: M4 pattern PMC armor
-  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind.
+  name: броня образца M4 ЧВК
+  description: Модификация стандартной брони образца M3. Разработана для высококлассных ЧОП и корпоративных наемников.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/pmc.rsi
@@ -12,8 +12,8 @@
     bio: 20 # CLOTHING_ARMOR_MEDIUM
     explosionArmor: 20 # CLOTHING_ARMOR_MEDIUM
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_LIGHT
-    walkModifier: 0.725
-    sprintModifier: 0.725
+    walkModifier: 0.814
+    sprintModifier: 0.814
   - type: Storage
     grid:
     - 0,0,3,1 # 2 slots
@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: RMCArmorM4PMCLight
-  name: M4 pattern light PMC armor
-  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. Has some armor plating removed for extra mobility.
+  name: легкая броня образца M4 ЧВК
+  description: Модификация стандартной брони образца M3. Разработана для высококлассных ЧОП и корпоративных наемников. Некоторые пластины брони сняты для увеличения подвижности.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -37,19 +37,19 @@
 - type: entity
   parent: RMCArmorM4PMCLight
   id: RMCArmorM4PMCCorporate
-  name: M1 pattern corporate security armor
-  description: A basic vest with a We-Ya badge on the right breast. This is commonly worn by low-level guards protecting We-Ya facilities.
+  name: броня корпоративной охраны образца M1
+  description: Базовый жилет с эмблемой We-Ya на груди. Обычно носится низкоуровневыми охранниками, защищающими объекты We-Ya.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/corporate.rsi
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_LIGHT
-    walkModifier: 0.725
-    sprintModifier: 0.725
+    walkModifier: 0.814
+    sprintModifier: 0.814
 
 - type: entity
   parent: RMCArmorM4PMCCorporate
   id: RMCArmorM4PMCCorporateLead
-  description: A basic vest with a We-Ya badge on the right breast. This variant is worn by low-level guards that have elevated in rank due to 'good conduct in the field', also known as corporate bootlicking.
+  description: Базовый жилет с эмблемой We-Ya на груди. Этот вариант носится охранниками, повысившимися в звании за "хорошее поведение на службе", говорит о том, что владелец хорошо знаком с корпоративным подхалимством.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/corporate_lead.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: RMCArmorM4PMCLeader
-  name: M4 pattern PMC leader armor
-  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
+  name: броня лидера ЧВК образца M4
+  description: Модификация стандартной брони образца M3. Разработана для высококлассных ЧОП и корпоративных наемников. Этот комплект явно принадлежит высокопоставленному офицеру.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/officer.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCArmorM4PMC
   id: RMCArmorM4PMCSniper
-  name: M4 pattern PMC sniper armor
-  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
+  name: снайперская броня ЧВК образца M4
+  description: Модификация стандартной брони образца M3. Разработана для высококлассных ЧОП и корпоративных наемников. Этот комплект явно принадлежит высокопоставленному офицеру.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: RMCArmorM4PMCLight
   id: RMCArmorM4PMCSynth
-  name: M4 pattern PMC synthetic armor
-  description: A serious modification of the standard M3 armor. This variant was designed for PMC Support Units in the field, with every armor insert removed. It's designed with the idea of a high speed lifesaver in mind.
+  name: синтетическая броня ЧВК образца M4
+  description: Серьезная модификация стандартной брони образца M3. Этот вариант был разработан для полевых вспомогательных подразделений ЧВК, с полностью снятыми броневыми вставками. Создана с целью обеспечить максимальную скорость оператора.
   components:
   - type: Clothing
     equipDelay: 1
@@ -93,8 +93,8 @@
 - type: entity
   parent: CMArmorSmartGunCombatHarness
   id: RMCArmorM4PMCSmartGunHarness
-  name: PMC gun operator armor
-  description: A modification of the standard M3 armor. Hooked up with harnesses and straps allowing the user to carry a ML66A Smart Gun.
+  name: броня оператора системы СМАРТ ЧВК 
+  description: Модификация стандартной брони образца M3. Оснащена ремнями и креплениями, позволяющими пользователю носить систему СМАРТ ML66A.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/heavy.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCArmorM4PMCSmartGunHarness
   id: RMCArmorM4PMCSmartGunHarnessCommando
-  name: M5Xg exoskeleton gun operator armor
-  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk. This variant is designed to support ML66A Smart Gun.
+  name: экзоскелетная броня оператора системы СМАРТ M5Xg
+  description: Сложная система перекрывающихся пластин, предназначенная для обеспечения почти полной неуязвимости к легкому стрелковому оружию. Пассивный экзоскелет поддерживает вес брони, позволяя человеку носить ее массивную конструкцию. Этот вариант предназначен для поддержки системы СМАРТ ML66A.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
@@ -119,16 +119,16 @@
     walk: 0.24
     sprint: 0.384
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_MEDIUM
-    walkModifier: 0.666
-    sprintModifier: 0.666
+    walkModifier: 0.727
+    sprintModifier: 0.727
   - type: Corrodible
     isCorrodible: false
 
 - type: entity
   parent: RMCArmorM4PMC
   id: RMCArmorM4PMCCommando
-  name: M5X exoskeleton armor
-  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk.
+  name: экзоскелетная броня M5X
+  description: Сложная система перекрывающихся пластин, предназначенная для обеспечения почти полной неуязвимости к легкому стрелковому оружию. Пассивный экзоскелет поддерживает вес брони, позволяя человеку носить ее массивную конструкцию.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi

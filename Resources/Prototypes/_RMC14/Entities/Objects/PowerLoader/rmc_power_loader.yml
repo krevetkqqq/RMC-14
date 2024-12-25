@@ -73,8 +73,8 @@
 - type: entity
   parent: RMCMechBase
   id: RMCMechPowerLoader
-  name: power loader # TODO RMC14 name
-  description: An old but trusted design used in warehouses, constructions and military ships everywhere. # TODO RMC14 description
+  name: погрузчик ГУСЕНИЦА P-5000 # TODO RMC14 name
+  description: Старый, но проверенный дизайн погрузчика, используемого на складах, строительных площадках и военных кораблях. # TODO RMC14 description
   components:
   - type: PowerLoader
     skills:

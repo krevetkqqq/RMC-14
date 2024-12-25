@@ -2,7 +2,7 @@
   parent: BaseItem
   abstract: true
   id: CMWebbingBase
-  name: webbing
+  name: РПС
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbing
-  name: webbing
-  description: A sturdy mess of synthcotton belts and buckles, ready to share your burden.
+  name: РПС
+  description: Крепкая мешанина из ремней, строп и карабинов, всегда готовая разделить вашу ношу.
   components:
   - type: Sprite
     state: webbing
@@ -87,8 +87,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingBlack
-  name: black webbing vest
-  description: Robust black synthcotton vest with lots of pockets to hold whatever you need, but cannot hold in hands.
+  name: чёрная РПС
+  description: Выполненная из полимерных тканей, в блатном чёрном цвете, всегда поможет вам в транспортировке барахла.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_black.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: CMWebbingBlack
   id: CMWebbingBrown
-  name: brown webbing vest
-  description: Worn brownish synthcotton vest with lots of pockets to unload your hands.
+  name: коричневая РПС
+  description: Выполнена из полимерных тканей, в коричневом цвете. Уместит в себя всё, что уже не умещают ваши руки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_brown.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingHolster
-  name: shoulder holster
-  description: A handgun holster with an attached pouch, allowing two magazines or speedloaders to be stored along with it.
+  name: наплечная кобура
+  description: Кобура, с прикреплённым к ней подсумком. Позволит хранить два магазина или обоймы, вместе с пистолетом, разумеется.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingPouch
-  name: drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: быстросброс
+  description: Удобный подсумок, позволяющий выбрасывать вещи в него, а не на землю.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/drop_pouch.rsi
@@ -277,125 +277,3 @@
     - type: ExplosionResistance
       damageCoefficient: 0
       worn: false
-
-- type: entity
-  parent: CMWebbing
-  id: RMCToolWebbingSmall
-  name: small tool webbing
-  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage. This is the small low-budget version.
-  components:
-  - type: Storage
-    grid:
-    - 0,0,11,1 #6 slots
-    whitelist:
-      tags:
-      - Crowbar
-      - Screwdriver
-      - Wirecutter
-      - Wrench
-      - CableCoil
-      - Multitool
-      - PowerCell
-      # TODO nailgun
-      components:
-      - Welder
-      - PowerCell
-      - EntrenchingTool
-  - type: FixedItemSizeStorage
-  - type: IgnoreContentsSize
-    items:
-      components:
-      - EntrenchingTool
-      - LightReplacer
-  - type: Webbing
-    components:
-    - type: Storage
-      maxItemSize: Small
-      grid:
-      - 0,0,11,1 #6 slots
-      whitelist:
-        tags:
-        - Crowbar
-        - Screwdriver
-        - Wirecutter
-        - Wrench
-        - CableCoil
-        - Multitool
-        - PowerCell
-        # TODO nailgun
-        components:
-        - Welder
-        - PowerCell
-        - EntrenchingTool
-    - type: FixedItemSizeStorage
-    - type: IgnoreContentsSize
-      items:
-        components:
-        - EntrenchingTool
-        - LightReplacer
-    - type: ExplosionResistance
-      damageCoefficient: 0
-      worn: false
-
-- type: entity
-  parent: RMCToolWebbingSmall
-  id: RMCToolWebbingSmallFilled
-  suffix: Filled
-  components:
-  - type: StorageFill
-    contents:
-    - id: CMScrewdriver
-    - id: CMWrench
-    - id: CMWelder
-    - id: CMCrowbar
-    - id: CMWirecutter
-    - id: CMMultitool
-    
-- type: entity
-  parent: CMWebbingBase
-  id: CMWebbingKnives
-  name: M272 pattern knife vest
-  description: An older generation M272 pattern knife vest once employed by the UNMC. Can hold up to 5 knives. It is made of synthcotton.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Webbing/webbing_knife.rsi
-    state: webbing
-  - type: Storage
-    grid:
-    - 0,0,9,1 # 5 slots
-    whitelist:
-      tags:
-        - Knife
-        - ThrowingKnife
-  - type: FixedItemSizeStorage
-  - type: ExplosionResistance
-    damageCoefficient: 0
-    worn: false
-  - type: CMHolster
-  - type: Webbing
-    playerSprite:
-      sprite: _RMC14/Objects/Clothing/Webbing/webbing_knife.rsi
-      state: equipped
-    components:
-    - type: Storage
-      grid:
-      - 0,0,9,1 # 5 slots
-      whitelist:
-        tags:
-          - Knife
-          - ThrowingKnife
-    - type: FixedItemSizeStorage
-    - type: ExplosionResistance
-      damageCoefficient: 0
-      worn: false
-    - type: CMHolster
-
-- type: entity
-  parent: CMWebbingKnives
-  id: CMWebbingKnivesFilled
-  suffix: Filled
-  components:
-  - type: StorageFill    
-    contents:
-      - id: CMM11Knife
-        amount: 5

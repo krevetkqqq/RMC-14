@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardASO
-  name: auxiliary support officer ID card
+  name: идентификационная карта офицера вспомогательной поддержки
   components:
   - type: PresetIdCard
     job: CMAuxiliarySupportOfficer
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardPilotDropship
-  name: dropship pilot's ID card
+  name: идентификационная карта пилота десантного корабля
   components:
   - type: PresetIdCard
     job: CMPilotDropship
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardPilotGunship
-  name: gunship pilot's ID card
+  name: идентификационная карта пилота штурмового корабля
   components:
   - type: PresetIdCard
     job: CMPilotGunship
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardDCC
-  name: dropship crew chief's ID card
+  name: идентификационная карта начальника экипажа десантного корабля
   components:
   - type: PresetIdCard
     job: CMDropshipCrewChief
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardIntelOfficer
-  name: intel officer's ID card
+  name: идентификационная карта офицера разведки
   components:
   - type: PresetIdCard
     job: CMIntelOfficer

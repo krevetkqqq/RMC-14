@@ -2,7 +2,7 @@
   id: RMCBaseBush
   suffix: RMCBaseBush
   abstract: true
-  name: bush
+  name: куст
   components:
   - type: SpriteFade
   - type: Clickable
@@ -42,7 +42,7 @@
   id: RMCBaseGrass
   suffix: RMCBaseGrass
   abstract: true
-  name: grass
+  name: трава
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_grass.rsi
@@ -52,7 +52,7 @@
   id: RMCBaseFlowers
   suffix: RMCBaseFlowers
   abstract: true
-  name: flowers
+  name: цветы
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -62,7 +62,7 @@
   id: RMCBaseRock
   suffix: RMCBaseRock
   abstract: true
-  name: rocks
+  name: камни
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -852,23 +852,20 @@
   parent: RMCBaseBush
   id: RMCAlienBush1
   suffix: RMCAlienBush1
-  name: strange tree
-  description: Some kind of bizarre alien tree. It oozes with a sickly yellow sap.
+  name: странное дерево
+  description: Какое-то причудливое, инопланетное дерево. Из него сочится желтоватый сок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Flora/flora_plantalien.rsi
     state: alienplant1
-  - type: PointLight
-    castShadows: false
-    radius: 2
     
 # Stumps
 - type: entity
   parent: RMCBaseBush
   id: RMCStump1
   suffix: RMCStump1
-  name: tree stump
-  description: There used to be a tree here.
+  name: пень
+  description: Пень, самый обыкновенный. Не упоминать в присутствии Гуфболла.
   components:
   - type: Sprite
     sprite: Objects/Decoration/Flora/flora_treessnow.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWeaponRifle
-  name: AR10 Assault Rifle
+  name: AR10
   id: WeaponRifleAR10
-  description: An earlier version of the more widespread M16 rifle. Considered to be the father of the 20th century rifle. How one of these ended up here is a mystery of its own. It is chambered in 7.62x51mm.
+  description: Предшественник винтовки M16, калибр 7.62x51 мм. Считается прародителем штурмовых винтовок XX века.
   suffix: Filled
   components:
   - type: Sprite
@@ -57,9 +57,6 @@
           - RMCMagazineRifleAR10
   - type: GunDamageModifier
     multiplier: 1.4
-  - type: RMCWeaponAccuracy
-    accuracyMultiplier: 1.4
-    accuracyMultiplierUnwielded: 0.5
   - type: AttachableHolder
     slots:
       rmc-aslot-barrel:
@@ -96,7 +93,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleAR10
-  name: "AR10 Magazine (7.62x51mm)"
+  name: "магазин AR10 (7.62x51мм ЦМО)"
   components:
   - type: Tag
     tags:
@@ -121,7 +118,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleAR10
-  name: Cartridge (7.62x51)
+  name: патрон (7.62x51)
   description: A 7.62x51 rifle cartridge
   components:
   - type: Tag
@@ -149,11 +146,6 @@
       ignoreModifiers: true
     - range: 7
       falloff: 4
-  - type: RMCProjectileAccuracy
-    accuracy: 105
-    thresholds:
-    - range: 16
-      falloff: 10
 
 - type: Tag
   id: RMCMagazineRifleAR10

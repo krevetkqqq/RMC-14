@@ -59,7 +59,6 @@
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameShiva
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowShiva
     node: windowShiva
@@ -79,4 +78,3 @@
     sprite: _RMC14/Structures/Windows/ice.rsi
     state: ice_wall
   - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType

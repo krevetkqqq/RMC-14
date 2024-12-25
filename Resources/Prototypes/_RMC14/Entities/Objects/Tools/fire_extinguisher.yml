@@ -4,8 +4,8 @@
 - type: entity
   parent: FireExtinguisher
   id: CMFireExtinguisher
-  name: fire extinguisher
-  description: A traditional red fire extinguisher.
+  name: огнетушитель
+  description: Обычный, красный огнетушитель.
   components:
   - type: Item
     sprite: _RMC14/Objects/fire_extinguisher.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: CMFireExtinguisher
   id: CMFireExtinguisherPortable
-  name: portable fire extinguisher
-  description: A light and compact fibreglass-framed model fire extinguisher.
+  name: компактный огнетушитель
+  description: Лёгкий и компактный огнетушитель из стекловолокна.
   components:
   - type: Item
     sprite: _RMC14/Objects/fire_extinguisher_mini.rsi

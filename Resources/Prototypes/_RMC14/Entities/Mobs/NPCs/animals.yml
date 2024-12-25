@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCSmallHost
-  name: abstract small host
+  name: абстрактный маленький носитель
   abstract: true
   components:
   - type: Infectable
@@ -96,8 +96,8 @@
 - type: entity
   parent: MobCatCalico
   id: CMMobJones
-  name: Jones
-  description: A tough, old stray whose origin no one seems to know.
+  name: Джонси
+  description: Старый, но крепкий пушистый бродяга, которого вряд-ли кто то вообще знает.
   components:
   - type: WarpPoint
     follow: true
@@ -113,29 +113,12 @@
 - type: entity
   parent: MobCatCalico
   id: RMCMobOrion
-  name: Orion
-  description: A domesticated, feline pet. The collar says 'Orion'.
+  name: Орион
+  description: Домашний питомец семейства кошачих. На ошейнике виднеется надпись 'Орион'.
   components:
   - type: WarpPoint
     follow: true
     location: Orion
-  - type: CrashLandable
-  - type: PressureImmunity
-  - type: Respirator
-    minSaturation: 5.0
-  - type: Temperature
-    heatDamageThreshold: 423
-    coldDamageThreshold: 0
-
-- type: entity
-  parent: MobCat
-  id: RMCMobGarry
-  name: Garry
-  description: Her fur has the look and feel of velvet, and her tail quivers occasionally.
-  components:
-  - type: WarpPoint
-    follow: true
-    location: Garry
   - type: CrashLandable
   - type: PressureImmunity
   - type: Respirator
@@ -149,7 +132,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobMonkey
-  name: monkey spawner
+  name: спавнер обезьяны
   suffix: RMC
   components:
   - type: Sprite
@@ -164,7 +147,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobKobold
-  name: kobold spawner
+  name: спавнер кобольда
   suffix: RMC
   components:
   - type: Sprite
@@ -191,7 +174,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobWiggles
-  name: Mr. Wiggles Spawner
+  name: Спавнер Мистера Вигглза
   suffix: CM
   components:
   - type: Sprite
@@ -206,7 +189,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobJones
-  name: Jones Spawner
+  name: Спавнер Джонси
   suffix: CM
   components:
   - type: Sprite
@@ -221,8 +204,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobOrion
-  name: Orion Spawner
-  suffix: RMC
+  name: Спавнер "Ориона"
+  suffix: RCM
   components:
   - type: Sprite
     layers:
@@ -232,19 +215,3 @@
   - type: ConditionalSpawner
     prototypes:
     - RMCMobOrion
-
-- type: entity
-  parent: MarkerBase
-  id: RMCSpawnMobGarry
-  name: Garry Spawner
-  suffix: RMC
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-    - state: cat
-      sprite: Mobs/Pets/cat.rsi
-  - type: ConditionalSpawner
-    prototypes:
-    - RMCMobGarry
-

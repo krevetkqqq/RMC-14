@@ -4,8 +4,8 @@
   parent: RubberStampBase
   id: CMStampBase
   abstract: true
-  name: rubber stamp
-  description: A rubber stamp for stamping important documents.
+  name: печать
+  description: Печать для проштамповки документов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCO
-  name: CO's rubber stamp
+  name: печать командующего операцией
   components:
   - type: Sprite
     state: stamp-cap
@@ -31,7 +31,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampASO
-  name: ASO's rubber stamp
+  name: печать офицера вспомогательной поддержки
   components:
   - type: Sprite
     state: stamp-hop
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMP
-  name: CMP's rubber stamp
+  name: печать офицера военной полиции
   components:
   - type: Sprite
     state: stamp-hos
@@ -55,7 +55,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMO
-  name: CMO's rubber stamp
+  name: печать главного медицинского офицера
   components:
   - type: Sprite
     state: stamp-cmo
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampQM
-  name: QM's rubber stamp
+  name: печать офицера тылового обеспечения
   components:
   - type: Sprite
     state: stamp-ro
@@ -79,7 +79,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCE
-  name: CE's rubber stamp
+  name: печать главного корабельного инженера
   components:
   - type: Sprite
     state: stamp-ce
@@ -93,7 +93,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampApproved
-  name: APPROVED rubber stamp
+  name: печать ОДОБРЕНО
   components:
   - type: Sprite
     state: stamp-approve
@@ -105,7 +105,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampDenied
-  name: DENIED rubber stamp
+  name: печать ОТКАЗАНО
   components:
   - type: Sprite
     state: stamp-deny
@@ -119,7 +119,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampWeYa
-  name: WEYA rubber stamp
+  name: печать WEYA
   components:
   - type: Sprite
     state: stamp-we_ya
@@ -131,7 +131,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampMarine
-  name: Marine rubber stamp
+  name: печать КМП
   components:
   - type: Sprite
     state: stamp-marine
@@ -143,7 +143,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMB
-  name: CMB rubber stamp
+  name: печать бюро маршалов
   components:
   - type: Sprite
     state: stamp-cmb

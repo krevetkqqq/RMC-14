@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoWarrior
-  name: Warrior
-  description: A beefy alien with an armored carapace.
+  name: Воин
+  description: Крупный ксеноид с толстым панцирем.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-warrior
@@ -69,8 +69,9 @@
     tailDamage:
       groups:
         Brute: 48
-  - type: Tackle
-    max: 4
+  - type: Tackle # min: 2, max: 4
+    threshold: 4
+    stun: 5
   - type: SlowOnPull
     slowdowns:
     - multiplier: 0.4525

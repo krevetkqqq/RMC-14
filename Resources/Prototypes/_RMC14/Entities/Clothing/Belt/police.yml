@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltSecurity
-  name: M276 pattern security rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This configuration is commonly seen among Marine Military Police and peacekeepers, though it can hold some light munitions.
+  name: ремень M276 охранный
+  description: Это стандартное разгрузочное снаряжение охраны. Оно состоит из ремня с множеством строп и карабинов. Эта конфигурация наиболее распространена среди военной полиции и миротворцев, несмотря на то, что она может хранить лишь лёгкие боеприпасы.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/security.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: CMBeltSecurity
   id: CMBeltSecurityMP
-  name: M276 pattern military police rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints.
+  name: ремень M276 военной полиции
+  description: Это стандартное разгрузочное снаряжение военной полиции. Оно состоит из ремня с множеством строп и карабинов. Эта конфигурация забита всевозможными маленькими подсумками. Предназначена для ношения нелетального снаряжения и средств задержания.
   components:
   - type: Storage
     maxItemSize: Normal
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMBeltSecurityMP
   id: CMBeltSecurityMPFilled
-  suffix: Filled
+  suffix: Заполнен
   components:
   - type: StorageFill
     contents:
@@ -58,13 +58,13 @@
 - type: entity
   parent: CMBeltSecurityMP
   id: CMBeltSecuritySPP
-  name: Type 43 military police rig
-  description: The Type 43 is the standard load-bearing equipment of the SPP. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints.
+  name: ремень Т43 военной полиции
+  description: Т43, так же известный как Тип 43 стандартное разгрузочное снаряжение военной полиции. Оно состоит из ремня с множеством строп и карабинов. Эта конфигурация забита всевозможными маленькими подсумками. Предназначена для ношения нелетального снаряжения и средств задержания.
 
 - type: entity
   parent: CMBeltSecuritySPP
   id: CMBeltSecuritySPPFilled
-  suffix: Filled
+  suffix: Заполнен
   components:
   - type: StorageFill
     contents:
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMBeltSecurityMP
   id: CMBeltSecurityMarshal
-  name: marshal duty belt
-  description: The black duty belt used to carry the instruments of a Marshals. It is a heavy police belt with several pouches to contain various law enforcement items.
+  name: служебный ремень маршалов
+  description: Чёрный служебный ремень, используется для ношения инструментария маршалов. Это тяжёлый полицейский ремень с множеством подсумков, набитых всевозможным служебным инструментарием.
   components:
   - type: Storage
     maxItemSize: Normal
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMBeltSecurityMarshal
   id: CMBeltSecurityMarshalFilled
-  suffix: Filled
+  suffix: Заполнен
   components:
   - type: StorageFill
     contents:

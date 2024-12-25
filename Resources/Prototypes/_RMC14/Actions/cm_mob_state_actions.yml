@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: CMActionGhost
-  name: Ghost
-  description: Become a Ghost.
+  name: Стать призраком
+  description: Станьте призраком.
   components:
   - type: InstantAction
     itemIconStyle: NoItem

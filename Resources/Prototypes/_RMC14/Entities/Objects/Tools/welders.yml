@@ -2,7 +2,7 @@
 - type: entity
   parent: Welder
   id: CMWelder
-  name: blowtorch
+  name: плазменный резак
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/welder.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMWelder # TODO doesn't need eye protection but can only weld vents
   id: CMWelderSmall
-  name: ME3 hand welder
-  description: A compact, handheld welding torch used by the Marines for cutting and welding jobs on the field. Due to the small size and slow strength, its function is limited compared to a full-sized technician's blowtorch.
+  name: плазменный резак ME3
+  description: Компактный плазменный резак, используемый КМП для сварки и плавления метала в полевых условиях. Из-за своих небольших размеров и мощности его функционал ограничен, по сравнению с полноразмерными горелками и резаками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/welder_hand.rsi

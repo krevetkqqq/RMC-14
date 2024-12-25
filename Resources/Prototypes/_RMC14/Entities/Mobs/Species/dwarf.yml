@@ -2,7 +2,7 @@
   save: false
   parent: CMBaseMobSpeciesOrganic
   id: CMMobDwarf
-  name: Urist C.M McHands The Dwarf
+  name: Урист МакМиниручки
   suffix: RMC14
   components:
   - type: Icon

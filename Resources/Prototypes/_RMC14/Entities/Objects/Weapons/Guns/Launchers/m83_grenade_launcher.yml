@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: M83 grenade launcher
+  name: гранатомёт M83
   parent: [ RMCBaseWeaponGrenadeLauncher ]
   id: WeaponLauncherM83
-  description: A heavy, 6-shot grenade launcher used by the UNMC for area denial and big explosions.
+  description: Тяжёлый 6-зарядный гранатомёт для подавления территории и создания мощных взрывов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/GrenadeLaunchers/m83.rsi

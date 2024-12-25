@@ -4,10 +4,10 @@
   name: cm-job-name-doctor
   description: cm-job-description-doctor
   playTimeTracker: CMJobDoctor
-  # requirements:
-  # - !type:TotalJobsTimeRequirement
-  #   group: CMJobsMedical
-  #   time: 3600 # 1 hour
+  requirements:
+  - !type:TotalJobsTimeRequirement
+    group: CMJobsMedical
+    time: 3600 # 1 hour
   startingGear: CMGearDoctor
   icon: "CMJobIconDoctor"
   joinNotifyCrew: false

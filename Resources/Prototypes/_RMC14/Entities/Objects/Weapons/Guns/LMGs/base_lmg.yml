@@ -63,9 +63,7 @@
   - type: Appearance
   - type: RMCNameItemOnVend
     item: PrimaryGun
-  - type: GunDualWielding
-    weaponGroup: Heavy
-  - type: GunPointBlank
+  - type: GunGroupSpreadPenalty
 
 - type: entity
   parent: BaseMagazineRifle
@@ -87,7 +85,7 @@
 - type: entity
   parent: BaseCartridgeRifle
   id: RMCBaseCartridgeLMG
-  name: cartridge
+  name: картридж
   abstract: true
   components:
   - type: CartridgeAmmo

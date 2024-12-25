@@ -1,8 +1,8 @@
 - type: entity
-  name: Box of handcuffs
+  name: коробка с наручниками
   parent: RMCBoxCardboard
   id: RMCBoxHandcuffs
-  description: A box full of handcuffs
+  description: Коробка наручников
   components:
   - type: StorageFill
     contents:

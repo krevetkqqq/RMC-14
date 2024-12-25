@@ -4,15 +4,14 @@
   name: cm-job-name-hospital-corpsman
   description: cm-job-description-hospital-corpsman
   playTimeTracker: CMJobHospitalCorpsman
-  # requirements:
-  # - !type:TotalJobsTimeRequirement
-  #   group: CMJobsMedical
-  #   time: 3600 # 1 hours
-  # - !type:DepartmentTimeRequirement
-  #   department: CMSquad
-  #   time: 3600 # 1 hour
+  requirements:
+  - !type:TotalJobsTimeRequirement
+    group: CMJobsMedical
+    time: 3600 # 1 hours
+  - !type:DepartmentTimeRequirement
+    department: CMSquad
+    time: 3600 # 1 hour
   startingGear: CMGearHospitalCorpsman
-  dummyStartingGear: CMGearHospitalCorpsmanEquipped
   icon: "CMJobIconHospitalCorpsman"
   joinNotifyCrew: false
   supervisors: cm-job-supervisors-sl
@@ -52,9 +51,10 @@
     jumpsuit: CMJumpsuitMarineMedic
     back: CMSatchelMarineMedic
     shoes: CMBootsBlackFilled
-    gloves: RMCHandsLatexMarine
+    gloves: CMHandsBlackMarine
+    eyes: RMCGlassesMedicalHUDGlasses
     head: CMArmorHelmetM10Medic
-    outerClothing: RMCArmorM3MediumVariants
+    outerClothing: CMArmorM3Medium
     id: CMDogtagHospitalCorpsman
     ears: CMHeadsetAlphaMedic
     belt: CMBeltMedicBagFilled

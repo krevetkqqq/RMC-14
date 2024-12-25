@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: CMHeadset
-  name: radio headset
-  description: An updated, modular intercom that fits over the head. Takes encryption keys.
+  name: полноразмерная гарнитура
+  description: Обновлённая, модульная система связи, которая легко помещается на голову. Имеет ячейки под ключи шифрования.
   components:
   - type: ContainerContainer
     containers:
@@ -24,8 +24,8 @@
 - type: entity
   parent: CMHeadset
   id: RMCHeadsetShip
-  name: marine radio headset
-  description: A standard military radio headset. Bulkier than combat models.
+  name: полноразмерная гарнитура пехоты
+  description: Стандартное военное средство связи. Увесистее боевых моделей.
   components:
   - type: ContainerFill
     containers:
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetCE
-  name: chief engineer's headset
-  description: The headset of the guy in charge of spooling engines, managing MTs, and tearing up the floor for scrap metal. Of robust and sturdy construction.
+  name: гарнитура главного корабельного инженера
+  description: Гарнитура чувака, который крутит педали, чтобы у вас было питание для разогрева ваших ИРП. На вид надёжная.
   components:
   - type: Sprite
     state: ce_headset
@@ -51,8 +51,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetCMO
-  name: chief medical officer's headset
-  description: A headset issued to the top brass of medical professionals.
+  name: гарнитура главного медицинского офицера
+  description: Гарнитура, выдаваемая высшему медицинскому персоналу.
   components:
   - type: Sprite
     state: cmo_headset
@@ -65,8 +65,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetEngineer
-  name: engineering radio headset
-  description: Useful for coordinating maintenance bars and orbital bombardments. Of robust and sturdy construction.
+  name: гарнитура инженерного отдела
+  description: Полезна для координации работы по техобслуживанию корабля и наведению орбитального орудия. Выглядит надёжно.
   components:
   - type: Sprite
     state: eng_headset
@@ -79,8 +79,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetRequisition
-  name: supply radio headset
-  description: Used by the lowly Cargo Technicians of the Marine, light weight and portable.
+  name: гарнитура тылового обеспечения
+  description: Используется такелажниками морской пехоты. Лёгкая и удобная.
   components:
   - type: Sprite
     state: req_headset
@@ -93,14 +93,14 @@
 - type: entity
   parent: CMHeadsetRequisition
   id: CMHeadsetChef
-  name: kitchen radio headset
-  description: Used by the onboard kitchen staff, filled with background noise of sizzling pots.
+  name: гарнитура кока
+  description: Используется корабельными кашеварами. В эфир постоянно просачивается шипение воды и лязг кастрюль.
 
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetMedical
-  name: medical radio headset
-  description: A headset used by the highly trained staff of the medbay.
+  name: гарнитура военного врача
+  description: Гарнитура, используемая квалифицированным медицинским персоналом. Квалифицированным же?
   components:
   - type: Sprite
     state: med_headset
@@ -113,8 +113,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetResearcher
-  name: researcher radio headset
-  description: A headset used by medbay's skilled researchers.
+  name: гарнитура исследователя
+  description: Гарнитура, используемая высококвалифицированными исследователями.
   components:
   - type: Sprite
     state: med_headset
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetQM
-  name: quartermaster radio headset
-  description: A headset used by the quartermaster for controlling their slave(s).
+  name: гарнитура офицера тылового обеспечения
+  description: Гарнитура, используемая Офицером Тылового Обеспечения чтобы контролировать своих рабов.
   components:
   - type: Sprite
     state: ro_headset
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetMPO
-  name: marine military police radio headset
-  description: This is used by marine military police members.
+  name: гарнитура военной полиции
+  description: Используется составом военной полиции.
   components:
   - type: Sprite
     state: sec_headset
@@ -155,8 +155,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetCMP
-  name: marine chief MP radio headset
-  description: For discussing the purchase of donuts and arresting of hooligans.
+  name: гарнитура офицера военной полиции
+  description: Можно мне.. уэээ... коробку пончиков в шоколадной глазури? Что? Какие военные преступления?.
   components:
   - type: Sprite
     state: sec_headset
@@ -169,8 +169,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: RMCHeadsetMarineCommand
-  name: marine command radio headset
-  description: Used by CIC staff and higher-ups, features a non-standard brace.
+  name: гарнитура офицерского состава
+  description: Используется Штаб-Офицерами и остальной вышкой, имеет регулируемую дужку. Всё для тебя, душка!
   components:
   - type: Sprite
     state: mcom_headset
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCHeadsetMarineCommand
   id: RMCHeadsetMarineCommandAlternative
-  suffix: Alternative
+  suffix: Альтернатива
   components:
   - type: ContainerFill
     containers:
@@ -194,8 +194,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetPilot
-  name: marine pilot radio headset
-  description: Used by Dropship and Gunship Pilots.
+  name: гарнитура пилота КМП
+  description: Используется пилотами десантных и ударных кораблей.
   components:
   - type: ContainerFill
     containers:
@@ -206,8 +206,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetIntel
-  name: marine intel radio headset
-  description: Used by Intelligence Officers.
+  name: гарнитура офицеров разведки
+  description: Используется офицерами разведки.
   components:
   - type: ContainerFill
     containers:
@@ -218,8 +218,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: RMCHeadsetLiaison
-  name: corporate liaison radio headset
-  description: Used by the CL to convince people to sign NDAs.
+  name: гарнитура корпоративного лиазон офицера
+  description: Используется корпоративными Лиазон Офицерами Weston Yamada для того, чтобы "убедить" людей подписать соглашение о неразглашении.
   components:
   - type: Sprite
     state: we_ya_headset
@@ -232,8 +232,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetReporter
-  name: reporter radio headset
-  description: Used by the combat correspondent to get the scoop.
+  name: гарнитура репортёра
+  description: Используется полевыми репортёрами для передачи такого желанного материала для своих публикаций.
   components:
   - type: ContainerFill
     containers:
@@ -244,8 +244,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetSeniorCommand
-  name: marine senior command headset
-  description: Issued only to senior command staff.
+  name: гарнитура офицерского состава КМП
+  description: Выдаётся исключительно офицерскому составу КМП.
   components:
   - type: Sprite
     state: mco_headset
@@ -258,8 +258,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetHighCommand
-  name: marine high command headset
-  description: Issued only to high command staff.
+  name: гарнитура высшего командования
+  description: Выдаётся исключительно членам Высшего Командования.
   components:
   - type: Sprite
     state: mco_headset
@@ -273,8 +273,8 @@
 - type: entity
   parent: CMHeadsetSeniorCommand
   id: RMCHeadsetSEA
-  name: marine senior enlisted advisor headset
-  description: Issued only to senior enlisted advisors.
+  name: гарнитура старшего советника КМП
+  description: Выдаётся исключительно Старшим Советникам КМП.
   components:
   - type: Sprite
     state: mco_headset

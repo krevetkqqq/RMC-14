@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoSpitter
-  name: Spitter
-  description: A gross, oozing alien of some kind.
+  name: Плеватель
+  description: Мерзкий, склизкий ксеноид.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-spitter
@@ -72,12 +72,10 @@
     damage:
       groups:
         Brute: 25
-  - type: Tackle
-    min: 2
-    max: 6
+  - type: Tackle # min: 2, max: 6
+    threshold: 5
+    stun: 9
     chance: 0.45
-    stunMin: 4
-    stunMax: 5
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 3.5

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseGunCase
   id: RMCSmartPistolCase
-  name: SU-6 smart pistol case
-  description: A gun case containing the SU-6 smart pistol. Comes with a full belt holster.
+  name: кейс для хранения SU-6
+  description: Оружейный кейс для хранения пистолета системы СМАРТ SU-6. В комплекте идёт пояс с кобурой.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCBaseGunCase
   id: RMCCaseXM88
-  name: XM88 heavy rifle case
-  description: A gun case containing the XM88 Heavy Rifle, a prototype weapon designed for use against heavily armored infantry targets and light vehicles. Contains an ammunition belt, two boxes of ammunition, the XS-9 Targeting Relay attachment, and the stock for the rifle.
+  name: кейс для хранения XM88
+  description: Оружейный кейс, содержащий тяжёлую винтовку XM88, оружие-прототип для использования тяжело бронированных целей. Содержит ремень с боекомплектом, прицел XS-9 и приклад.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCBaseGunCase
   id: RMCMK80Case
-  name: MK80 pistol case
-  description: A gun case containing the MK80. Comes with two magazines.
+  name: кейс для хранения MK80
+  description: Пистолетный кейс, содержащий пистолет MK80. В комплекте идут два магазина.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -68,8 +68,8 @@
 - type: entity
   parent: RMCBaseGunCase
   id: RMCM54CE2Case
-  name: M54CE2 heavy assault rifle case
-  description: A gun case containing the M54CE2 heavy assault rifle. You can get additional ammunition at requisitions.
+  name: кейс для хранения M54CE2
+  description: Оружейный кейс, содержащий тяжёлую штурмовую винтовку M54CE2. За дополнительной аммуницией обратитесь к отделу обеспечения.
   components:
   - type: Storage
     maxItemSize: Ginormous
@@ -90,8 +90,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCD18Case
-  name: D18 pistol case
-  description: A fairly decorated and ceremonial box containing a CLF D18 and a single additional magazine for it. I guess those CLF folk really care about their craftsmanship and prose rather than practicality, eh?
+  name: кейс для хранения D18
+  description: Пистолетный кейс, содержащий пистолет D18 и один дополнительный магазин к нему.
   components:
   - type: Item
     size: Small
@@ -119,8 +119,8 @@
 - type: entity
   parent: RMCBaseGunCase
   id: RMCXM51Case
-  name: XM51 breaching scattergun case
-  description: A gun case containing the XM51 Breaching Scattergun. Comes with two spare magazines, two spare shell boxes, an optional stock and a belt to holster the weapon.
+  name: кейс для хранения XM51
+  description: Оружейный кейс, содержащий помповое ружьё XM51. В комплекте идут два магазина, две коробки ружейных патронов, приклад и оружейный ремень.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -132,7 +132,7 @@
       - RMCWeaponShotgunXM51
       - RMCMagazineShotgunXM51
       - RMCBoxShotgunBreaching
-      - RMCXM51Holster
+      - RMCG8Pouch
   - type: StorageFill
     contents:
     - id: RMCAttachmentXM51Stock
@@ -146,8 +146,8 @@
 - type: entity
   parent: RMCBaseGunCase
   id: RMCMOU53Case
-  name: MOU53 shotgun case
-  description: A gun case containing the MOU53 shotgun. It does come loaded, but you'll still have to find ammunition as you go.
+  name: кейс для хранения MOU53
+  description: Оружейный кейс, переламывающееся ружьё MOU53. Оно заряжено, за дополнительной аммуницией обратитесь к отделу обеспечения.
   components:
   - type: Storage
     maxItemSize: Huge

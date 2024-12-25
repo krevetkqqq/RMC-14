@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoLesserDrone
-  name: Lesser Drone
-  description: An alien drone. Looks... smaller.
+  name: Низший Дрон
+  description: Дрон. Но поменьше.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-lesser-drone
@@ -63,16 +63,15 @@
     tailDamage:
       groups:
         Brute: 24
-  - type: Tackle
-    min: 4
-    max: 5
+  - type: Tackle  # min: 4, max: 5
+    threshold: 5
+    stun: 5
   - type: WhitelistPickup
     whitelist:
       components:
       - XenoParasite
       - XenoEgg
       - XenoFruit
-  - type: TunnelRenamer
   - type: MultiHandedHolder
     items:
     - hands: 2
@@ -96,5 +95,3 @@
     trapLevel: 1
     cost: 70
     spray: XenoAcidSprayTrapWeak
-  - type: Evasion
-    evasion: 10

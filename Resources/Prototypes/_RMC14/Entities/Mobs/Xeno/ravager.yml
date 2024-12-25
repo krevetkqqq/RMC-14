@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoRavager
-  name: Ravager
-  description: A huge, nasty red alien with enormous scythed claws.
+  name: Разрушитель
+  description: Здоровенный, мерзкий пришелец с огромными когтями.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-ravager
@@ -60,11 +60,10 @@
     tailDamage:
       groups:
         Brute: 54
-  - type: Tackle
-    max: 5
+  - type: Tackle # min: 2, max: 5
+    threshold: 4
+    stun: 9
     chance: 0.35
-    stunMin: 4
-    stunMax: 5
   - type: Flammable
     damage:
       types:

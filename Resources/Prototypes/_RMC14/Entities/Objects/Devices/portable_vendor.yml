@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCPortableVendor
-  name: automated storage briefcase
-  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items.
+  name: чемодан с автоматизированной системой хранения
+  description: Автоматизированная система хранения и выдачи вещей размером с чемодан. Предназначена для эффективного хранения и выборочной выдачи мелких предметов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/Briefcases/secure.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCPortableVendor
   id: RMCPortableVendorCorporate
-  name: Weston-Yamada automated storage briefcase
-  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items. This one has the Weston-Yamada logo stamped on its side.
+  name: чемодан с автоматизированной системой хранения Weston-Yamada
+  description: Автоматизированная система хранения и выдачи вещей размером с чемодан. Предназначена для эффективного хранения и выборочной выдачи мелких предметов. На боковой стороне этой модели нанесен логотип Weston-Yamada.
   components:
   - type: CMAutomatedVendor
     jobs:

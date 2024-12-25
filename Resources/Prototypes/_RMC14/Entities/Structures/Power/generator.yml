@@ -18,7 +18,6 @@
         - FullTileMask
         layer:
         - AirlockLayer
-        - LowImpassable
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite

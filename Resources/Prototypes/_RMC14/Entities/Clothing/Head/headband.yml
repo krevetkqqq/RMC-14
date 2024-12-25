@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadBandGreen
-  name: green headband
-  description: Piece of cloth to wrap around the head.
+  name: зеленая бандана
+  description: Кусок тряпки, намотанный на голову.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/green.rsi
@@ -13,7 +13,7 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandBrown
-  name: brown headband
+  name: коричневая бандана
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/brown.rsi
@@ -23,7 +23,7 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandGray
-  name: gray headband
+  name: серая бандана
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/gray.rsi
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandRed
-  name: red headband
+  name: красная бандана
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/red.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandTan
-  name: tan headband
+  name: хаки бандана
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/tan.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandAlpha
-  name: alpha headband
-  description: Piece of cloth in colors of your squad.
+  name: альфа бандана
+  description: Кусок тряпки в цветах вашего отряда, намотанный на голову.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/alpha.rsi
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandBravo
-  name: bravo headband
+  name: браво бандана
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/bravo.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandCharlie
-  name: charlie headband
+  name: чарли бандана
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/charlie.rsi
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandDelta
-  name: delta headband
+  name: дельта бандана
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/delta.rsi
@@ -95,7 +95,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandEcho
-  name: echo headband
+  name: эхо бандана
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/echo.rsi
@@ -105,7 +105,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandFoxtrot
-  name: foxtrot headband
+  name: фокстрот бандана
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/foxtrot.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMHeadBandRed
   id: CMHeadBandIntel
-  name: intel headband
-  description: A piece of cloth that belonged to an experienced special forces operative, nobody seems to recall his name though. Viper..? Serpent..?
+  name: бандана разведчика
+  description: Кусок тряпки, намотанный на голову, принадлежащий опытному бойцу спецназа. Как там его звали.. Рад..? Парад? Канат...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/intel.rsi

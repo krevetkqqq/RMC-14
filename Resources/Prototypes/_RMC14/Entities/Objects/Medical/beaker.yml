@@ -70,8 +70,8 @@
 - type: entity
   parent: CMBeakerBase
   id: CMBeaker
-  name: beaker
-  description: A beaker. Can hold up to 60 units.
+  name: мензурка
+  description: Мензурка с объёмом в 60ед.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/beaker.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: CMBeakerBase
   id: CMBeakerLarge
-  name: large beaker
-  description: A large beaker. Can hold up to 120 units.
+  name: большая мензурка
+  description: Большая мензурка с объёмом в 120ед.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/large_beaker.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: RMCBeakerBaseMetallic
   id: RMCBeakerHighCapacity
-  name: high-capacity beaker
-  description: A beaker with an enlarged holding capacity, made with blue-tinted plexiglass in order to withstand greater pressure. Can hold up to 300 units.
+  name: мензурка повышенного объёма
+  description: Мензурка с повышенным объёмом, изготовленная из синеватого оргстекла, чтобы противостоять повышенному давлению. Объём 300ед.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/high_capacity_beaker.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: CMBeakerBase
   id: CMMiniTank
-  name: MS-11 Smart Refill Tank
-  description: A robust little tank capable of refilling autoinjectors that previously required a nanomed system to refill. Using the wonders of microchips, it automatically sorts the correct chemicals into most single reagent autoinjectors. It is unable to partially fill them however. A valve exists on the top to transfer reagents to another container or to flush it entirely.
+  name: баллон умного пополнения MS-11
+  description: Маленький баллон, способный восполнять автоинъекторы, которые ранее требовали пополнение через НаноМед.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/minitank.rsi
@@ -230,8 +230,8 @@
 - type: entity
   parent: CMBeakerBase
   id: RMCPressurizedCanister
-  name: pressurized canister
-  description: A pressurized container. The inner part of a pressurized reagent canister pouch. Only compatible with its pouch, machinery or a storage tank.
+  name: канистра под давлением
+  description: Канистра под давлением. Внутренняя часть подсумка с канистрой высокого давления. Совместима только с подсумком, оборудованием или сосудом для хранения.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/pressurized_reagent_container.rsi
@@ -262,7 +262,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterBicaridine
-  suffix: Bicaridine
+  suffix: Бикаридин
   components:
   - type: SolutionContainerManager
     solutions:
@@ -275,7 +275,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterKelotane
-  suffix: Kelotane
+  suffix: Келотан
   components:
   - type: SolutionContainerManager
     solutions:
@@ -288,7 +288,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterTricordrazineRevival
-  suffix: Tricordrazine - Revival
+  suffix: Трикордразин - Реанимация
   components:
   - type: SolutionContainerManager
     solutions:
@@ -305,7 +305,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterTricordrazine
-  suffix: Tricordrazine
+  suffix: Трикордразин
   components:
   - type: SolutionContainerManager
     solutions:
@@ -321,8 +321,8 @@
 - type: entity
   parent: CMBeakerBase
   id: RMCVial
-  name: vial
-  description: A small glass vial. Can hold up to 30 units.
+  name: пробирка
+  description: Маленькая стеклянная пробирка. Может держать до 30ед. вещества.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/vials.rsi
@@ -365,8 +365,8 @@
 - type: entity
   parent: RMCVial
   id: RMCVialTricordrazine
-  name: tricordrazine vial
-  description: A small glass vial. Can hold up to 30 units. Contains Tricordrazine, a weak general use medicine for treating damage.
+  name: пробирка трикордразина
+  description: Маленькая стеклянная пробирка. Может держать до 30ед. вещества. Содержит трикордразин, слабый медикамент общего назначения, подходит для лечения лёгких травм.
   suffix: Filled, Tricordrazine
   components:
   - type: SolutionContainerManager

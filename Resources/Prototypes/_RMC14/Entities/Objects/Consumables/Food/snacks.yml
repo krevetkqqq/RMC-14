@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackBarcaridine
-  name: Barcaridine bar
-  description: A classic bar of chocolate that smells like the medical bay. 'Chocolate helps the pain go away.'
+  name: Батончикаридин
+  description: Классический батончик, который пахнет медблоком. "Сладость шоколада помогает снять боль у отряда."
   components:
   - type: Sprite
     state: barcardine
@@ -41,8 +41,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackBarcaridineBar
-  name: Barcaridine bar
-  description: A classic bar of chocolate that smells like the medical bay. 'Chocolate helps the pain go away.'
+  name: Батончикаридин
+  description: Классический батончик, который пахнет медблоком. "Сладость шоколада помогает снять боль у отряда."
   components:
   - type: FlavorProfile
     flavors:
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackBoonie
-  name: Boonie bars
-  description: Two delicious bars of minty chocolate. 'Sometimes things are just... out of reach.'
+  name: Мятные батончики
+  description: Два изумительно вкусных мятных батончика.
   components:
   - type: Sprite
     state: boonie
@@ -83,8 +83,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackBoonieBar
-  name: Boonie bars
-  description: Two delicious bars of minty chocolate. 'Sometimes things are just... out of reach.'
+  name: Мятные батончики
+  description: Два изумительно вкусных мятных батончика.
   components:
   - type: FlavorProfile
     flavors:
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackCHUNK
-  name: CHUNK bar
-  description: A bar of the CHUNK brand chocolate. The densest chocolate permitted to exist according to federal law. We are legally required to ask you not to use this blunt object for anything other than nutrition.
+  name: ШМАТ батончик
+  description: Шоколад ШМАТ. Самый твёрдый шоколад, который только может существовать, согласно федеральному закону. По закону мы ОБЯЗАНЫ попросить вас не использовать его ни для чего более, кроме как употребления.
   components:
   - type: Sprite
     state: chunk
@@ -123,8 +123,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackCHUNKBar
-  name: CHUNK bar
-  description: A bar of the CHUNK brand chocolate. The densest chocolate permitted to exist according to federal law. We are legally required to ask you not to use this blunt object for anything other than nutrition.
+  name: ШМАТ батончик
+  description: Шоколад ШМАТ. Самый твёрдый шоколад, который только может существовать, согласно федеральному закону. По закону мы ОБЯЗАНЫ попросить вас не использовать его ни для чего более, кроме как употребления.
   components:
   - type: FlavorProfile
     flavors:
@@ -152,8 +152,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackHUNK
-  name: HUNK bar
-  description: A 'crate' of chocolate according to the marketing. The HUNK, an earlier version of the CHUNK bar, was discontinued after several class action lawsuits related to broken teeth.
+  name: МАТ батончик
+  description: Батончик МАТ, более ранняя версия батончика ШМАТ, была снята с производства после многочисленных судебных исков из-за потери зубов. "Эфоф фофолаф - эфо пфофто фифдефс"
   components:
   - type: Sprite
     state: hunk
@@ -169,8 +169,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackHUNKBar
-  name: HUNK bar
-  description: A 'crate' of chocolate according to the marketing. The HUNK, an earlier version of the CHUNK bar, was discontinued after several class action lawsuits related to broken teeth.
+  name: МАТ батончик
+  description: Батончик МАТ, более ранняя версия батончика ШМАТ, была снята с производства после многочисленных судебных исков из-за потери зубов. "Эфоф фофолаф - эфо пфофто фифдефс"
   components:
   - type: FlavorProfile
     flavors:
@@ -201,8 +201,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackKeplarCrisps
-  name: Keplar crisps
-  description: They're disturbingly good! Now with 0% trans fat and added genuine sea salts.
+  name: Чипсы "Кеплар"
+  description: Они потрясающе вкусны! Теперь с 0% транс-жиров и с добавлением натуральной морской соли.
   components:
   - type: FlavorProfile
     flavors:
@@ -227,8 +227,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackKeplarFlamehotCrisps
-  name: Keplar Flamehot crisps
-  description: They're disturbingly good! Due to an exceptionally well-timed ad campaign with the release of Kepler Flamehot in 2165, the Kepler brand was able to overtake other confectionary Weston products by quarter three of that year. Contains 0% trans fat.
+  name: Экстра острые чипсы "Кеплар"
+  description: Они потрясающе вкусны! Благодаря исключительно своевременной рекламной кампании с выпуском Kepler Flamehot в 2165 году бренд Kepler смог обогнать другие кондитерские изделия Weston уже к третьему кварталу того же года. Содержит 0% транс-жиров.
   components:
   - type: FlavorProfile
     flavors:
@@ -256,8 +256,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackChipsPepper
-  name: pepper chips
-  description: Premium high-quality chips, now with 0% trans fat. Now with added black pepper! Packaged by We-Ya.
+  name: Перчённые чипсы
+  description: Чипсы премиального качества, теперь с 0% транс-жиров и с добавлением чёрного перца! Произведено и упаковано We-Ya.
   components:
   - type: FlavorProfile
     flavors:
@@ -284,8 +284,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackCheeseburgerPackaged
-  name: packaged cheeseburger
-  description: A soggy microwavable cheeseburger. There's no time given for how long to cook it. Packaged by We-Ya.
+  name: упакованный чизбургер
+  description: Мокрый, разогреваемый чизбургер. Нет столько времени в мире, чтобы разогреть эту мясо-тестную лужу. Произведено и упаковано by We-Ya.
   components:
   - type: Sprite
     state: burger
@@ -300,8 +300,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackCheeseburger
-  name: packaged cheeseburger
-  description: A soggy microwavable cheeseburger. There's no time given for how long to cook it. Packaged by We-Ya.
+  name: упакованный чизбургер
+  description: Мокрый, разогреваемый чизбургер. Нет столько времени в мире, чтобы разогреть эту мясо-тестную лужу. Произведено и упаковано by We-Ya.
   components:
   - type: FlavorProfile
     flavors:
@@ -326,8 +326,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackBurritoPackaged
-  name: packaged burrito
-  description: A hard microwavable burrito. There's no time given on how long to cook it. Packaged by We-Ya.
+  name: упакованный буррито
+  description: Тяжело разогреваемый буррито. Нет столько времени в мире, чтобы разогреть эту мясо-тестную лужу. Произведено и упаковано by We-Ya.
   components:
   - type: Sprite
     state: packaged-burrito
@@ -343,8 +343,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackBurrito
-  name: packaged burrito
-  description: A hard microwavable burrito. There's no time given on how long to cook it. Packaged by We-Ya.
+  name: упакованный буррито
+  description: Тяжело разогреваемый буррито. Нет столько времени в мире, чтобы разогреть эту мясо-тестную лужу. Произведено и упаковано by We-Ya.
   components:
   - type: FlavorProfile
     flavors:
@@ -366,8 +366,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackHotdogPackaged
-  name: packaged hotdog
-  description: A singular, squishy, room temperature hot dog. There's no time given for how long to cook it, so you assume its probably good to go. Packaged by We-Ya.
+  name: упакованный хотдог
+  description: Один, чересчур мягенький хотдог комнатной температуры. Нет столько времени в мире, чтобы разогреть эту мясо-тестную лужу. Произведено и упаковано by We-Ya.
   components:
   - type: Sprite
     state: packaged-hotdog
@@ -382,8 +382,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackHotdog
-  name: packaged hotdog
-  description: A singular, squishy, room temperature hot dog. There's no time given for how long to cook it, so you assume its probably good to go. Packaged by We-Ya.
+  name: упакованный хотдог
+  description: Один, чересчур мягенький хотдог комнатной температуры. Нет столько времени в мире, чтобы разогреть эту мясо-тестную лужу. Произведено и упаковано by We-Ya.
   components:
   - type: FlavorProfile
     flavors:
@@ -408,8 +408,8 @@
 - type: entity
   parent: RMCFoodSnackBase
   id: RMCFoodSnackEATBar
-  name: MEAT Bar
-  description: It is a vacuum sealed tube of suspicious meat. Artificially packed full of nutrients you can't pronounce. The M is printed on the side, so it just reads EAT. Guess that's where the slogan comes from.
+  name: МЯСО батончик
+  description: Упакованная, в вакуумную упаковку, подозрительно выглядящая мясная палка. Битком напичкана искусственными нутриентами, название которых вам не произнести даже в уме. На одной стороне напечатанная эмблема "М", так что по сути тут написано "ЯСО". Что "ЯСО"? Ерунда какая-то.
   components:
   - type: FlavorProfile
     flavors:
@@ -437,7 +437,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: RMCFoodPacketTrash
-  description: This place is crawling with trash.
+  description: Здесь просто куча мусора.
   abstract: true
   components:
   - type: Sprite
@@ -458,8 +458,8 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketBarcaridineTrash
-  name: barcaridine wrapper
-  description: An empty wrapper from a barcaridine bar. You notice the inside has several medical labels. You're not sure if you care or not about that.
+  name: фантик батончикаридина
+  description: Пустой фантик батончикаридина. Внутри виднеется несколько медицинских этикеток. Вы не знаете, стоит ли вам беспокоится по этому поводу.
   components:
   - type: Sprite
     state: barcardine_trash
@@ -468,7 +468,7 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketBoonieTrash
-  name: boonie bar wrapper
+  name: фантик мятного батончика
   components:
   - type: Sprite
     state: boonie_trash
@@ -477,8 +477,8 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketCHUNKTrash
-  name: chunk bar box
-  description: An empty box from a chunk bar. Significantly less heavy.
+  name: пустая коробка от ШМАТ батончика
+  description: Пустая коробка от ШМАТ батончика. Без него коробка значительно легче.
   components:
   - type: Sprite
     state: chunk_trash
@@ -487,8 +487,8 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketHUNKTrash
-  name: hunk bar crate
-  description: An empty crate from a hunk bar. Tremendously less heavy.
+  name: пустая коробка от МАТ батончика
+  description: Пустая коробка от МАТ батончика. Гораздо легче без батончика.
   components:
   - type: Sprite
     state: hunk_trash
@@ -497,7 +497,7 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketKeplerCrispsTrash
-  name: empty chips
+  name: пустая пачка чипсов "Кеплер"
   components:
   - type: Sprite
     state: kepler_chips_trash
@@ -506,7 +506,7 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketKeplerCrispsFlamehotTrash
-  name: empty flamehot crisps
+  name: пустая пачка острых чипсов "Кеплер"
   components:
   - type: Sprite
     state: kepler_chips_flame_trash
@@ -515,7 +515,7 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketPepperChipsTrash
-  name: empty pepper chips
+  name: пустая пачка перчённых чипсов
   components:
   - type: Sprite
     state: wy_chips_pepper_trash
@@ -524,8 +524,8 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketCheeseburgerTrash
-  name: burger wrapper
-  description: A greasy plastic film that once held a Cheeseburger. Packaged by We-Ya.
+  name: пустая обёртка от чизбургера
+  description: Жирная, пластиковая плёнка, которая служила упаковкой для чизбургера. Произведено и упаковано We-Ya.
   components:
   - type: Sprite
     state: burger_trash
@@ -534,8 +534,8 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketBurritoTrash
-  name: burrito wrapper
-  description: A foul-smelling plastic film that once held a microwave burrito. Packaged by We-Ya.
+  name: пустая обёртка от буррито
+  description: Хреново пахнущая пластиковая плёнка, которая служила упаковкой для буррито. Произведено и упаковано We-Ya.
   components:
   - type: Sprite
     state: burrito_trash
@@ -544,8 +544,8 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketHotdogTrash
-  name: hotdog wrapper
-  description: A musty plastic film that once held a hotdog. Packaged by We-Ya.
+  name: пустая обёртка от хотдога
+  description: Заплесневевшая пластиковая плёнка, которая служила упаковкой для хотдога. Произведено и упаковано We-Ya.
   components:
   - type: Sprite
     state: hotdog_trash
@@ -554,7 +554,7 @@
   categories: [ HideSpawnMenu ]
   parent: RMCFoodPacketTrash
   id: RMCFoodPacketEATBarTrash
-  name: MEAT bar wrapper
+  name: обёртка МЯСО батончика
   components:
   - type: Sprite
     state: eat

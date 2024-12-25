@@ -3,7 +3,7 @@
   - CMBaseDoor
   - CMBaseDoorConstructible
   id: CMAirlock
-  name: airlock
+  name: шлюз
   placement:
     mode: SnapgridCenter
   components:
@@ -21,7 +21,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockCommand
-  suffix: Command
+  suffix: Командный
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/com_door.rsi
@@ -31,7 +31,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockEngineer
-  suffix: Engineering
+  suffix: Инженерный
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/engi_door.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockMedical
-  suffix: Medical
+  suffix: Медицинский
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/medi_door.rsi
@@ -51,7 +51,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockSecurity
-  suffix: Security
+  suffix: Охранный
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/sec_door.rsi
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockMaint
-  name: maintenance
+  name: Технический
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/maint_door.rsi
@@ -70,7 +70,7 @@
   parent: CMAirlockMaint
   id: CMAirlockMaintReinforced
   name: reinforced maintenance hatch
-  suffix: Reinforced
+  suffix: Укреплённый
   components:
   - type: AirlockReceiverXenoClaws
     maxHealth: 1200
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockSecure
-  name: secure airlock
+  name: надёжный шлюз
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/secure_door.rsi
@@ -94,7 +94,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockCell
-  name: cell door
+  name: дверь камеры
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/cell_door.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockPrison
-  name: maintenance hatch
+  name: люк технического обслуживания
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prison_door.rsi
@@ -111,7 +111,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockGlass
-  name: glass airlock
+  name: стеклянный шлюз
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/personal_door_glass.rsi
@@ -143,7 +143,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockGlassEngineer
-  suffix: Engineer
+  suffix: Инженерный
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/engi_door_glass.rsi
@@ -153,7 +153,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockGlassMedical
-  suffix: Medical
+  suffix: Медицинский
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/medi_door_glass.rsi
@@ -163,7 +163,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockGlassSecurity
-  suffix: Security
+  suffix: Охранный
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/sec_door_glass.rsi
@@ -174,7 +174,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockPrep
-  name: preparations airlock
+  name: шлюз каюты
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door.rsi
@@ -182,7 +182,7 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockPrepAlpha
-  name: alpha squad preparations
+  name: казармы "Альфы"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door_alpha.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockPrepBravo
-  name: bravo squad preparations
+  name: казармы "Браво"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door_bravo.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockPrepCharlie
-  name: charlie squad preparations
+  name: казармы "Чарли"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door_charlie.rsi
@@ -206,7 +206,7 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockPrepDelta
-  name: delta squad preparations
+  name: казармы "Дельта"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/prep_door_delta.rsi

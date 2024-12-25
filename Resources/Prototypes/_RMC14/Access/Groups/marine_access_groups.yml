@@ -42,7 +42,6 @@
   - CMAccessMarinePrep
   - CMAccessCombatTechPrep
   - CMAccessDropship
-  - CMAccessColonyEngineering
 
 # this exists because other squad members will have their own equipment vendors.
 - type: accessGroup
